@@ -1,0 +1,39 @@
+[
+	{
+		"name": "message",
+		"group": "search-kind",
+		"icon": "fa fa-quote-left",
+		"text": "By Message",
+		"state": "unselected"
+	},
+	"divider",
+	{
+		"name": "date",
+		"group": "search-kind",
+		"icon": "fa fa-calendar-alt",
+		"text": "By Date",
+		"state": "unselected"
+	},
+	"divider",
+	{
+		"name": "num-likes",
+		"group": "search-kind",
+		"icon": "fa fa-thumbs-up",
+		"text": "By Likes",
+		"state": "unselected"
+	},
+	{
+		"name": "num-comments",
+		"group": "search-kind",
+		"icon": "fa fa-comment",
+		"text": "By Comments",
+		"state": "unselected"
+	},
+	{
+		"name": "num-attachments",
+		"group": "search-kind",
+		"icon": "fa fa-file",
+		"text": "By Attachments",
+		"state": "unselected"
+	}
+]

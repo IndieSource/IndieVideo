@@ -1,0 +1,107 @@
+/******************************************************************************\
+|                                                                              |
+|                            _colored-buttons.scss                             |
+|                                                                              |
+|******************************************************************************|
+|                                                                              |
+|        This defines various CSS styles used in this application.             |
+|                                                                              |
+|        Author(s): Abe Megahed                                                |
+|                                                                              |
+|        This file is subject to the terms and conditions defined in           |
+|        'LICENSE.txt', which is part of this source code distribution.        |
+|                                                                              |
+|******************************************************************************|
+|        Copyright (C) 2016 - 2025, Megahed Labs LLC, www.sharedigm.com        |
+\******************************************************************************/
+
+@use "../../../colors/colors";
+@use "../../../navs/colors/colored-btns";
+
+//
+// styles
+//
+
+body:not(.binary).colored.colored {
+	.colored.btn {
+		&.red {
+			@include colored-btns.colored(colors.$medium-red, white);
+		}
+
+		&.red-orange {
+			@include colored-btns.colored(colors.$medium-red-orange, white);
+		}
+
+		&.orange {
+			@include colored-btns.colored(colors.$medium-orange, white);
+		}
+
+		&.yellow {
+			@include colored-btns.colored(colors.$medium-yellow, white);
+		}
+
+		&.lime {
+			@include colored-btns.colored(colors.$medium-lime, white);
+		}
+
+		&.green {
+			@include colored-btns.colored(colors.$medium-green, white);
+		}
+
+		&.teal {
+			@include colored-btns.colored(colors.$medium-teal, white);
+		}
+
+		&.aqua {
+			@include colored-btns.colored(colors.$medium-aqua, white);
+		}
+
+		&.cyan {
+			@include colored-btns.colored(colors.$medium-cyan, white);
+		}
+
+		&.blue {
+			@include colored-btns.colored(colors.$medium-blue, white);
+		}
+
+		&.indigo {
+			@include colored-btns.colored(colors.$medium-indigo, white);
+		}
+
+		&.violet {
+			@include colored-btns.colored(colors.$medium-violet, white);
+		}
+
+		&.plum {
+			@include colored-btns.colored(colors.$medium-plum, white);
+		}
+
+		&.purple {
+			@include colored-btns.colored(colors.$medium-purple, white);
+		}
+
+		&.magenta {
+			@include colored-btns.colored(colors.$medium-magenta, white);
+		}
+
+		&.raspberry {
+			@include colored-btns.colored(colors.$medium-raspberry, white);
+		}
+
+		&.brown {
+			@include colored-btns.colored(colors.$medium-brown, white);
+		}
+
+		&.grey {
+			@include colored-btns.colored(colors.$medium-grey, white);
+		}
+
+		&.black {
+			@include colored-btns.colored(colors.$medium-black, white);
+		}
+
+		&.white {
+			@include colored-btns.colored(colors.$medium-white, white);
+		}
+	}
+}

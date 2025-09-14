@@ -1,0 +1,196 @@
+[
+	{
+		"name": "name",
+		"group": "sort-kind",
+		"icon": "fa fa-font",
+		"text": "By Name",
+		"state": "unselected"
+	},
+	{
+		"name": "kind",
+		"group": "sort-kind",
+		"icon": "fa fa-file",
+		"text": "By Kind",
+		"state": "unselected"
+	},
+	"divider",
+	{
+		"name": "size",
+		"group": "sort-kind",
+		"icon": "fa fa-download",
+		"text": "By Size",
+		"state": "unselected"
+	},
+	{
+		"name": "date",
+		"icon": "fa fa-calendar-alt",
+		"text": "By Date",
+		"state": "unselected",
+		"menu": [
+			{
+				"name": "create-date",
+				"group": "sort-kind",
+				"icon": "fa fa-magic",
+				"text": "Create Date",
+				"state": "unselected"
+			},
+			{
+				"name": "modify-date",
+				"group": "sort-kind",
+				"icon": "fa fa-edit",
+				"text": "Modify Date",
+				"state": "unselected"
+			},
+			{
+				"name": "access-date",
+				"group": "sort-kind",
+				"icon": "fa fa-eye",
+				"text": "Access Date",
+				"state": "unselected"
+			}
+		]
+	},
+	{
+		"name": "audio",
+		"icon": "fa fa-music",
+		"text": "By Audio",
+		"state": "unselected",
+		"menu": [
+			{
+				"name": "album",
+				"group": "sort-kind",
+				"icon": "fa fa-folder",
+				"text": "Album",
+				"state": "unselected"
+			},
+			{
+				"name": "artist",
+				"group": "sort-kind",
+				"icon": "fa fa-user",
+				"text": "Artist",
+				"state": "unselected"
+			},
+			{
+				"name": "band",
+				"group": "sort-kind",
+				"icon": "fa fa-users",
+				"text": "Band",
+				"state": "unselected"
+			},
+			{
+				"name": "composer",
+				"group": "sort-kind",
+				"icon": "fa fa-magic",
+				"text": "Composer",
+				"state": "unselected"
+			},
+			{
+				"name": "genre",
+				"group": "sort-kind",
+				"icon": "fa fa-tags",
+				"text": "Genre",
+				"state": "unselected"
+			},
+			{
+				"name": "length",
+				"group": "sort-kind",
+				"icon": "fa fa-clock",
+				"text": "Length",
+				"state": "unselected"
+			},
+			{
+				"name": "publisher",
+				"group": "sort-kind",
+				"icon": "fa fa-money-bill",
+				"text": "Publisher",
+				"state": "unselected"
+			},
+			{
+				"name": "track-number",
+				"group": "sort-kind",
+				"icon": "fa fa-list-ol",
+				"text": "Track Number",
+				"state": "unselected"
+			},
+			{
+				"name": "year",
+				"group": "sort-kind",
+				"icon": "fa fa-calendar-alt",
+				"text": "Year",
+				"state": "unselected"
+			}
+		]
+	},
+	{
+		"name": "photo",
+		"icon": "fa fa-image",
+		"text": "By Photo",
+		"state": "unselected",
+		"menu": [
+			{
+				"name": "resolution",
+				"group": "sort-kind",
+				"icon": "fa fa-arrows-alt",
+				"text": "Resolution",
+				"state": "unselected"
+			},
+			{
+				"name": "make-model",
+				"group": "sort-kind",
+				"icon": "fa fa-camera",
+				"text": "Make / Model",
+				"state": "unselected"
+			},
+			{
+				"name": "focal-length",
+				"group": "sort-kind",
+				"icon": "fa fa-arrows-alt-h",
+				"text": "Focal Length",
+				"state": "unselected"
+			},
+			{
+				"name": "aperture",
+				"group": "sort-kind",
+				"icon": "fa fa-dot-circle",
+				"text": "Aperture",
+				"state": "unselected"
+			},
+			{
+				"name": "exposure",
+				"group": "sort-kind",
+				"icon": "fa fa-clock",
+				"text": "Exposure",
+				"state": "unselected"
+			},
+			{
+				"name": "iso",
+				"group": "sort-kind",
+				"icon": "fa fa-film",
+				"text": "ISO",
+				"state": "unselected"
+			},
+			{
+				"name": "capture-date",
+				"group": "sort-kind",
+				"icon": "fa fa-calendar-alt",
+				"text": "Capture Date",
+				"state": "unselected"
+			}
+		]
+	},
+	"divider",
+	{
+		"name": "increasing",
+		"group": "sort-order",
+		"icon": "fa fa-sort-amount-up",
+		"text": "Increasing",
+		"state": "unselected"
+	},
+	{
+		"name": "decreasing",
+		"group": "sort-order",
+		"icon": "fa fa-sort-amount-down",
+		"text": "Decreasing",
+		"state": "unselected"
+	}
+]

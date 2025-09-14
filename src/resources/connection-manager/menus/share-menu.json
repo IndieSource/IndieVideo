@@ -1,0 +1,12 @@
+[
+	{
+		"name": "share-message",
+		"icon": "fa fa-comments",
+		"text": "Message"
+	},
+	{
+		"name": "share-gesture",
+		"icon": "fa fa-hand-pointer",
+		"text": "Gesture"
+	}
+]

@@ -1,0 +1,10 @@
+.DS_Store
+.ipynb_checkpoints/
+.jupyter/
+mysql/
+storage/log/
+private/
+backups/
+electron/
+presentations/
+*.swp

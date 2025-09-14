@@ -1,0 +1,67 @@
+[
+	{
+		"name": "name",
+		"group": "search-kind",
+		"icon": "fa fa-font",
+		"text": "By Name",
+		"state": "unselected"
+	},
+	"divider",
+	{
+		"name": "location",
+		"group": "search-kind",
+		"icon": "fa fa-globe-americas",
+		"text": "By Location",
+		"state": "unselected"
+	},
+	{
+		"name": "occupation",
+		"group": "search-kind",
+		"icon": "fa fa-briefcase",
+		"text": "By Occupation",
+		"state": "unselected"
+	},
+	{
+		"name": "gender",
+		"group": "search-kind",
+		"icon": "fa fa-transgender",
+		"text": "By Gender",
+		"state": "unselected"
+	},
+	{
+		"name": "age",
+		"group": "search-kind",
+		"icon": "fa fa-hourglass-half",
+		"text": "By Age",
+		"state": "unselected"
+	},
+	{
+		"name": "date",
+		"icon": "fa fa-calendar-alt",
+		"text": "By Date",
+		"state": "unselected",
+		"menu": [
+			{
+				"name": "birth-date",
+				"group": "search-kind",
+				"icon": "fa fa-birthday-cake",
+				"text": "Birth Date",
+				"state": "unselected"
+			},
+			{
+				"name": "join-date",
+				"group": "search-kind",
+				"icon": "fa fa-user-circle",
+				"text": "Join Date",
+				"state": "unselected"
+			},
+			{
+				"name": "connect-date",
+				"group": "search-kind",
+				"icon": "fa fa-user-friends",
+				"text": "Connect Date",
+				"state": "unselected"
+			}
+		]
+	}
+]

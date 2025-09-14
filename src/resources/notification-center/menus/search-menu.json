@@ -1,0 +1,23 @@
+[
+	{
+		"name": "name",
+		"group": "search-kind",
+		"icon": "fa fa-font",
+		"text": "By Name",
+		"state": "unselected"
+	},
+	{
+		"name": "kind",
+		"group": "search-kind",
+		"icon": "fa fa-exclamation-triangle",
+		"text": "By Kind",
+		"state": "unselected"
+	},
+	{
+		"name": "date",
+		"group": "search-kind",
+		"icon": "fa fa-calendar-alt",
+		"text": "Date",
+		"state": "unselected"
+	}
+]

@@ -1,0 +1,9 @@
+{
+	"servers": {
+		"api": "http://localhost/contact-server/public/api",
+		"images": "images"
+	},
+	
+	"usePushState": false,
+	"debug": true
+}

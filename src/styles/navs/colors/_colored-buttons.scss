@@ -1,0 +1,141 @@
+/******************************************************************************\
+|                                                                              |
+|                            _colored-buttons.scss                             |
+|                                                                              |
+|******************************************************************************|
+|                                                                              |
+|        This defines various CSS styles used in this application.             |
+|                                                                              |
+|        Author(s): Abe Megahed                                                |
+|                                                                              |
+|        This file is subject to the terms and conditions defined in           |
+|        'LICENSE.txt', which is part of this source code distribution.        |
+|                                                                              |
+|******************************************************************************|
+|        Copyright (C) 2016 - 2025, Megahed Labs LLC, www.sharedigm.com        |
+\******************************************************************************/
+
+@use "../../navs/buttons";
+@use "../../colors/colors";
+
+//
+// mixins
+//
+
+@mixin colored($color, $label-color: none, $icon-color: none) {
+
+	//
+	// button colors
+	//
+
+	&:hover, &.selected {
+		background: $color;
+		border-color: $color;
+
+		//
+		// label colors
+		//
+
+		@if ($label-color != none) {
+			color: $label-color;
+
+			i {
+				color: $label-color;
+			}
+
+			svg {
+				fill: $label-color;
+			}
+		}
+
+		//
+		// icon colors
+		//
+
+		@if ($icon-color != none) {
+			i {
+				color: $icon-color;
+			}
+
+			svg {
+				fill: $icon-color;
+			}
+		}
+	}
+
+	/*
+	&:active {
+		background: colors.darken($color, 10%);
+		border-color: colors.darken($color, 10%);
+	}
+	*/
+}
+
+@mixin dark-colored($color, $label-color: none, $icon-color: none) {
+
+	//
+	// button colors
+	//
+
+	&:hover, &.selected {
+		background: $color;
+		border-color: $color;
+
+		//
+		// label colors
+		//
+
+		@if ($label-color != none) {
+			color: $label-color;
+
+			i {
+				color: $label-color;
+			}
+
+			svg {
+				fill: $label-color;
+			}
+		}
+
+		//
+		// icon colors
+		//
+
+		@if ($icon-color != none) {
+			i {
+				color: $icon-color;
+			}
+
+			svg {
+				fill: $icon-color;
+			}
+		}
+	}
+
+	/*
+	&:active {
+		background: colors.lighten($color, 10%);
+		border-color: colors.lighten($color, 10%);
+	}
+	*/
+}
+
+@mixin labeled($labelColor) {
+	color: $labelColor;
+
+	span {
+		color: $labelColor;
+	}
+
+	//
+	// icon colors
+	//
+
+	i {
+		color: $labelColor;
+	}
+
+	svg {
+		fill: $labelColor;
+	}
+}

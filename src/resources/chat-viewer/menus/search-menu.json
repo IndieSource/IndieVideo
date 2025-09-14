@@ -1,0 +1,16 @@
+[
+	{
+		"name": "message",
+		"group": "search-kind",
+		"icon": "fa fa-quote-left",
+		"text": "By Message",
+		"state": "unselected"
+	},
+	{
+		"name": "date",
+		"group": "search-kind",
+		"icon": "fa fa-calendar-alt",
+		"text": "By Date",
+		"state": "unselected"
+	}
+]

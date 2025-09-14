@@ -1,0 +1,23 @@
+[
+	{
+		"name": "address",
+		"group": "search-kind",
+		"icon": "fa fa-home",
+		"text": "By Address",
+		"state": "unselected"
+	},
+	{
+		"name": "name",
+		"group": "search-kind",
+		"icon": "fa fa-font",
+		"text": "By Place Name",
+		"state": "unselected"
+	},
+	{
+		"name": "coords",
+		"group": "search-kind",
+		"icon": "fa fa-crosshairs",
+		"text": "By Coordinates",
+		"state": "unselected"
+	}
+]

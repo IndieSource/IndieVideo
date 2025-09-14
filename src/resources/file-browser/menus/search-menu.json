@@ -1,0 +1,166 @@
+[
+	{
+		"name": "name",
+		"group": "search-kind",
+		"icon": "fa fa-font",
+		"text": "By Name",
+		"state": "unselected"
+	},
+	{
+		"name": "kind",
+		"group": "search-kind",
+		"icon": "fa fa-file",
+		"text": "By Kind",
+		"state": "unselected"
+	},
+	{
+		"name": "size",
+		"group": "search-kind",
+		"icon": "fa fa-download",
+		"text": "By Size",
+		"state": "unselected"
+	},
+	"divider",
+	{
+		"name": "keyword",
+		"group": "search-kind",
+		"icon": "fa fa-key",
+		"text": "By Keyword",
+		"state": "unselected"
+	},
+	{
+		"name": "meaning",
+		"group": "search-kind",
+		"icon": "fa fa-lightbulb",
+		"text": "By Meaning",
+		"state": "unselected"
+	},
+	"divider",
+	{
+		"name": "date",
+		"icon": "fa fa-calendar-alt",
+		"text": "By Date",
+		"state": "unselected",
+		"menu": [
+			{
+				"name": "create-date",
+				"group": "search-kind",
+				"icon": "fa fa-magic",
+				"text": "Create Date",
+				"state": "unselected"
+			},
+			{
+				"name": "modify-date",
+				"group": "search-kind",
+				"icon": "fa fa-edit",
+				"text": "Modify Date",
+				"state": "unselected"
+			},
+			{
+				"name": "access-date",
+				"group": "search-kind",
+				"icon": "fa fa-eye",
+				"text": "Access Date",
+				"state": "unselected"
+			}
+		]
+	},
+	{
+		"name": "photo",
+		"icon": "fa fa-image",
+		"text": "By Photo",
+		"state": "unselected",
+		"menu": [
+			{
+				"name": "resolution",
+				"group": "search-kind",
+				"icon": "fa fa-arrows-alt",
+				"text": "Resolution",
+				"state": "unselected"
+			},
+			{
+				"name": "make-model",
+				"group": "search-kind",
+				"icon": "fa fa-camera",
+				"text": "Make / Model",
+				"state": "unselected"
+			},
+			{
+				"name": "focal-length",
+				"group": "search-kind",
+				"icon": "fa fa-arrows-alt-h",
+				"text": "Focal Length",
+				"state": "unselected"
+			},
+			{
+				"name": "aperture",
+				"group": "search-kind",
+				"icon": "fa fa-dot-circle",
+				"text": "Aperture",
+				"state": "unselected"
+			},
+			{
+				"name": "exposure",
+				"group": "search-kind",
+				"icon": "fa fa-clock",
+				"text": "Exposure",
+				"state": "unselected"
+			},
+			{
+				"name": "iso",
+				"group": "search-kind",
+				"icon": "fa fa-film",
+				"text": "ISO",
+				"state": "unselected"
+			},
+			{
+				"name": "capture-date",
+				"group": "search-kind",
+				"icon": "fa fa-calendar-alt",
+				"text": "Capture Date",
+				"state": "unselected"
+			}
+		]
+	},
+	"divider",
+	{
+		"name": "sharing",
+		"icon": "fa fa-share",
+		"text": "By Sharing",
+		"state": "unselected",
+		"menu": [
+			{
+				"name": "shared-with-me",
+				"group": "search-kind",
+				"icon": "fa fa-reply",
+				"text": "Shared with Me",
+				"state": "unselected"
+			},
+			{
+				"name": "shared-by-me",
+				"group": "search-kind",
+				"icon": "fa fa-share",
+				"text": "Shared by Me",
+				"state": "unselected"
+			},
+			{
+				"name": "links",
+				"group": "search-kind",
+				"icon": "fa fa-link",
+				"text": "Links",
+				"state": "unselected"
+			}
+		]
+	},
+	"divider",
+	{
+		"name": "index-items",
+		"icon": "fa fa-list",
+		"text": "Index Items"
+	},
+	{
+		"name": "unindex-items",
+		"icon": "fa fa-close",
+		"text": "Unindex Items"
+	}
+]

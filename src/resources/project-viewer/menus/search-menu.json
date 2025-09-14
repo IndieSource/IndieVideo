@@ -1,0 +1,38 @@
+[
+	{
+		"name": "title",
+		"group": "search-kind",
+		"icon": "fa fa-font",
+		"text": "By Title",
+		"state": "unselected"
+	},
+	{
+		"name": "description",
+		"group": "search-kind",
+		"icon": "fa fa-quote-left",
+		"text": "By Description",
+		"state": "unselected"
+	},
+	"divider",
+	{
+		"name": "create-date",
+		"group": "search-kind",
+		"icon": "fa fa-magic",
+		"text": "By Create Date",
+		"state": "unselected"
+	},
+	{
+		"name": "update-date",
+		"group": "search-kind",
+		"icon": "fa fa-pencil-alt",
+		"text": "By Update Date",
+		"state": "unselected"
+	},
+	{
+		"name": "due-date",
+		"group": "search-kind",
+		"icon": "fa fa-calendar",
+		"text": "By Due Date",
+		"state": "unselected"
+	}
+]

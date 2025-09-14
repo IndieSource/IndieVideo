@@ -1,0 +1,755 @@
+{
+	"edit_menu": [
+		{
+			"name": "edit-project",
+			"group": "project-option",
+			"icon": "fa fa-pencil-alt",
+			"text": "Edit Project",
+			"shortcut": "command-E"
+		},
+		{
+			"name": "delete-projects",
+			"group": "project-option",
+			"icon": "fa fa-trash-alt",
+			"text": "Delete Projects",
+			"shortcut": "delete"
+		},
+		{
+			"name": "edit-task",
+			"group": "task-option",
+			"icon": "fa fa-pencil-alt",
+			"text": "Edit Task",
+			"shortcut": "command-E"
+		},
+		{
+			"name": "delete-tasks",
+			"group": "task-option",
+			"icon": "fa fa-trash-alt",
+			"text": "Delete Tasks",
+			"shortcut": "delete"
+		},
+		{
+			"name": "edit-comment",
+			"group": "comment-option",
+			"icon": "fa fa-pencil-alt",
+			"text": "Edit Comment",
+			"shortcut": "command-E"
+		},
+		{
+			"name": "delete-comment",
+			"group": "comment-option",
+			"icon": "fa fa-trash-alt",
+			"text": "Delete Comment",
+			"shortcut": "delete"
+		},
+		{
+			"name": "edit-reply",
+			"group": "reply-option",
+			"icon": "fa fa-pencil-alt",
+			"text": "Edit Reply",
+			"shortcut": "command-E"
+		},
+		{
+			"name": "delete-reply",
+			"group": "reply-option",
+			"icon": "fa fa-trash-alt",
+			"text": "Delete Reply",
+			"shortcut": "delete"
+		}
+	],
+	"file_menu": [
+		{
+			"name": "new-window",
+			"icon": "far fa-window-maximize",
+			"text": "New Window",
+			"shortcut": "command-enter"
+		},
+		{
+			"name": "new-task",
+			"icon": "fa fa-check-circle",
+			"text": "New Task",
+			"shortcut": "command-K"
+		},
+		{
+			"name": "new-project",
+			"icon": "fa fa-plus",
+			"text": "New Project",
+			"shortcut": "command-P"
+		},
+		{
+			"name": "open-projects",
+			"icon": "fa fa-folder",
+			"text": "Open Projects",
+			"shortcut": "command-O"
+		},
+		"divider",
+		{
+			"name": "add-projects",
+			"icon": "fa fa-plus",
+			"text": "Add Projects",
+			"shortcut": "command-D"
+		},
+		{
+			"name": "remove-project",
+			"icon": "fa fa-minus",
+			"text": "Remove Project",
+			"shortcut": "delete"
+		},
+		"divider",
+		{
+			"name": "show-info",
+			"icon": "fa fa-info-circle",
+			"text": "Show Info",
+			"shortcut": "command-I"
+		},
+		{
+			"name": "download-item",
+			"icon": "fa fa-download",
+			"text": "Download",
+			"shortcut": "shift-command-D"
+		},
+		"divider",
+		{
+			"name": "close-tab",
+			"icon": "fa fa-xmark",
+			"text": "Close Tab",
+			"shortcut": "command-L"
+		},
+		"divider",
+		{
+			"name": "close-window",
+			"icon": "fa fa-circle-xmark",
+			"text": "Close",
+			"shortcut": "command-L"
+		}
+	],
+	"help_menu": [
+		{
+			"name": "view-about",
+			"icon": "fa fa-info-circle",
+			"text": "About"
+		},
+		"divider",
+		{
+			"name": "view-help",
+			"icon": "fa fa-question-circle",
+			"text": "View Help Pages"
+		},
+		{
+			"name": "view-topic",
+			"icon": "fa fa-newspaper",
+			"text": "Search Community Help"
+		},
+		"divider",
+		{
+			"name": "contact-us",
+			"icon": "fa fa-envelope",
+			"text": "Contact Us"
+		}
+	],
+	"menu_bar": [
+		{
+			"name": "file",
+			"icon": "fa fa-file",
+			"text": "File"
+		},
+		{
+			"name": "edit",
+			"icon": "fa fa-pencil-alt",
+			"text": "Edit"
+		},
+		{
+			"name": "select",
+			"icon": "fa fa-mouse-pointer",
+			"text": "Select"
+		},
+		{
+			"name": "view",
+			"icon": "fa fa-eye",
+			"text": "View"
+		},
+		{
+			"name": "sort",
+			"icon": "fa fa-sort",
+			"text": "Sort"
+		},
+		{
+			"name": "search",
+			"icon": "fa fa-search",
+			"text": "Search",
+			"hidden": true
+		},
+		{
+			"name": "help",
+			"icon": "fa fa-question-circle",
+			"text": "Help"
+		}
+	],
+	"search_menu": [
+		{
+			"name": "title",
+			"group": "search-kind",
+			"icon": "fa fa-font",
+			"text": "By Title",
+			"state": "unselected"
+		},
+		{
+			"name": "description",
+			"group": "search-kind",
+			"icon": "fa fa-quote-left",
+			"text": "By Description",
+			"state": "unselected"
+		},
+		"divider",
+		{
+			"name": "create-date",
+			"group": "search-kind",
+			"icon": "fa fa-magic",
+			"text": "By Create Date",
+			"state": "unselected"
+		},
+		{
+			"name": "update-date",
+			"group": "search-kind",
+			"icon": "fa fa-pencil-alt",
+			"text": "By Update Date",
+			"state": "unselected"
+		},
+		{
+			"name": "due-date",
+			"group": "search-kind",
+			"icon": "fa fa-calendar",
+			"text": "By Due Date",
+			"state": "unselected"
+		}
+	],
+	"select_menu": [
+		{
+			"name": "select-all",
+			"icon": "fa fa-asterisk",
+			"text": "All",
+			"shortcut": "command-A"
+		},
+		{
+			"name": "select-none",
+			"icon": "fa fa-minus",
+			"text": "None",
+			"shortcut": "shift-command-A"
+		},
+		{
+			"name": "select-invert",
+			"icon": "fa fa-random",
+			"text": "Invert",
+			"shortcut": "shift-command-I"
+		},
+		"divider",
+		{
+			"name": "select-multiple",
+			"icon": "fa fa-ellipsis-h",
+			"text": "Multiple",
+			"shortcut": "shift-command-M",
+			"state": "unselected"
+		},
+		"divider",
+		{
+			"name": "select-first",
+			"icon": "fa fa-fast-backward",
+			"text": "First",
+			"shortcut": "up arrow"
+		},
+		{
+			"name": "select-prev",
+			"icon": "fa fa-backward",
+			"text": "Prev",
+			"shortcut": "left arrow"
+		},
+		{
+			"name": "select-next",
+			"icon": "fa fa-forward",
+			"text": "Next",
+			"shortcut": "right arrow"
+		},
+		{
+			"name": "select-last",
+			"icon": "fa fa-fast-forward",
+			"text": "Last",
+			"shortcut": "down arrow"
+		}
+	],
+	"sort_menu": [
+		{
+			"name": "title",
+			"group": "sort-kind",
+			"icon": "fa fa-font",
+			"text": "By Title",
+			"state": "unselected"
+		},
+		{
+			"name": "priority",
+			"group": "sort-kind",
+			"icon": "fa fa-star",
+			"text": "By Priority",
+			"state": "unselected"
+		},
+		{
+			"name": "kind",
+			"group": "sort-kind",
+			"icon": "fa fa-bug",
+			"text": "By Kind",
+			"state": "unselected"
+		},
+		"divider",
+		{
+			"name": "date",
+			"icon": "fa fa-calendar-alt",
+			"text": "By Date",
+			"state": "unselected",
+			"menu": [
+				{
+					"name": "create-date",
+					"group": "sort-kind",
+					"icon": "fa fa-magic",
+					"text": "Create Date",
+					"state": "unselected"
+				},
+				{
+					"name": "modify-date",
+					"group": "sort-kind",
+					"icon": "fa fa-edit",
+					"text": "Modify Date",
+					"state": "unselected"
+				},
+				{
+					"name": "due-date",
+					"group": "sort-kind",
+					"icon": "fa fa-calendar",
+					"text": "Due Date",
+					"state": "unselected"
+				}
+			]
+		},
+		"divider",
+		{
+			"name": "increasing",
+			"group": "sort-order",
+			"icon": "fa fa-sort-amount-up",
+			"text": "Increasing",
+			"state": "unselected"
+		},
+		{
+			"name": "decreasing",
+			"group": "sort-order",
+			"icon": "fa fa-sort-amount-down",
+			"text": "Decreasing",
+			"state": "unselected"
+		}
+	],
+	"view_menu": [
+		{
+			"name": "icons",
+			"group": "view-kind",
+			"icon": "fa fa-th",
+			"text": "Icons",
+			"state": "unselected"
+		},
+		{
+			"name": "lists",
+			"group": "view-kind",
+			"icon": "fa fa-list",
+			"text": "Lists",
+			"state": "unselected"
+		},
+		{
+			"name": "cards",
+			"group": "view-kind",
+			"icon": "fa fa-id-card",
+			"text": "Cards",
+			"state": "unselected"
+		},
+		{
+			"name": "tiles",
+			"group": "view-kind",
+			"icon": "fa fa-th-large",
+			"text": "Tiles",
+			"state": "unselected"
+		},
+		"divider",
+		{
+			"name": "show-toolbars",
+			"icon": "fa fa-wrench",
+			"text": "Toolbars",
+			"state": "unselected",
+			"menu": [
+				{
+					"name": "tasks",
+					"group": "toolbars",
+					"icon": "fa fa-circle-check",
+					"text": "Tasks",
+					"state": "unselected"
+				}
+			]
+		},
+		{
+			"name": "show-sidebar",
+			"icon": "fa fa-pause",
+			"text": "Sidebar",
+			"state": "unselected",
+			"menu": [
+				{
+					"name": "project-info",
+					"group": "sidebar-panels",
+					"icon": "fa fa-info-circle",
+					"text": "Project Info",
+					"state": "unselected"
+				},
+				{
+					"name": "projects",
+					"group": "sidebar-panels",
+					"icon": "fa fa-hashtag",
+					"text": "Projects",
+					"state": "unselected"
+				}
+			]
+		},
+		{
+			"name": "sidebar-items",
+			"icon": "fa fa-th",
+			"text": "Sidebar Items",
+			"state": "unselected",
+			"menu": [
+				{
+					"name": "icons",
+					"group": "sidebar-view-kind",
+					"icon": "fa fa-th",
+					"text": "Icons",
+					"state": "unselected"
+				},
+				{
+					"name": "lists",
+					"group": "sidebar-view-kind",
+					"icon": "fa fa-list",
+					"text": "Lists",
+					"state": "unselected"
+				},
+				{
+					"name": "cards",
+					"group": "sidebar-view-kind",
+					"icon": "fa fa-id-card",
+					"text": "Cards",
+					"state": "unselected"
+				},
+				{
+					"name": "tiles",
+					"group": "sidebar-view-kind",
+					"icon": "fa fa-th-large",
+					"text": "Tiles",
+					"state": "unselected"
+				}
+			]
+		},
+		{
+			"name": "view-details",
+			"icon": "fa fa-tags",
+			"text": "Details",
+			"state": "unselected",
+			"menu": [
+				{
+					"name": "priority",
+					"icon": "fa fa-star",
+					"text": "Priority",
+					"state": "unselected"
+				},
+				{
+					"name": "date",
+					"icon": "fa fa-calendar-alt",
+					"text": "Date",
+					"state": "unselected",
+					"menu": [
+						{
+							"name": "create-date",
+							"icon": "fa fa-magic",
+							"text": "Create Date",
+							"state": "unselected"
+						},
+						{
+							"name": "update-date",
+							"icon": "fa fa-edit",
+							"text": "Update Date",
+							"state": "unselected"
+						},
+						{
+							"name": "due-date",
+							"icon": "fa fa-calendar",
+							"text": "Due Date",
+							"state": "unselected"
+						},
+						"divider",
+						{
+							"name": "date-only",
+							"icon": "fa fa-calendar-alt",
+							"text": "Date Only",
+							"state": "unselected"
+						},
+						{
+							"name": "day-date",
+							"icon": "fa fa-calendar-plus",
+							"text": "Day, Date",
+							"state": "unselected"
+						},
+						{
+							"name": "time-only",
+							"icon": "fa fa-clock",
+							"text": "Time Only",
+							"state": "unselected"
+						},
+						{
+							"name": "date-time",
+							"icon": "fa fa-calendar-check",
+							"text": "Date, Time",
+							"state": "unselected"
+						},
+						{
+							"name": "day-date-time",
+							"icon": "fa fa-calendar-alt",
+							"text": "Day, Date, Time",
+							"state": "unselected"
+						}
+					]
+				}
+			]
+		},
+		"divider",
+		{
+			"name": "window-size",
+			"icon": "far fa-window-maximize",
+			"text": "Window Size",
+			"menu": [
+				{
+					"name": "shrink-window",
+					"icon": "fa fa-minus",
+					"text": "Shrink",
+					"shortcut": "command-["
+				},
+				{
+					"name": "grow-window",
+					"icon": "fa fa-plus",
+					"text": "Grow",
+					"shortcut": "command-]"
+				},
+				{
+					"name": "expand-window",
+					"icon": "fa fa-expand",
+					"text": "Expand",
+					"shortcut": "command-\\"
+				}
+			]
+		},
+		"divider",
+		{
+			"name": "spaces",
+			"icon": "far fa-window-maximize",
+			"text": "Spaces",
+			"state": "unselected",
+			"menu": [
+				{
+					"name": "prev-space",
+					"icon": "fa fa-chevron-left",
+					"text": "Prev",
+					"shortcut": "command-left arrow"
+				},
+				{
+					"name": "next-space",
+					"icon": "fa fa-chevron-right",
+					"text": "Next",
+					"shortcut": "command-right arrow"
+				}
+			]
+		},
+		{
+			"name": "windows",
+			"icon": "far fa-window-restore",
+			"text": "Windows",
+			"state": "unselected",
+			"menu": [
+				{
+					"name": "minimize-all",
+					"icon": "fa fa-window-minimize",
+					"text": "Minimize All"
+				},
+				{
+					"name": "unminimize-all",
+					"icon": "fa fa-window-restore",
+					"text": "Unminimize All"
+				}
+			]
+		},
+		{
+			"name": "view-full-screen",
+			"icon": "fa fa-desktop",
+			"text": "Full Screen",
+			"shortcut": "command-up arrow",
+			"state": "unselected"
+		},
+		"divider",
+		{
+			"name": "view-preferences",
+			"icon": "fa fa-snowflake",
+			"text": "Preferences"
+		}
+	],
+	"display_prefs": [
+		{
+			"name": "toolbars",
+			"icon": "fa fa-wrench",
+			"text": "Toolbars",
+			"kind": "multiple-answer",
+			"options": {
+				"tasks": "Tasks"
+			},
+			"help": "This is which toolbars to display."
+		},
+		{
+			"name": "panes",
+			"icon": "fa fa-pause",
+			"text": "Panes",
+			"kind": "multiple-answer",
+			"options": {
+				"sidebar": "Sidebar"
+			},
+			"help": "This is which sidebar panes to display."
+		},
+		{
+			"name": "sidebar-size",
+			"icon": "fa fa-arrows-alt-h",
+			"text": "Sidebar Size (%)",
+			"kind": "range",
+			"options": {
+				"min": 0,
+				"max": 100,
+				"step": 5
+			},
+			"help": "This is the size of the sizebar window pane."
+		},
+		{
+			"name": "sidebar-min-size",
+			"icon": "fa fa-arrows-alt-h",
+			"text": "Sidebar Min Size",
+			"kind": "range",
+			"options": {
+				"min": 0,
+				"max": 500,
+				"step": 25
+			},
+			"help": "This is the minimum size of the sizebar window pane."
+		},
+		{
+			"name": "sidebar-panels",
+			"icon": "fa fa-th-large",
+			"text": "Sidebar Panels",
+			"kind": "multiple-answer",
+			"options": {
+				"info": "Info",
+				"projects": "Projects"
+			},
+			"help": "This is which panels are shown in the sidebar window pane."
+		},
+		{
+			"name": "sidebar-view-kind",
+			"icon": "fa fa-th",
+			"text": "Sidebar Items",
+			"kind": "multiple-choice",
+			"options": {
+				"icons": "Icons",
+				"lists": "Lists",
+				"cards": "Cards",
+				"tiles": "Tiles"
+			},
+			"help": "This is the way sidebar items are displayed."
+		}
+	],
+	"general_prefs": [
+		{
+			"name": "tasks-per-page",
+			"icon": "fa fa-long-arrow-alt-down",
+			"text": "Task / Page",
+			"kind": "range",
+			"options": {
+				"min": 1,
+				"max": 100,
+				"step": 1
+			},
+			"help": "This is the number of tasks to display per page."
+		}
+	],
+	"preferences": [
+		{
+			"name": "general",
+			"icon": "fa fa-check",
+			"text": "General"
+		},
+		{
+			"name": "display",
+			"icon": "fa fa-desktop",
+			"text": "Display"
+		},
+		{
+			"name": "window",
+			"icon": "fa fa-window-maximize",
+			"text": "Window"
+		},
+		{
+			"name": "storage",
+			"icon": "fa fa-database",
+			"text": "Storage"
+		}
+	],
+	"storage_prefs": [
+		{
+			"name": "copy-attachments",
+			"icon": "fa fa-copy",
+			"text": "Copy Attachments",
+			"kind": "true-false",
+			"help": "This is whether or not to copy attached files and images from their original location to the storage directory.  If they are copied, then if you delete the original files, then you will still be able to view the attachments."
+		},
+		{
+			"name": "uploads-directory",
+			"icon": "fa fa-folder",
+			"text": "Uploads Folder",
+			"kind": "directory",
+			"help": "This is the directory to use when uploading files."
+		},
+		{
+			"name": "storage-directory",
+			"icon": "fa fa-folder",
+			"text": "Storage Folder",
+			"kind": "directory",
+			"help": "This is the directory to use when storing files."
+		}
+	],
+	"window_prefs": [
+		{
+			"name": "window-size",
+			"icon": "fa fa-arrows-alt",
+			"text": "Window Size",
+			"kind": "select",
+			"options": {
+				"tiny": "Tiny",
+				"small": "Small",
+				"medium": "Medium",
+				"large": "Large"
+			},
+			"help": "This is the maximum initial size of the application window."
+		},
+		{
+			"name": "window-state",
+			"icon": "fa fa-window-maximize",
+			"text": "Window State",
+			"kind": "multiple-answer",
+			"options": {
+				"maximized": "Maximized",
+				"full-screen": "Full Screen"
+			},
+			"help": "This is the initial state of the application window."
+		}
+	]
+}

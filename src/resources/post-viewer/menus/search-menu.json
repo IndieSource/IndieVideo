@@ -1,0 +1,39 @@
+[
+	{
+		"name": "name",
+		"group": "search-kind",
+		"icon": "fa fa-font",
+		"text": "Name",
+		"state": "unselected"
+	},
+	"divider",
+	{
+		"name": "date",
+		"icon": "fa fa-calendar-alt",
+		"text": "Date",
+		"state": "unselected",
+		"menu": [
+			{
+				"name": "create-date",
+				"group": "search-kind",
+				"icon": "fa fa-magic",
+				"text": "Create Date",
+				"state": "unselected"
+			},
+			{
+				"name": "modify-date",
+				"group": "search-kind",
+				"icon": "fa fa-edit",
+				"text": "Modify Date",
+				"state": "unselected"
+			},
+			{
+				"name": "access-date",
+				"group": "search-kind",
+				"icon": "fa fa-eye",
+				"text": "Access Date",
+				"state": "unselected"
+			}
+		]
+	}
+]

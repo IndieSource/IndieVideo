@@ -1,0 +1,287 @@
+{
+	"name": "Sharedigm",
+	"title": "Sharedigm",
+
+	"header": {
+		"align": "center",
+
+		"brand": {
+			"logo": {
+				"src": "images/logos/logo.svg",
+				"border": "rounded"
+			},
+
+			"logotype": {
+				"font": "Syncopate",
+
+				"names": {
+					"Share": {
+						"color": ""
+					},
+					"digm": {
+						"color": "hsl(220, 100%, 66%)"
+					}
+				}
+			}
+		},
+
+		"nav": {
+			"About": {
+				"icon": "fa fa-info-circle",
+				"href": "#about"
+			},
+			"Uses": {
+				"icon": "fa fa-user-circle",
+				"href": "#uses"
+			},
+			"Users": {
+				"icon": "fa fa-users",
+				"href": "#users",
+				"platform": "desktop-only"
+			},
+			"Features": {
+				"icon": "fa fa-lightbulb",
+				"href": "#features"
+			},
+			"Apps": {
+				"icon": "fa fa-rocket",
+				"href": "#apps"
+			},
+			"Platform": {
+				"icon": "fa fa-laptop",
+				"href": "#platform",
+				"platform": "desktop-only"
+			},
+			"Benefits": {
+				"icon": "fa fa-gift",
+				"href": "#benefits",
+				"platform": "desktop-only"
+			}
+		},
+
+		"buttons": {
+			"Sign In": {
+				"icon": "fa fa-sign-in-alt",
+				"background": "",
+				"font": "",
+				"color": ""
+			},
+			"Sign Up": {
+				"icon": "fa fa-pencil-alt",
+				"background": "",
+				"font": "",
+				"color": ""
+			}
+		}
+	},
+
+	"welcome": {
+		"template": "welcome.tpl",
+		"background": "linear-gradient(to bottom, hsl(220, 75%, 0%) 0%, hsla(220, 50%, 50%, 100%) 100%)",
+
+		"masthead": {
+			"height": "100% - 70px"
+		},
+
+		"carousel": {
+			"template": "welcome/carousel.tpl",
+			"color": "white"
+		},
+
+		"splash": {
+			"columns": 1,
+			"background": "transparent",
+
+			"brand": {
+				"logo": {
+					"src": "images/logos/logo.svg",
+					"border": "rounded"
+				},
+
+				"logotype": {
+					"font": "Syncopate",
+
+					"names": {
+						"Share": {
+							"color": "white"
+						},
+						"digm": {
+							"color": "hsl(220, 100%, 66%)"
+						}
+					}
+				}
+			},
+
+			"tagline": {
+				"text": "Sharing Made Simple",
+				"font": "Syncopate",
+				"font_weight": "bold",
+				"color": "white",
+				"background": "hsl(220, 100%, 66%)",
+				"border": "rounded"
+			},
+
+			"description": {
+				"text": "Self-hostable cloud based <a href='#features/easy-to-use'>operating system</a>, <a href='#uses/file-sharing'>file sharing</a>, and <a href='#uses/social-networking'>social network</a>.",
+				"color": "white"
+			}
+		},
+
+		"overlay2": {
+			"far_color": "hsl(220, 75%, 25%)",
+			"near_color": "hsla(220, 100%, 80%, 25%)"
+		},
+
+		"ribbons": [{
+			"text": "Open Source",
+			"font": "Futura",
+			"font_weight": "bold",
+			"height": 40,
+			"line_height": 40,
+			"corner": "bottom right",
+			"offset": 60,
+			"url": "#downloads"
+		}, {
+			"text": "Free",
+			"font": "Futura",
+			"font_weight": "bold",
+			"height": 40,
+			"line_height": 40,
+			"corner": "bottom right",
+			"offset": 20,
+			"color": "black",
+			"background": "white",
+			"shadow": "none",
+			"url": "#installation"
+		}, {
+			"text": "&nbsp;",
+			"font": "Futura",
+			"font_weight": "bold",
+			"height": 40,
+			"line_height": 40,
+			"corner": "bottom right",
+			"offset": -20,
+			"shadow": "none"
+		}]
+	},
+
+	"page": {
+		"background": "",
+		"theme": "",
+		"font": "",
+
+		"footer": {
+			"background": "#272740",
+			"color": null,
+
+			"brand": {
+				"logo": {
+					"src": "images/logos/logo.svg",
+					"href": "#",
+					"border": "rounded"
+				},
+
+				"logotype": {
+					"font": "Syncopate",
+
+					"names": {
+						"Share": {
+							"color": "white"
+						},
+						"digm": {
+							"color": "hsl(220, 100%, 66%)"
+						}
+					}
+				}
+			},
+
+			"tagline": {
+				"text": "Sharing Made Simple",
+				"font": "Syncopate",
+				"font_weight": "bold",
+				"color": "white",
+				"background": "hsl(220, 100%, 66%)",
+				"border": "rounded"
+			},
+
+			"info": {
+				"Explore": {
+					"icon": "fa fa-search",
+					"links": {
+						"About": {
+							"icon": "fa fa-info-circle",
+							"href": "#about"
+						},
+						"Uses": {
+							"icon": "fa fa-user-circle",
+							"href": "#uses"
+						},
+						"Features": {
+							"icon": "fa fa-lightbulb",
+							"href": "#features"
+						},
+						"Apps": {
+							"icon": "fa fa-rocket",
+							"href": "#apps"
+						},
+						"Platform": {
+							"icon": "fa fa-laptop",
+							"href": "#platform"
+						}
+					}
+				},
+
+				"Policies": {
+					"icon": "fa fa-gavel",
+					"links": {
+						"Privacy": {
+							"icon": "fa fa-file-alt",
+							"href": "#policies/privacy-policy"
+						},
+						"User Data": {
+							"icon": "fa fa-file-alt",
+							"href": "#policies/user-data-policy"
+						},
+						"Terms of Use": {
+							"icon": "fa fa-file-alt",
+							"href": "#policies/terms-of-use"
+						},
+						"Code of Conduct": {
+							"icon": "fa fa-file-alt",
+							"href": "#policies/code-of-conduct"
+						},
+						"All": {
+							"icon": "fa fa-file-alt",
+							"href": "#policies"
+						}
+					}
+				},
+
+				"Help": {
+					"icon": "fa fa-question-circle",
+					"links": {
+						"User Guide": {
+							"icon": "fa fa-book",
+							"href": "#help"
+						},
+						"Contact Us": {
+							"icon": "fa fa-envelope",
+							"href": "#contact"
+						}
+					}
+				}
+			}
+		}
+	},
+
+	"footer": {
+		"background": "hsl(220, 100%, 66%)",
+		"font": "",
+		"color": "white",
+		"copyright": {
+			"year": "2025",
+			"logo": "images/logos/logo.svg",
+			"entity": "Sharedigm"
+		}
+	}
+}
