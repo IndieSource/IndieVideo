@@ -1,0 +1,24 @@
+/***************************************************************\
+|                          font styles                          |
+\***************************************************************/
+
+@font-face {
+	font-family: 'Now';
+	src: url('Now-Light.otf') format('opentype');
+	font-weight: light;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Now';
+	src: url('Now-Regular.otf') format('opentype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Now';
+	src: url('Now-Bold.otf') format('opentype');
+	font-weight: bold;
+	font-style: italic;
+}

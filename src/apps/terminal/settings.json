@@ -5,7 +5,7 @@
 	"platform": "admiin",
 	"access": "all",
 	"disabled": false,
-	"hidden": false,
+	"hidden": true,
 	"args": false,
 	"color": "green"
 }

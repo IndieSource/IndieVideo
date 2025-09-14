@@ -15,7 +15,7 @@
 			</div>
 			<div class="col-sm-6">
 				<div class="figure">
-					<img class="attention" src="images/info/users/person.svg" />
+					<img class="attention" src="images/logos/icon.svg" />
 				</div>
 			</div>
 		</div>

@@ -1,6 +1,6 @@
 {
 	"general": {
-		"home_directory": "/Music",
+		"home_directory": null,
 		"notation_size": 100,
 		"fit_width": false,
 		"tune_looping": false,

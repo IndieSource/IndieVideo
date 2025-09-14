@@ -1,11 +1,11 @@
 {
 	"name": "Tasks",
-	"icon": "fa fa-list",
+	"icon": "fa fa-check",
 	"category": "productivity",
 	"platform": "all",
 	"access": "user",
 	"disabled": false,
-	"hidden": false,
+	"hidden": true,
 	"args": false,
 	"color": "green",
 	"defaults": {

@@ -1,7 +1,7 @@
 {
 	"name": "Accounts",
 	"icon": "fa fa-users",
-	"category": "configuration",
+	"category": "system",
 	"platform": "all",
 	"access": "admin",
 	"disabled": false,

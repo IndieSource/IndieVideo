@@ -55,20 +55,18 @@
 	},
 	"audio_player": {
 		"general": {
+			"detail_kind": "artist",
 			"volume": 5,
 			"looping": {
 				"track": false,
 				"album": false
 			},
-			"detail_kind": "artist",
-			"sort_kind": "track_number",
-			"sort_order": "increasing",
 			"toolbars": {
 				"play": true,
 				"volume": true,
 				"track": false
 			},
-			"home_directory": "Music/"
+			"home_directory": null
 		},
 		"display": {
 			"panes": {
@@ -312,7 +310,7 @@
 			"animated_scroll": true
 		},
 		"storage": {
-			"home_directory": "Code/"
+			"home_directory": null
 		}
 	},
 	"communicator": {
@@ -435,7 +433,7 @@
 	},
 	"contact_editor": {
 		"general": {
-			"home_directory": "Contacts/",
+			"home_directory": null,
 			"toolbars": {
 				"nav": true
 			}
@@ -616,7 +614,7 @@
 				"zoom": true,
 				"rotate": false
 			},
-			"home_directory": "Pictures/"
+			"home_directory": null
 		},
 		"display": {
 			"panes": {
@@ -786,12 +784,12 @@
 			"zoom_to_duration": 5
 		},
 		"storage": {
-			"home_directory": "Maps/",
-			"photos_directory": "Pictures/",
-			"videos_directory": "Videos/",
-			"uploads_directory": "Uploads/",
-			"dropbox_directory": "Pictures/Dropbox/",
-			"google_directory": "Pictures/Google/"
+			"home_directory": null,
+			"photos_directory": null,
+			"videos_directory": null,
+			"uploads_directory": null,
+			"dropbox_directory": null,
+			"google_directory": null
 		}
 	},
 	"notification_center": {
@@ -806,7 +804,7 @@
 		"general": {
 			"background_color": null,
 			"zoom_duration": 100,
-			"home_directory": "Documents/"
+			"home_directory": null
 		},
 		"display": {
 			"toolbars": {
@@ -1396,7 +1394,7 @@
 	},
 	"tune_editor": {
 		"general": {
-			"home_directory": "/Music",
+			"home_directory": null,
 			"notation_size": 100,
 			"fit_width": false,
 			"tune_looping": false
@@ -1439,7 +1437,7 @@
 	},
 	"video_player": {
 		"general": {
-			"home_directory": "Videos/",
+			"home_directory": null,
 			"background_color": null,
 			"volume": 5,
 			"clip_looping": false,
@@ -1466,9 +1464,7 @@
 				"desktop": 175
 			},
 			"sidebar_panels": {
-				"favorites": true,
-				"videos": true,
-				"files": false
+				"videos": true
 			},
 			"sidebar_view_kind": {
 				"phone": "tiles",
@@ -1497,7 +1493,7 @@
 	"web_browser": {
 		"general": {
 			"homepage": "https://www.google.com/webhp?igu=1",
-			"home_directory": "Favorites/"
+			"home_directory": null
 		},
 		"display": {
 			"toolbars": {

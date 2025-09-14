@@ -31,7 +31,7 @@
 	"help": {
 		"show_app": true,
 		"show_pdf": false,
-		"show_topic": "Sharedigm",
+		"show_topic": true,
 		"show_contact": true
 	},
 

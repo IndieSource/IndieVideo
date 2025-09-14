@@ -12,7 +12,7 @@
 		},
 
 		"color_scheme": "colored",
-		"highlight_color": "blue",
+		"highlight_color": "hsl(-10, 100%, 66%)",
 		"accent_color": "none",
 		"material": "none",
 		"transparency": "translucent",
@@ -25,7 +25,7 @@
 		"icon_material": "auto",
 		"icon_corners": "auto",
 		"icon_tilt": "none",
-		"icon_tint": "none",
+		"icon_tint": "blue",
 		"icon_background": true,
 
 		"icon_select_effect": "none",
@@ -34,7 +34,7 @@
 		"icon_unhighlight_effect": "none",
 		"icon_open_effect": "wobble",
 
-		"system_font": "Proxima Nova",
+		"system_font": "Clear Sans",
 		"title_font": null,
 		"label_font":  null,
 		"heading_font": null,
@@ -60,7 +60,7 @@
 
 		"background_image": null,
 		"background_size": "tile",
-		"background_color": "auto",
+		"background_color": "hsl(250, 25%, 33%)",
 		"background_repeats": 5,
 
 		"desktop_sidebar_transparency": "transparent",
@@ -78,7 +78,7 @@
 		"show_time": true,
 		"show_24hr": false,
 		"show_seconds": false,
-		"show_led_time": true,
+		"show_led_time": false,
 		"show_trash_in_corner": false,
 		"show_dialog_parallax_shift": true,
 
@@ -118,7 +118,7 @@
 
 		"scrollbar_material": "auto",
 		"scrollbar_width": "medium",
-		"scrollbar_corners": "round"
+		"scrollbar_corners": "auto"
 	},
 
 	"dialogs": {
@@ -153,7 +153,7 @@
 	},
 	
 	"sounds": {
-		"login": "magic",
+		"login": "startup",
 		"launch": null,
 		"logout": "chimes",
 
@@ -182,11 +182,11 @@
 		"add": "double-pop",
 		"remove": "pop",	
 		"send": "wiff",
-		"receive": "pling",		
+		"receive": "pling",	
 
-		"alert": "ting",	
+		"alert": "tribble",	
 		"notify": "bosuns-whistle",	
-		"warning": "cluck",
+		"warning": "angry-tribble",
 		"error": "pling",
 
 		"zoom-in": "whoosh",

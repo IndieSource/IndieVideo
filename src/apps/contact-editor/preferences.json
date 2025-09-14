@@ -1,6 +1,6 @@
 {
 	"general": {
-		"home_directory": "Contacts/",
+		"home_directory": null,
 		"toolbars": {
 			"nav": true
 		}

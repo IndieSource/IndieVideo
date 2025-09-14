@@ -1,0 +1,31 @@
+/***************************************************************\
+|                          font styles                          |
+\***************************************************************/
+
+@font-face {
+	font-family: 'League Gothic';
+	src: url('LeagueGothic-Regular.otf') format('opentype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('LeagueGothic-Italic.otf') format('opentype');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'League Gothic';
+	src: url('LeagueGothicCondesedRegular.otf') format('opentype');
+	font-weight: light;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'League Gothic';
+	src: url('LeagueGothicCondesedItalic.otf') format('opentype');
+	font-weight: light;
+	font-style: italic;
+}

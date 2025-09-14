@@ -100,8 +100,8 @@
 	<div class="section">
 		<div class="row">
 			<div class="col-sm-6">
-				<h2><i class="fa fa-share"></i>File Sharing</h2>
-				<p>Share your files in a variety of ways. </p>
+				<h2><i class="fa fa-share"></i>Video Sharing</h2>
+				<p>Share your videos in a variety of ways. </p>
 				<ul>
 					<li>share by hyperlink</li>
 					<li>share by invitation / shared file or folder</li>
@@ -112,37 +112,37 @@
 				<div class="icon-grid figure">
 					<div class="file item">
 						<div class="row">
-							<div class="icon"><img src="images/icons/files/text.svg" /></div>
+							<div class="icon"><img src="images/icons/files/mp4.svg" /></div>
 						</div>
 						<div class="row">
-							<div class="name">File</div>
+							<div class="name">Video</div>
 						</div>
 					</div>
 					<div class="file item">
 						<div class="row">
-							<div class="icon"><img src="images/icons/files/text.svg" /></div>
+							<div class="icon"><img src="images/icons/files/mp4.svg" /></div>
 							<div class="badges">
 								<div class="links badge tooltip-trigger" data-toggle="tooltip" title="" data-placement="bottom" data-original-title="has 1 link">
 									<i class="fa fa-link"></i>
-									<span class="num-links">3</span>
+									<span class="num-links">1</span>
 								</div>
 							</div>
 						</div>
 						<div class="row">
-							<div class="name">Linked File</div>
+							<div class="name">Linked Video</div>
 						</div>
 					</div>
 					<div class="file item">
 						<div class="row">
 							<div class="icon">
-								<img src="images/icons/files/text.svg" />
+								<img src="images/icons/files/mp4.svg" />
 								<div class="owner small tile">
 									<div class="thumbnail" style="background-image:url(images/logos/indie-logo.svg"></div>
 								</div>
 							</div>
 						</div>
 						<div class="row">
-							<div class="name">Shared File</div>
+							<div class="name">Shared Video</div>
 						</div>
 					</div>
 					<div class="directory item">
@@ -199,6 +199,39 @@
 			<div class="col-sm-6">
 				<div class="figure">
 					<img src="images/info/features/key.svg" />
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="section">
+		<div class="row">
+			<div class="col-sm-6">
+				<h2><i class="fa fa-volume-up"></i>Plays Multiple Video Formats</h2>
+				<p><%= application.name %> can play music in different formats:</p>
+				<ul>
+					<li><b>MP4</b> files - for efficient music storage.</li>
+					<li><b>MOV</b> files - for higher quality.</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="icon-grid figure">
+					<div class="directory item">
+						<div class="row">
+							<div class="icon"><img src="images/icons/files/mp4.svg" /></div>
+						</div>
+						<div class="row">
+							<div class="name">MP4 File</div>
+						</div>
+					</div>
+					<div class="directory item">
+						<div class="row">
+							<div class="icon"><img src="images/icons/files/mov.svg" /></div>
+						</div>
+						<div class="row">
+							<div class="name">MOV File</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -272,22 +305,6 @@
 	<div class="section">
 		<div class="row">
 			<div class="col-sm-6">
-				<a class="unstyled" href="#features/integrated-design">
-					<h2><i class="fa fa-network-wired"></i>Integrated</h2>
-					<p>The integrated design makes it efficient to use because sharing is integrated throughout the system and apps and the apps work seamlessly together. </p>
-				</a>
-			</div>
-			<div class="col-sm-6">
-				<div class="figure">
-					<a href="#features/integrated-design"><img src="images/info/features/integrated-design.png" /></a>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div class="section">
-		<div class="row">
-			<div class="col-sm-6">
 				<h2><i class="fa fa-mobile"></i>Platform Independent</h2>
 				<p><%= application.name %> works across all of your devices and operating systems.  It runs on your laptop, destop, tablet, or phone and works with Windows, MacOS, Linux, iOS, and Android and requires no installation.  This means that your data and applications will always be accessible no matter what device or OS you're using. <p> 
 			</div>
@@ -296,22 +313,6 @@
 					<a href="images/info/mobile/iphone.png" target="_blank" class="lightbox" title="<%= application.name %> Mobile"><img src="images/info/mobile/iphone.png" /></a>
 					<div class="caption"><%= application.name %> Mobile</div>
 				</div>
-			</div>
-		</div>
-	</div>
-
-	<div class="section">
-		<div class="row">
-			<div class="col-sm-6">
-				<h2><i class="fa fa-code"></i>Web Postable</h2>
-				<p>You can <a href="#features/web-postable">post and view</a> files that have been uploaded to <%= application.name %> on other websites easily with just a bit of HTML code. </p>
-			</div>
-			<div class="col-sm-6">
-				<a href="#features/web-postable">
-					<div class="code well">
-		&lt;iframe src="YOUR FILE LINK HERE"&gt;&lt;/iframe&gt
-					</div>
-				</a>
 			</div>
 		</div>
 	</div>

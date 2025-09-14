@@ -59,7 +59,7 @@
 		"help": {
 			"show_app": true,
 			"show_pdf": false,
-			"show_topic": "Sharedigm",
+			"show_topic": true,
 			"show_contact": true
 		},
 		"settings": {
@@ -232,14 +232,14 @@
 		"preferences": {
 			"desktop_apps": {
 				"phone": [
-					"app_launcher"
+					"video_player"
 				],
 				"tablet": [
-					"app_launcher"
+					"video_player"
 				],
 				"desktop": [
-					"file_browser",
-					"communicator"
+					"video_player",
+					"file_browser"
 				]
 			},
 			"admin_apps": {
@@ -18922,6 +18922,12 @@
 			"font-weight": "normal",
 			"url": null
 		},
+		"Impact": {
+			"font-family": "Impact, sans-serif",
+			"font-size": 14,
+			"font-weight": "normal",
+			"url": null
+		},
 		"Inter": {
 			"font-family": "Inter, sans-serif",
 			"font-size": 14,
@@ -19058,8 +19064,9 @@
 	"help": {
 		"name": "User Guide & Reference",
 		"logo": {
-			"src": "images/logos/logo.png",
-			"background": "var(--primary-color)"
+			"src": "images/logos/cloud-icon.svg",
+			"background": "var(--primary-color)",
+			"transform": "scale(1.25)"
 		},
 		"version": "2.0",
 		"items": {
@@ -19716,7 +19723,7 @@
 		"icon": "fa fa-hand-paper",
 		"title": "Welcome!",
 		"greeting": "Welcome to <%= application.name %>!",
-		"message": "We hope that you enjoy using <%= application.name %> to store, manage, and share your data. ",
+		"message": "We hope that you enjoy using <%= application.name %> to communicate with your friends, family, or colleagues. ",
 		"delay": 3000,
 		"options": {
 			"view_video": {

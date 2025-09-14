@@ -5,7 +5,7 @@
 	"platform": "all",
 	"access": "user",
 	"disabled": false,
-	"hidden": false,
+	"hidden": true,
 	"args": false,
 	"color": "plum",
 	"favorites": {

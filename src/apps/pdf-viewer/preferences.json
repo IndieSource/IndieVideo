@@ -2,7 +2,7 @@
 	"general": {
 		"background_color": null,
 		"zoom_duration": 100,
-		"home_directory": "Documents/"
+		"home_directory": null
 	},
 	"display": {
 		"toolbars": {

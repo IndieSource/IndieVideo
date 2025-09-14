@@ -1,6 +1,6 @@
 {
 	"general": {
-		"home_directory": "Videos/",
+		"home_directory": null,
 		"background_color": null,
 		"volume": 5,
 		"clip_looping": false,

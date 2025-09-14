@@ -60,6 +60,6 @@
 		"animated_scroll": true
 	},
 	"storage": {
-		"home_directory": "Code/"
+		"home_directory": null
 	}
 }

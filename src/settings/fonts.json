@@ -113,6 +113,12 @@
 		"font-weight": "normal",
 		"url": null
 	},
+	"Impact": {
+		"font-family": "Impact, sans-serif",
+		"font-size": 14,
+		"font-weight": "normal",
+		"url": null
+	},
 	"Inter": {
 		"font-family": "Inter, sans-serif",
 		"font-size": 14,

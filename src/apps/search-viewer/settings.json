@@ -5,7 +5,7 @@
 	"platform": "all",
 	"access": "all",
 	"disabled": false,
-	"hidden": false,
+	"hidden": true,
 	"args": false,
 	"color": "cyan",
 	"placeholder": "Search for terms or text.",

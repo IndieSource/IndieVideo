@@ -103,11 +103,11 @@
 		"zoom_to_duration": 5
 	},
 	"storage": {
-		"home_directory": "Maps/",
-		"photos_directory": "Pictures/",
-		"videos_directory": "Videos/",
-		"uploads_directory": "Uploads/",
-		"dropbox_directory": "Pictures/Dropbox/",
-		"google_directory": "Pictures/Google/"
+		"home_directory": null,
+		"photos_directory": null,
+		"videos_directory": null,
+		"uploads_directory": null,
+		"dropbox_directory": null,
+		"google_directory": null
 	}
 }

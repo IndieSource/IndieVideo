@@ -2,7 +2,7 @@
 	"name": "Clock",
 	"icon": "fa fa-clock",
 	"category": "utility",
-	"platform": "all",
+	"platform": "mobile",
 	"access": "all",
 	"disabled": false,
 	"hidden": false,

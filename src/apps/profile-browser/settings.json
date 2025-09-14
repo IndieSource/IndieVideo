@@ -5,7 +5,7 @@
 	"platform": "mobile",
 	"access": "all",
 	"disabled": false,
-	"hidden": false,
+	"hidden": true,
 	"args": true,
 	"color": "blue",
 	"invitation_message": "I'd like to invite you to use this platform, which I use to store, manage, and share my data!"

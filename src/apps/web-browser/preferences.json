@@ -1,7 +1,7 @@
 {
 	"general": {
 		"homepage": "https://www.google.com/webhp?igu=1",
-		"home_directory": "Favorites/"
+		"home_directory": null
 	},
 	"display": {
 		"toolbars": {
