@@ -7,10 +7,10 @@
 IndieVideo is a cloud-based photo management and sharing system that makes organizing and sharing your videos easy. Best of all, you can run on your own server!
 
 ![Screen Shot](images/screen-shots/welcome.png)
-Welcome Screen
+*Welcome*
 
 ![Screen Shot](images/screen-shots/desktop.png)
-Desktop
+*Desktop*
 
 ## Features
 
