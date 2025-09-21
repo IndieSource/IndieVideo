@@ -22,14 +22,14 @@
 			<p>This will bring up the New Link dialog box where you can create a new link to your file or folder. </p>
 
 			<div class="figure">
-				<a href="images/help/sharing-files/sharing-by-link/new-link-dialog.png" target="_blank" class="lightbox" title="New Link Dialog"><img class="dialog" src="images/help/sharing-files/sharing-by-link/new-link-dialog.png" /></a>
+				<a href="images/help/sharing-files/sharing-by-link/new-link-dialog.png" target="_blank" class="lightbox" data-caption="New Link Dialog"><img class="dialog" src="images/help/sharing-files/sharing-by-link/new-link-dialog.png" /></a>
 				<div class="caption">New Link Dialog</div>
 			</div>
 
 			<p>When you click the "Save" button, you will be presented with the "Copy Link" dialog box which will let you copy the link to the file or folder.  Once you copy a link, you can paste it into an email, a social media post etc. </p>
 
 			<div class="figure">
-				<a href="images/help/sharing-files/sharing-by-link/copy-link-dialog.png" target="_blank" class="lightbox" title="Copy Link Dialog"><img class="dialog" src="images/help/sharing-files/sharing-by-link/copy-link-dialog.png" /></a>
+				<a href="images/help/sharing-files/sharing-by-link/copy-link-dialog.png" target="_blank" class="lightbox" data-caption="Copy Link Dialog"><img class="dialog" src="images/help/sharing-files/sharing-by-link/copy-link-dialog.png" /></a>
 				<div class="caption">Copy Link Dialog</div>
 			</div>
 		</li>
@@ -39,7 +39,7 @@
 			<p>When a recipient clicks on a link, the link will be opened up in their web browser and they will see a page notifying them of who shared the file along with any message that you may have added to the link: </p>
 
 			<div class="figure">
-				<a href="images/help/sharing-files/sharing-by-link/view-shared-image-gallery-link-full.png" target="_blank" class="lightbox" title="View Shared Image Gallery Link"><img src="images/help/sharing-files/sharing-by-link/view-shared-image-gallery-link-full.png" /></a>
+				<a href="images/help/sharing-files/sharing-by-link/view-shared-image-gallery-link-full.png" target="_blank" class="lightbox" data-caption="View Shared Image Gallery Link"><img src="images/help/sharing-files/sharing-by-link/view-shared-image-gallery-link-full.png" /></a>
 				<div class="caption">View Shared Image Gallery Link</div>
 			</div>
 		</li>

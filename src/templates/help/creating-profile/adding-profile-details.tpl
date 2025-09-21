@@ -15,7 +15,7 @@
 			<p>To view your profile details, open up your <a href="#help/creating-profile/viewing-profile">User Profile</a> and then click on any of the vertical tabs to the left of your user profile summary.</p>
 
 			<div class="figure">
-				<a href="images/help/creating-profile/entering-profile-details/profile-summary.png" target="_blank" class="lightbox" title="User Profile Summary"><img class="dialog" src="images/help/creating-profile/entering-profile-details/profile-summary.png" /></a>
+				<a href="images/help/creating-profile/entering-profile-details/profile-summary.png" target="_blank" class="lightbox" data-caption="User Profile Summary"><img class="dialog" src="images/help/creating-profile/entering-profile-details/profile-summary.png" /></a>
 				<div class="caption">User Profile Summary</div>
 			</div>
 
@@ -29,7 +29,7 @@
 					<p>On the home panel, enter information about places that you have lived. To add a home, click the "Add Home" button on the upper right. </p>
 
 					<div class="figure">
-						<a href="images/help/creating-profile/entering-profile-details/home-profile.png" target="_blank" class="lightbox" title="Your Home Profile"><img class="dialog" src="images/help/creating-profile/entering-profile-details/home-profile.png" /></a>
+						<a href="images/help/creating-profile/entering-profile-details/home-profile.png" target="_blank" class="lightbox" data-caption="Your Home Profile"><img class="dialog" src="images/help/creating-profile/entering-profile-details/home-profile.png" /></a>
 						<div class="caption">Your Home Profile</div>
 					</div>
 				</li>
@@ -39,7 +39,7 @@
 					<p>On the work panel, enter information about jobs that you have had. To add a job, click the "Add Job" button on the upper right.</p>
 
 					<div class="figure">
-						<a href="images/help/creating-profile/entering-profile-details/work-profile.png" target="_blank" class="lightbox" title="Your Work Profile"><img class="dialog" src="images/help/creating-profile/entering-profile-details/work-profile.png" /></a>
+						<a href="images/help/creating-profile/entering-profile-details/work-profile.png" target="_blank" class="lightbox" data-caption="Your Work Profile"><img class="dialog" src="images/help/creating-profile/entering-profile-details/work-profile.png" /></a>
 						<div class="caption">Your Work Profile</div>
 					</div>
 				</li>
@@ -49,7 +49,7 @@
 					<p>On the family panel, enter information about your family. To add a family member, click the "Add Family Member" button on the upper right.</p>
 
 					<div class="figure">
-						<a href="images/help/creating-profile/entering-profile-details/family-profile.png" target="_blank" class="lightbox" title="Your Family Profile"><img class="dialog" src="images/help/creating-profile/entering-profile-details/family-profile.png" /></a>
+						<a href="images/help/creating-profile/entering-profile-details/family-profile.png" target="_blank" class="lightbox" data-caption="Your Family Profile"><img class="dialog" src="images/help/creating-profile/entering-profile-details/family-profile.png" /></a>
 						<div class="caption">Your Family Profile</div>
 					</div>
 				</li>
@@ -59,7 +59,7 @@
 					<p>On the school panel, enter information about your schools. To add a school, click the "Add School" button on the upper right.</p>
 
 					<div class="figure">
-						<a href="images/help/creating-profile/entering-profile-details/school-profile.png" target="_blank" class="lightbox" title="Your School Profile"><img class="dialog" src="images/help/creating-profile/entering-profile-details/school-profile.png" /></a>
+						<a href="images/help/creating-profile/entering-profile-details/school-profile.png" target="_blank" class="lightbox" data-caption="Your School Profile"><img class="dialog" src="images/help/creating-profile/entering-profile-details/school-profile.png" /></a>
 						<div class="caption">Your School Profile</div>
 					</div>
 				</li>
@@ -69,7 +69,7 @@
 					<p>On the writing panel, enter information about your publications (books, articles, patents). To add a publication, click the "Add Publication" button on the upper right.</p>
 
 					<div class="figure">
-						<a href="images/help/creating-profile/entering-profile-details/publications-profile.png" target="_blank" class="lightbox" title="Your Writing Profile"><img class="dialog" src="images/help/creating-profile/entering-profile-details/publications-profile.png" /></a>
+						<a href="images/help/creating-profile/entering-profile-details/publications-profile.png" target="_blank" class="lightbox" data-caption="Your Writing Profile"><img class="dialog" src="images/help/creating-profile/entering-profile-details/publications-profile.png" /></a>
 						<div class="caption">Your Writing Profile</div>
 					</div>
 				</li>
@@ -79,7 +79,7 @@
 					<p>On the contact panel, enter information about your contact information. To add a contact, click the "Add Contact Info" button on the upper right.</p>
 
 					<div class="figure">
-						<a href="images/help/creating-profile/entering-profile-details/contact-profile.png" target="_blank" class="lightbox" title="Your Contact Profile"><img class="dialog" src="images/help/creating-profile/entering-profile-details/contact-profile.png" /></a>
+						<a href="images/help/creating-profile/entering-profile-details/contact-profile.png" target="_blank" class="lightbox" data-caption="Your Contact Profile"><img class="dialog" src="images/help/creating-profile/entering-profile-details/contact-profile.png" /></a>
 						<div class="caption">Your Contact Profile</div>
 					</div>
 				</li>
@@ -89,7 +89,7 @@
 					<p>On the groups panel, enter information about your organizations and affiliations. To add an affiliation, click the "Add Affiliation" button on the upper right.</p>
 
 					<div class="figure">
-						<a href="images/help/creating-profile/entering-profile-details/groups-profile.png" target="_blank" class="lightbox" title="Your Groups Profile"><img class="dialog" src="images/help/creating-profile/entering-profile-details/groups-profile.png" /></a>
+						<a href="images/help/creating-profile/entering-profile-details/groups-profile.png" target="_blank" class="lightbox" data-caption="Your Groups Profile"><img class="dialog" src="images/help/creating-profile/entering-profile-details/groups-profile.png" /></a>
 						<div class="caption">Your Groups Profile</div>
 					</div>
 				</li>

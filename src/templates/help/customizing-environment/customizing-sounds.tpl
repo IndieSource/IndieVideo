@@ -15,7 +15,7 @@
 			<p>The sound settings are controlled through the <a href="#apps/settings-manager">Settings Manager</a> app. To view and change the sound settings, click on the tab labelled "Sound". </p>
 
 			<div class="figure">
-				<a href="images/help/customizing-environment/customizing-sounds/sound-settings.png" target="_blank" class="lightbox" title='"Sound" Tab on the System Settings App'><img class="dialog" src="images/help/customizing-environment/customizing-sounds/sound-settings.png" /></a>
+				<a href="images/help/customizing-environment/customizing-sounds/sound-settings.png" target="_blank" class="lightbox" data-caption='"Sound" Tab on the System Settings App'><img class="dialog" src="images/help/customizing-environment/customizing-sounds/sound-settings.png" /></a>
 				<div class="caption">"Sound" Tab on the System Settings App</div>
 			</div>
 

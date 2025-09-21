@@ -37,36 +37,36 @@
 
 	<h2><i class="fa fa-desktop"></i>Screen Shots</h2>
 	<div class="figure desktop-only">
-		<a href="images/info/apps/communicator/communicator.png" target="_blank" class="lightbox" title="Messages"><img class="dialog" src="images/info/apps/communicator/communicator.png" /></a>
+		<a href="images/info/apps/communicator/communicator.png" target="_blank" class="lightbox" data-caption="Messages"><img class="dialog" src="images/info/apps/communicator/communicator.png" /></a>
 		<div class="caption"><%= config.apps['communicator'].name %></div>
 	</div>
 	<div class="figure row desktop-only">
 		<div class="figure col-sm-6">
-			<a href="images/info/apps/connection-manager/connection-manager.png" target="_blank" class="lightbox" title="Connection Manager"><img class="dialog" src="images/info/apps/connection-manager/connection-manager.png" /></a>
+			<a href="images/info/apps/connection-manager/connection-manager.png" target="_blank" class="lightbox" data-caption="Connection Manager"><img class="dialog" src="images/info/apps/connection-manager/connection-manager.png" /></a>
 			<div class="caption"><%= config.apps['connection_manager'].name %></div>
 		</div>
 		<div class="figure col-sm-6">
-			<a href="images/info/apps/profile-viewer/profile-viewer.png" target="_blank" class="lightbox" title="Profile Viewer"><img class="dialog" src="images/info/apps/profile-viewer/profile-viewer.png" /></a>
+			<a href="images/info/apps/profile-viewer/profile-viewer.png" target="_blank" class="lightbox" data-caption="Profile Viewer"><img class="dialog" src="images/info/apps/profile-viewer/profile-viewer.png" /></a>
 			<div class="caption"><%= config.apps['profile_viewer'].name %></div>
 		</div>
 	</div>
 	<div class="figure row mobile-only">
 		<div class="figure col-sm-6">
-			<a href="images/info/apps/topic-viewer/mobile/mobile-topic-viewer.png" target="_blank" class="lightbox" title="<%= config.apps['topic_viewer'].name %>"><img class="dialog" src="images/info/apps/topic-viewer/mobile/mobile-topic-viewer.png" /></a>
+			<a href="images/info/apps/topic-viewer/mobile/mobile-topic-viewer.png" target="_blank" class="lightbox" data-caption="<%= config.apps['topic_viewer'].name %>"><img class="dialog" src="images/info/apps/topic-viewer/mobile/mobile-topic-viewer.png" /></a>
 			<div class="caption"><%= config.apps['topic_viewer'].name %></div>
 		</div>
 		<div class="figure col-sm-6">
-			<a href="images/info/apps/connection-manager/mobile/mobile-connection-manager.png" target="_blank" class="lightbox" title="<%= config.apps['connection_manager'].name %>"><img class="dialog" src="images/info/apps/connection-manager/mobile/mobile-connection-manager.png" /></a>
+			<a href="images/info/apps/connection-manager/mobile/mobile-connection-manager.png" target="_blank" class="lightbox" data-caption="<%= config.apps['connection_manager'].name %>"><img class="dialog" src="images/info/apps/connection-manager/mobile/mobile-connection-manager.png" /></a>
 			<div class="caption"><%= config.apps['connection_manager'].name %></div>
 		</div>
 		<div class="figure col-sm-6">
-			<a href="images/info/apps/profile-viewer/mobile/mobile-profile-viewer.png" target="_blank" class="lightbox" title="<%= config.apps['profile_viewer'].name %>"><img class="dialog" src="images/info/apps/profile-viewer/mobile/mobile-profile-viewer.png" /></a>
+			<a href="images/info/apps/profile-viewer/mobile/mobile-profile-viewer.png" target="_blank" class="lightbox" data-caption="<%= config.apps['profile_viewer'].name %>"><img class="dialog" src="images/info/apps/profile-viewer/mobile/mobile-profile-viewer.png" /></a>
 			<div class="caption"><%= config.apps['profile_viewer'].name %></div>
 		</div>
 	</div>
 	<div class="figure row mobile-only">
 		<div class="figure col-sm-6" style="float:none">
-			<a href="images/info/apps/chat-browser/mobile/mobile-chat-browser.png" target="_blank" class="lightbox" title="<%= config.apps['chat_browser'].name %>"><img class="dialog" src="images/info/apps/chat-browser/mobile/mobile-chat-browser.png" /></a>
+			<a href="images/info/apps/chat-browser/mobile/mobile-chat-browser.png" target="_blank" class="lightbox" data-caption="<%= config.apps['chat_browser'].name %>"><img class="dialog" src="images/info/apps/chat-browser/mobile/mobile-chat-browser.png" /></a>
 			<div class="caption"><%= config.apps['chat_browser'].name %></div>
 		</div>
 	</div>

@@ -326,650 +326,6 @@ body:not(.binary).colored.accented:not(.dark) .panel .content .title i, body:not
 |******************************************************************************|
 |        Copyright (C) 2016 - 2025, Megahed Labs LLC, www.sharedigm.com        |
 \******************************************************************************/
-/******************************************************************************\
-|                                                                              |
-|                                  _tables.scss                                |
-|                                                                              |
-|******************************************************************************|
-|                                                                              |
-|        This defines the dom and svg visual styles for this application.      |
-|                                                                              |
-|******************************************************************************|
-|        Copyright (C) 2016 - 2025, Megahed Labs LLC, www.sharedigm.com        |
-\******************************************************************************/
-/******************************************************************************\
-|                                                                              |
-|                                  _tables.scss                                |
-|                                                                              |
-|******************************************************************************|
-|                                                                              |
-|        This defines the dom and svg visual styles for this application.      |
-|                                                                              |
-|******************************************************************************|
-|        Copyright (C) 2016 - 2025, Megahed Labs LLC, www.sharedigm.com        |
-\******************************************************************************/
-/******************************************************************************\
-|                                                                              |
-|                                _layout.scss                                  |
-|                                                                              |
-|******************************************************************************|
-|                                                                              |
-|        This defines various CSS styles used in this application.             |
-|                                                                              |
-|        Author(s): Abe Megahed                                                |
-|                                                                              |
-|        This file is subject to the terms and conditions defined in           |
-|        'LICENSE.txt', which is part of this source code distribution.        |
-|                                                                              |
-|******************************************************************************|
-|        Copyright (C) 2016 - 2025, Megahed Labs LLC, www.sharedigm.com        |
-\******************************************************************************/
-body {
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  overflow: hidden;
-}
-body > svg {
-  position: absolute;
-}
-
-#header {
-  min-height: 40px;
-  position: relative;
-  z-index: 1;
-}
-
-#main {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  overflow-x: hidden;
-  z-index: 0;
-  -webkit-overflow-scrolling: touch;
-}
-#main > .loading {
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-}
-#main > .loading img {
-  position: absolute;
-  width: 30px;
-  height: 30px;
-  top: 50%;
-  left: 50%;
-  margin-left: -15px;
-  margin-top: -15px;
-}
-#main > .loading .message {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 50%;
-  margin-top: 60px;
-  margin-left: -25%;
-  position: relative;
-  text-align: center;
-}
-
-.full-screen {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-}
-
-.full-size {
-  width: 100%;
-  height: 100%;
-}
-
-.full-width {
-  width: 100%;
-}
-
-.full-height {
-  height: 100%;
-}
-
-.full-size.overlay {
-  position: absolute;
-  top: 0;
-}
-
-.fit.width {
-  width: 100%;
-  height: auto;
-}
-
-.fit.height {
-  width: auto;
-  height: 100%;
-}
-
-.fit.size {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-}
-
-.screen {
-  top: 50px;
-  width: 100%;
-  height: 100%;
-}
-
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.middle.aligned {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.left.aligned {
-  text-align: left !important;
-}
-
-.center.aligned {
-  text-align: center !important;
-}
-
-.right.aligned {
-  text-align: right !important;
-}
-
-.inline {
-  display: inline-block;
-}
-
-.containing {
-  overflow: auto;
-}
-
-.unpadded {
-  padding: 0;
-}
-
-.unbacked {
-  background: none !important;
-}
-
-.index {
-  counter-reset: rule;
-  /*
-  .item-tree {
-  	.info {
-  		.expander + .icon {
-  			i {
-  				font-size: 20px;
-  				margin: 0;
-  				margin-left: 10px;
-  			}
-
-  			& + .name {
-  				margin-left: 10px;
-  			}
-  		}
-  	}
-  }
-  */
-}
-.index .row div:first-child {
-  text-align: center;
-}
-.index .row div:first-child i {
-  font-size: 50px;
-  width: 100px;
-}
-.index ol > li {
-  list-style: none;
-}
-.index ol > li :before {
-  counter-increment: rule;
-  content: counter(rule) ". ";
-  float: left;
-  width: 30px;
-  text-align: left;
-}
-
-.group {
-  margin-left: 50px;
-}
-
-.content {
-  padding: 10px;
-}
-
-.layers {
-  position: relative;
-  width: 100%;
-  height: 100%;
-}
-
-.round .content {
-  border-radius: 5px;
-}
-
-.rounded .content {
-  border-radius: 3px;
-}
-
-.notes {
-  margin-top: 15px;
-}
-.notes :not(input).required:after {
-  margin-right: 5px;
-}
-
-hr {
-  border-top: 0;
-}
-
-.user-profile-header .cover.photo {
-  pointer-events: none;
-}
-.user-profile-header .buttons {
-  pointer-events: auto;
-}
-.user-profile-header .alternate.buttons {
-  display: inline-block;
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  margin: 10px;
-}
-.user-profile-header hr {
-  margin: 10px auto;
-}
-
-.scrollable {
-  overflow: auto;
-}
-
-.horizontally.scrollable {
-  width: 100%;
-  overflow-x: auto;
-  overflow-y: hidden;
-}
-
-.vertically.scrollable {
-  overflow-x: hidden;
-  overflow-y: auto;
-  height: 100%;
-  -webkit-overflow-scrolling: touch;
-}
-
-.well {
-  padding: 10px;
-  border-width: 1px;
-  border-style: solid;
-  box-shadow: none;
-  -webkit-box-shadow: none;
-  margin-bottom: 10px;
-}
-.well.emphasis {
-  width: 75%;
-  margin: 25px auto;
-}
-.well h3:first-child {
-  margin-top: 10px;
-}
-
-.round .well {
-  border-radius: 15px;
-}
-
-.rounded .well {
-  border-radius: 7px;
-}
-
-.square .well {
-  border-radius: 0;
-}
-
-.multi-region {
-  display: flex;
-  border-radius: 0;
-}
-.multi-region .side.panel {
-  min-width: 25%;
-  margin-right: 15px;
-}
-
-.flex-row {
-  display: flex;
-  flex-direction: row;
-}
-
-#search + #results {
-  margin-top: 15px;
-}
-
-@media (max-width: 800px) {
-  .container {
-    width: 100%;
-  }
-}
-@media (max-width: 480px) {
-  .content {
-    padding: 10px;
-  }
-  .col-xs-12 {
-    padding-left: 0;
-    padding-right: 0;
-  }
-  .multi-region {
-    flex-direction: column;
-  }
-  .multi-region .side.panel {
-    margin-right: 0;
-    margin-bottom: 15px;
-  }
-}
-@media (min-width: 1200px) {
-  .container {
-    width: 970px;
-  }
-}
-[browser=explorer], [browser=edge] {
-  -ms-overflow-style: none;
-}
-[browser=explorer] #main, [browser=edge] #main {
-  -ms-overflow-style: none;
-}
-[browser=explorer] .fit.width, [browser=edge] .fit.width {
-  height: none;
-}
-[browser=explorer] .fit.height, [browser=edge] .fit.height {
-  width: none;
-}
-[browser=explorer] .fit.size, [browser=edge] .fit.size {
-  max-width: 100%;
-  max-height: 100%;
-  width: auto;
-  height: auto;
-}
-
-/******************************************************************************\
-|                                                                              |
-|                              _text-colors.scss                               |
-|                                                                              |
-|******************************************************************************|
-|                                                                              |
-|        This defines various CSS styles used in this application.             |
-|                                                                              |
-|        Author(s): Abe Megahed                                                |
-|                                                                              |
-|        This file is subject to the terms and conditions defined in           |
-|        'LICENSE.txt', which is part of this source code distribution.        |
-|                                                                              |
-|******************************************************************************|
-|        Copyright (C) 2016 - 2025, Megahed Labs LLC, www.sharedigm.com        |
-\******************************************************************************/
-table {
-  display: table;
-  width: 100%;
-  border-collapse: separate;
-}
-table th {
-  padding: 5px;
-  font-weight: normal;
-  outline: none;
-  white-space: nowrap;
-  text-align: center;
-  border-width: 1px;
-  border-style: solid;
-  border-color: unset;
-}
-table th:not(:last-child) {
-  border-right-width: 0;
-}
-table th input[type=radio], table th input[type=checkbox] {
-  margin-right: 5px;
-}
-table th label {
-  font-weight: normal;
-}
-table thead th {
-  border-bottom: none;
-}
-table tbody tr:not(:last-child) th {
-  border-bottom: none;
-}
-table tbody > .empty {
-  padding: 5px 10px;
-  pointer-events: none;
-  white-space: nowrap;
-}
-table tbody tr.selected {
-  background: black;
-  color: white;
-}
-table tbody tr.highlighted {
-  color: red !important;
-}
-table tbody tr.grabbable {
-  cursor: default;
-}
-table tbody tr td {
-  padding: 5px 10px;
-  border-width: 1px;
-  border-style: solid;
-  border-color: black;
-}
-table tbody tr td:not(:last-child) {
-  border-right-width: 0;
-}
-table tbody tr td.error {
-  color: hsl(0, 80%, 60%);
-  outline: 2px solid hsl(0, 80%, 60%);
-  outline-offset: -2px;
-  background: white;
-}
-table tbody tr td.highlighted::after {
-  border: none;
-}
-table tbody tr td input[type=radio], table tbody tr td input[type=checkbox] {
-  margin: 0 5px;
-}
-table tbody tr td[contenteditable]:focus:not(.error) {
-  outline-offset: -2px;
-  outline-width: 2px;
-  outline-style: solid;
-  color: #272740 !important;
-  background: white !important;
-  cursor: text;
-}
-table tbody tr:not(:last-child) td {
-  border-bottom-width: 0;
-}
-table tbody tr:not(.first) td.duplicate {
-  opacity: 0 !important;
-}
-table .th-sm, table .td-sm {
-  width: 1%;
-  text-align: center;
-}
-table th.delete, table td.delete {
-  width: 1px;
-}
-table th.protection, table td.protection {
-  width: 1px;
-}
-table th.prepend, table th.append,
-table td.prepend, table td.append {
-  width: 1px;
-  border: none;
-  outline: none;
-  background: none;
-}
-table th.prepend, table td.prepend {
-  padding-left: 0px;
-}
-table th.append, table td.append {
-  padding-right: 0;
-}
-table tr:last-child tr td.prepend,
-table tr:last-child tr td.append {
-  border-bottom: none;
-}
-table td i + label {
-  margin-left: 5px;
-}
-table td .btn-sm {
-  margin-top: -10px;
-  margin-bottom: -7px;
-}
-table th.narrow, table td.narrow {
-  width: 1px;
-  padding-left: 5px;
-  padding-right: 5px;
-  text-align: center;
-}
-table ul {
-  -webkit-padding-start: 10px;
-}
-table label {
-  margin-bottom: 0;
-}
-
-#show-numbering {
-  margin-top: 20px;
-}
-
-.round table:not(.flush) thead tr:first-child th:first-child, .round table:not(.flush) thead tr:first-child td:first-child {
-  border-top-left-radius: 10px;
-}
-.round table:not(.flush) thead tr:first-child th:last-child, .round table:not(.flush) thead tr:first-child td:last-child {
-  border-top-right-radius: 10px;
-}
-.round table:not(.flush) tbody tr:last-child th:first-child, .round table:not(.flush) tbody tr:last-child td:first-child {
-  border-bottom-left-radius: 10px;
-}
-.round table:not(.flush) tbody tr:last-child th:last-child, .round table:not(.flush) tbody tr:last-child td:last-child {
-  border-bottom-right-radius: 10px;
-}
-
-.rounded table:not(.flush) thead tr:first-child th:first-child, .rounded table:not(.flush) thead tr:first-child td:first-child {
-  border-top-left-radius: 5px;
-}
-.rounded table:not(.flush) thead tr:first-child th:last-child, .rounded table:not(.flush) thead tr:first-child td:last-child {
-  border-top-right-radius: 5px;
-}
-.rounded table:not(.flush) tbody tr:last-child th:first-child, .rounded table:not(.flush) tbody tr:last-child td:first-child {
-  border-bottom-left-radius: 5px;
-}
-.rounded table:not(.flush) tbody tr:last-child th:last-child, .rounded table:not(.flush) tbody tr:last-child td:last-child {
-  border-bottom-right-radius: 5px;
-}
-
-.responsive {
-  border: none;
-  overflow: auto;
-}
-
-@media (max-width: 768px) {
-  table tbody tr td {
-    padding: 5px;
-  }
-}
-table.numbered {
-  counter-reset: row-number;
-}
-table.numbered tr:not(.ui-sorplaceholder):not(.unnumbered) td:first-child::before {
-  content: counter(row-number) ".";
-  counter-increment: row-number;
-  display: inline-block;
-  min-width: 25px;
-  margin-right: 5px;
-}
-table.numbered tr:not(.ui-sorplaceholder).unnumbered td:first-child {
-  padding-left: 3em;
-}
-
-table.numbered.constant-width td:first-child::before {
-  display: inline-block;
-  min-width: 1.5em;
-  margin-right: 0.5em;
-  text-align: right;
-}
-
-table.numbered.count-bubbles td:first-child::before {
-  content: counter(row-number);
-  display: inline-block;
-  min-width: 24px;
-  height: 24px;
-  text-align: center;
-  background: white;
-  border-radius: 12px;
-  border: 1px solid #c0c0d9;
-}
-
-@media (min-width: 480px) {
-  table {
-    /*
-    thead {
-    	tr {
-    		th {
-    			i.fa {
-    				margin-right: 5px;
-    			}
-
-    			i.fa-trash {
-    				margin-right: 0;
-    			}
-    		}
-    	}
-    }
-    */
-  }
-  table th.date, table td.date {
-    white-space: nowrap;
-  }
-  table.bold th, table.bold td {
-    padding: 7px 10px;
-  }
-  table.bold th > i {
-    font-size: 200%;
-    display: block;
-  }
-  table.bold td > i {
-    font-size: 150%;
-    display: block;
-  }
-  table.bold td.bold, table.bold span.bold {
-    font-size: 150%;
-    line-height: 100%;
-  }
-  table.bold span.bold {
-    display: block;
-  }
-}
-@media (max-width: 480px) {
-  table:not(.bold) thead tr th i + label {
-    font-size: 0;
-  }
-  table:not(.bold) thead tr th i {
-    font-size: 14px !important;
-    vertical-align: middle;
-    margin-right: 0;
-  }
-  table:not(.bold) tbody tr td label {
-    display: none;
-  }
-}
 body:not(.binary).colored.accented:not(.dark) table thead th {
   color: white;
   border-color: var(--secondary-color);
@@ -1186,234 +542,6 @@ body:not(.binary).colored.accented:not(.dark) table thead th:last-child {
 |******************************************************************************|
 |        Copyright (C) 2016 - 2025, Megahed Labs LLC, www.sharedigm.com        |
 \******************************************************************************/
-/******************************************************************************\
-|                                                                              |
-|                            _colored-buttons.scss                             |
-|                                                                              |
-|******************************************************************************|
-|                                                                              |
-|        This defines various CSS styles used in this application.             |
-|                                                                              |
-|        Author(s): Abe Megahed                                                |
-|                                                                              |
-|        This file is subject to the terms and conditions defined in           |
-|        'LICENSE.txt', which is part of this source code distribution.        |
-|                                                                              |
-|******************************************************************************|
-|        Copyright (C) 2016 - 2025, Megahed Labs LLC, www.sharedigm.com        |
-\******************************************************************************/
-/******************************************************************************\
-|                                                                              |
-|                                  _tables.scss                                |
-|                                                                              |
-|******************************************************************************|
-|                                                                              |
-|        This defines the dom and svg visual styles for this application.      |
-|                                                                              |
-|******************************************************************************|
-|        Copyright (C) 2016 - 2025, Megahed Labs LLC, www.sharedigm.com        |
-\******************************************************************************/
-/******************************************************************************\
-|                                                                              |
-|                                  _buttons.scss                               |
-|                                                                              |
-|******************************************************************************|
-|                                                                              |
-|        This defines the dom and svg visual styles for this application.      |
-|                                                                              |
-|        Author(s): Abe Megahed                                                |
-|                                                                              |
-|        This file is subject to the terms and conditions defined in           |
-|        'LICENSE.txt', which is part of this source code distribution.        |
-|                                                                              |
-|******************************************************************************|
-|        Copyright (C) 2016 - 2025, Megahed Labs LLC, www.sharedigm.com        |
-\******************************************************************************/
-/******************************************************************************\
-|                                                                              |
-|                                 _icons.scss                                  |
-|                                                                              |
-|******************************************************************************|
-|                                                                              |
-|        This defines various CSS styles used in this application.             |
-|                                                                              |
-|        Author(s): Abe Megahed                                                |
-|                                                                              |
-|        This file is subject to the terms and conditions defined in           |
-|        'LICENSE.txt', which is part of this source code distribution.        |
-|                                                                              |
-|******************************************************************************|
-|        Copyright (C) 2016 - 2025, Megahed Labs LLC, www.sharedigm.com        |
-\******************************************************************************/
-i {
-  font-size: 14px;
-}
-i svg {
-  display: inline;
-  width: 20px;
-  height: 18px;
-  margin-bottom: -2px;
-}
-i.fa-check {
-  font-style: italic;
-}
-i.rotated {
-  transform: rotate(90deg);
-}
-i.derotated {
-  transform: rotate(-90deg);
-}
-i.reversed {
-  transform: scaleX(-1);
-}
-i.flipped {
-  transform: scaleY(-1);
-}
-i.rotated.flipped {
-  transform: scaleY(-1) rotate(90deg);
-}
-i.rotated.reversed {
-  transform: scaleX(-1) rotate(90deg);
-}
-
-h1 i,
-h2 i,
-h3 i {
-  font-size: 100%;
-  text-align: center;
-  margin-right: 10px;
-}
-
-label i {
-  text-align: center;
-  margin-right: 5px;
-}
-
-.header label i {
-  margin-right: 10px;
-}
-
-.tooltip + i {
-  margin-left: 5px;
-}
-
-h1 .icon {
-  display: inline-block;
-  float: left;
-  margin-top: 5px;
-  margin-right: 10px;
-  width: auto;
-  height: 60px;
-  border-radius: 10px;
-  border-width: 2px;
-  border-style: solid;
-  text-align: center;
-}
-h1 .icon i {
-  float: none;
-  margin: 0;
-  padding: 0;
-  margin-top: 12px;
-  font-size: 32px;
-}
-
-.flag {
-  margin-bottom: 3px;
-}
-
-.fa-sm {
-  font-size: 0.75em !important;
-}
-
-.icon2x {
-  -webkit-transform: scale(2);
-  -moz-transform: scale(2);
-  -o-transform: scale(2);
-  margin: 10px;
-  margin-top: 0;
-}
-
-.icon3x {
-  -webkit-transform: scale(3);
-  -moz-transform: scale(3);
-  -o-transform: scale(3);
-  margin: 15px;
-  margin-top: 0;
-}
-
-.icon img.lost,
-.placeholder {
-  display: none;
-}
-
-.lost + .placeholder {
-  display: block;
-}
-
-button {
-  cursor: pointer;
-}
-button > svg, button > img {
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  margin: 0 auto;
-}
-button i {
-  font-size: 14px;
-  font-style: normal;
-  pointer-events: none;
-}
-button:disabled {
-  pointer-events: none;
-}
-button:disabled:hover {
-  cursor: not-allowed;
-}
-
-.expander button {
-  border: none;
-  background: none;
-}
-
-.round-buttons button,
-.round.auto-corner-buttons button {
-  border-radius: 15px;
-}
-
-.rounded-buttons button,
-.rounded.auto-corner-buttons button {
-  border-radius: 5px;
-}
-
-.square-buttons button,
-.square.auto-corner-buttons button {
-  border-radius: 0;
-}
-
-:not(.keyboard-accessible) .button:active {
-  outline: none !important;
-}
-
-body:not(.binary):not(.flat-buttons):not(.flat.auto-buttons) button.selected, body:not(.binary):not(.flat-buttons):not(.flat.auto-buttons) .buttons button.selected {
-  box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.25);
-}
-body:not(.binary):not(.flat-buttons):not(.flat.auto-buttons) button.selected:active, body:not(.binary):not(.flat-buttons):not(.flat.auto-buttons) .buttons button.selected:active {
-  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
-}
-body:not(.binary):not(.flat-buttons):not(.flat.auto-buttons) button:hover {
-  box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.25);
-}
-
-body[device=desktop] button + button,
-body[device=desktop] .expander + button,
-body[device=desktop] button + .expander,
-body[device=desktop] button + .tooltip + button,
-body[device=desktop] button + .popover + button,
-body[device=desktop] button + .popover + .tooltip + button {
-  margin-left: 5px;
-}
-
 /******************************************************************************\
 |                                                                              |
 |                            _colored-buttons.scss                             |
@@ -2420,64 +1548,6 @@ body:not(.binary).colored.accented .btn:not(.btn-primary):not(.colored):not(:dis
 \******************************************************************************/
 /******************************************************************************\
 |                                                                              |
-|                                  _tables.scss                                |
-|                                                                              |
-|******************************************************************************|
-|                                                                              |
-|        This defines the dom and svg visual styles for this application.      |
-|                                                                              |
-|******************************************************************************|
-|        Copyright (C) 2016 - 2025, Megahed Labs LLC, www.sharedigm.com        |
-\******************************************************************************/
-/******************************************************************************\
-|                                                                              |
-|                               _scrollbars.scss                               |
-|                                                                              |
-|******************************************************************************|
-|                                                                              |
-|        This defines the dom and svg visual styles for this application.      |
-|                                                                              |
-|        Author(s): Abe Megahed                                                |
-|                                                                              |
-|        This file is subject to the terms and conditions defined in           |
-|        'LICENSE.txt', which is part of this source code distribution.        |
-|                                                                              |
-|******************************************************************************|
-|        Copyright (C) 2016 - 2025, Megahed Labs LLC, www.sharedigm.com        |
-\******************************************************************************/
-@media (min-width: 480px) {
-  ::-webkit-scrollbar {
-    -webkit-appearance: none;
-    width: 12px;
-    height: 12px;
-  }
-  ::-webkit-scrollbar-thumb {
-    border-width: 2px;
-    border-style: solid;
-    border-color: transparent;
-    background-clip: content-box;
-  }
-  .round-scrollbars ::-webkit-scrollbar-thumb,
-  .round.auto-corner-scrollbars ::-webkit-scrollbar-thumb {
-    -webkit-border-radius: 10px;
-  }
-  .rounded-scrollbars ::-webkit-scrollbar-thumb,
-  .rounded.auto-corner-scrollbars ::-webkit-scrollbar-thumb {
-    -webkit-border-radius: 3px;
-  }
-  .square-scrollbars ::-webkit-scrollbar-thumb,
-  .square.auto-corner-scrollbars ::-webkit-scrollbar-thumb {
-    -webkit-border-radius: 0;
-  }
-  .thin-scrollbars ::-webkit-scrollbar-thumb {
-    border-width: 3px;
-  }
-  .thick-scrollbars ::-webkit-scrollbar-thumb {
-    border-width: 0;
-  }
-}
-/******************************************************************************\
-|                                                                              |
 |                        _accented-flat-scrollbars.scss                        |
 |                                                                              |
 |******************************************************************************|
@@ -2588,220 +1658,12 @@ body:not(.binary).colored.accented .btn:not(.btn-primary):not(.colored):not(:dis
 |******************************************************************************|
 |        Copyright (C) 2016 - 2025, Megahed Labs LLC, www.sharedigm.com        |
 \******************************************************************************/
-/******************************************************************************\
-|                                                                              |
-|                                  _sliders.scss                               |
-|                                                                              |
-|******************************************************************************|
-|                                                                              |
-|        This defines the dom and svg visual styles for this application.      |
-|                                                                              |
-|        Author(s): Abe Megahed                                                |
-|                                                                              |
-|        This file is subject to the terms and conditions defined in           |
-|        'LICENSE.txt', which is part of this source code distribution.        |
-|                                                                              |
-|******************************************************************************|
-|        Copyright (C) 2016 - 2025, Megahed Labs LLC, www.sharedigm.com        |
-\******************************************************************************/
-.input {
-  display: flex;
-  height: 100%;
-}
-.input .input-group {
-  display: flex;
-}
-.input input:not([type=range]) {
-  text-align: center;
-}
-.input input:not([type=range]):focus {
-  outline: none;
-}
-.input.selectable input {
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
-}
-
-input[type=range] {
-  -webkit-appearance: none;
-  background: none;
-}
-input[type=range]:focus {
-  outline: none;
-}
-input[type=range]::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  width: 15px;
-  height: 15px;
-  margin-top: -4px;
-  border-radius: 50%;
-  border-width: 1px;
-  border-style: solid;
-}
-input[type=range]::-moz-range-thumb {
-  -webkit-appearance: none;
-  width: 15px;
-  height: 15px;
-  margin-top: -4px;
-  border-radius: 50%;
-  border-width: 1px;
-  border-style: solid;
-}
-input[type=range]::-ms-thumb {
-  -webkit-appearance: none;
-  width: 14px;
-  height: 14px;
-  margin-top: -4px;
-  border-radius: 50%;
-  border-width: 1px;
-  border-style: solid;
-}
-input[type=range]::-webkit-slider-runnable-track {
-  height: 7px;
-  border-radius: 7px;
-  border-width: 0;
-  border-style: solid;
-  border-color: transparent;
-}
-input[type=range]::-moz-range-track {
-  height: 7px;
-  border-radius: 7px;
-  border-width: 0;
-  border-style: solid;
-  border-color: transparent;
-}
-input[type=range]::-ms-track {
-  height: 7px;
-  border-radius: 7px;
-  border-width: 0;
-  background: transparent;
-  border-color: transparent;
-  color: transparent;
-}
-input[type=range]::-ms-fill-lower {
-  background: grey;
-  border-radius: 10px;
-}
-input[type=range]::-ms-fill-upper {
-  background: grey;
-  border-radius: 10px;
-}
-input[type=range]:focus::-webkit-slider-runnable-track {
-  background: grey;
-}
-
-.round-sliders input[type=range]::-webkit-slider-thumb,
-.round.auto-corner-sliders input[type=range]::-webkit-slider-thumb {
-  border-radius: 8px;
-}
-.round-sliders input[type=range]::-moz-range-thumb,
-.round.auto-corner-sliders input[type=range]::-moz-range-thumb {
-  border-radius: 8px;
-}
-.round-sliders input[type=range]::-ms-thumb,
-.round.auto-corner-sliders input[type=range]::-ms-thumb {
-  border-radius: 8px;
-}
-.round-sliders.selectable input,
-.round.auto-corner-sliders.selectable input {
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
-}
-
-.rounded-sliders input[type=range]::-webkit-slider-thumb,
-.rounded.auto-corner-sliders input[type=range]::-webkit-slider-thumb {
-  border-radius: 5px;
-}
-.rounded-sliders input[type=range]::-moz-range-thumb,
-.rounded.auto-corner-sliders input[type=range]::-moz-range-thumb {
-  border-radius: 5px;
-}
-.rounded-sliders input[type=range]::-ms-thumb,
-.rounded.auto-corner-sliders input[type=range]::-ms-thumb {
-  border-radius: 5px;
-}
-.rounded-sliders.selectable input,
-.rounded.auto-corner-sliders.selectable input {
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
-}
-
-.square-sliders input[type=range]::-webkit-slider-thumb,
-.square.auto-corner-sliders input[type=range]::-webkit-slider-thumb {
-  border-radius: 0;
-}
-.square-sliders input[type=range]::-moz-range-thumb,
-.square.auto-corner-sliders input[type=range]::-moz-range-thumb {
-  border-radius: 0;
-}
-.square-sliders input[type=range]::-ms-thumb,
-.square.auto-corner-sliders input[type=range]::-ms-thumb {
-  border-radius: 0;
-}
-
-.narrow-slider-handles input[type=range]::-webkit-slider-thumb {
-  width: 10px;
-  height: 15px;
-}
-.narrow-slider-handles input[type=range]::-moz-range-thumb {
-  width: 10px;
-  height: 15px;
-}
-.narrow-slider-handles input[type=range]::-ms-thumb {
-  width: 10px;
-  height: 15px;
-}
-
-.medium-slider-handles input[type=range]::-webkit-slider-thumb {
-  width: 15px;
-  height: 15px;
-}
-.medium-slider-handles input[type=range]::-moz-range-thumb {
-  width: 15px;
-  height: 15px;
-}
-.medium-slider-handles input[type=range]::-ms-thumb {
-  width: 15px;
-  height: 15px;
-}
-
-.wide-slider-handles input[type=range]::-webkit-slider-thumb {
-  width: 30px;
-  height: 15px;
-}
-.wide-slider-handles input[type=range]::-moz-range-thumb {
-  width: 30px;
-  height: 15px;
-}
-.wide-slider-handles input[type=range]::-ms-thumb {
-  width: 30px;
-  height: 15px;
-}
-
-body:not(.binary):not(.flat-sliders):not(.flat.auto-sliders) input[type=range]::-webkit-slider-thumb {
-  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
-}
-body:not(.binary):not(.flat-sliders):not(.flat.auto-sliders) input[type=range]::-moz-range-thumb {
-  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
-}
-body:not(.binary):not(.flat-sliders):not(.flat.auto-sliders) input[type=range]::-ms-thumb {
-  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
-}
-
-input[type=range]::-webkit-slider-runnable-track {
-  box-shadow: none;
-}
-input[type=range]::-moz-range-track {
-  box-shadow: none;
-}
-
 @supports (color: color-mix(in srgb, white, black)) {
   body:not(.binary).colored.accented.chalk-sliders input[type=range]::-webkit-slider-thumb:not(:active), body:not(.binary).colored.accented.chalk.auto-sliders input[type=range]::-webkit-slider-thumb:not(:active) {
     background: radial-gradient(ellipse 50% 25% at 50% 10%, color-mix(in srgb, white 25%, transparent) 0%, color-mix(in srgb, white 25%, transparent) 25%, transparent 100%) no-repeat, linear-gradient(var(--light-direction), color-mix(in srgb, white 10%, transparent) 0%, transparent 50%, color-mix(in srgb, black 10%, transparent) 100%) no-repeat;
     background-color: var(--secondary-color);
     border-color: color-mix(in srgb, var(--ambient-color) 10%, var(--secondary-color));
     transform: scale(-1) rotate(var(--light-direction));
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
   }
   body:not(.binary).colored.accented.chalk-sliders input[type=range]::-webkit-slider-thumb:not(:active):hover, body:not(.binary).colored.accented.chalk.auto-sliders input[type=range]::-webkit-slider-thumb:not(:active):hover {
     background: radial-gradient(ellipse 50% 25% at 50% 10%, color-mix(in srgb, white 25%, transparent) 0%, color-mix(in srgb, white 25%, transparent) 25%, transparent 100%) no-repeat, linear-gradient(var(--light-direction), color-mix(in srgb, white 10%, transparent) 0%, transparent 50%, color-mix(in srgb, black 10%, transparent) 100%) no-repeat;
@@ -2813,7 +1675,6 @@ input[type=range]::-moz-range-track {
     background-color: var(--secondary-color);
     border-color: color-mix(in srgb, var(--ambient-color) 10%, var(--secondary-color));
     transform: scale(-1) rotate(var(--light-direction));
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
   }
   body:not(.binary).colored.accented.chalk-sliders input[type=range]::-moz-range-thumb:not(:active):hover, body:not(.binary).colored.accented.chalk.auto-sliders input[type=range]::-moz-range-thumb:not(:active):hover {
     background: radial-gradient(ellipse 50% 25% at 50% 10%, color-mix(in srgb, white 25%, transparent) 0%, color-mix(in srgb, white 25%, transparent) 25%, transparent 100%) no-repeat, linear-gradient(var(--light-direction), color-mix(in srgb, white 10%, transparent) 0%, transparent 50%, color-mix(in srgb, black 10%, transparent) 100%) no-repeat;
@@ -2825,7 +1686,6 @@ input[type=range]::-moz-range-track {
     background-color: var(--secondary-color);
     border-color: color-mix(in srgb, var(--ambient-color) 10%, var(--secondary-color));
     transform: scale(-1) rotate(var(--light-direction));
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
   }
   body:not(.binary).colored.accented.chalk-sliders input[type=range]::-ms-thumb:not(:active):hover, body:not(.binary).colored.accented.chalk.auto-sliders input[type=range]::-ms-thumb:not(:active):hover {
     background: radial-gradient(ellipse 50% 25% at 50% 10%, color-mix(in srgb, white 25%, transparent) 0%, color-mix(in srgb, white 25%, transparent) 25%, transparent 100%) no-repeat, linear-gradient(var(--light-direction), color-mix(in srgb, white 10%, transparent) 0%, transparent 50%, color-mix(in srgb, black 10%, transparent) 100%) no-repeat;
@@ -2839,7 +1699,6 @@ input[type=range]::-moz-range-track {
     background-color: hsl(200, 100%, 66%);
     border-color: #4ab1f2;
     transform: scale(-1) rotate(var(--light-direction));
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
   }
   body:not(.binary).colored.accented.chalk-sliders input[type=range]::-webkit-slider-thumb:not(:active):hover, body:not(.binary).colored.accented.chalk.auto-sliders input[type=range]::-webkit-slider-thumb:not(:active):hover {
     background: radial-gradient(ellipse 50% 25% at 50% 10%, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0.25) 25%, transparent 100%) no-repeat, linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 0%, transparent 50%, rgba(0, 0, 0, 0.1) 100%) no-repeat;
@@ -2851,7 +1710,6 @@ input[type=range]::-moz-range-track {
     background-color: hsl(200, 100%, 66%);
     border-color: #4ab1f2;
     transform: scale(-1) rotate(var(--light-direction));
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
   }
   body:not(.binary).colored.accented.chalk-sliders input[type=range]::-moz-range-thumb:not(:active):hover, body:not(.binary).colored.accented.chalk.auto-sliders input[type=range]::-moz-range-thumb:not(:active):hover {
     background: radial-gradient(ellipse 50% 25% at 50% 10%, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0.25) 25%, transparent 100%) no-repeat, linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 0%, transparent 50%, rgba(0, 0, 0, 0.1) 100%) no-repeat;
@@ -2863,7 +1721,6 @@ input[type=range]::-moz-range-track {
     background-color: hsl(200, 100%, 66%);
     border-color: #4ab1f2;
     transform: scale(-1) rotate(var(--light-direction));
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
   }
   body:not(.binary).colored.accented.chalk-sliders input[type=range]::-ms-thumb:not(:active):hover, body:not(.binary).colored.accented.chalk.auto-sliders input[type=range]::-ms-thumb:not(:active):hover {
     background: radial-gradient(ellipse 50% 25% at 50% 10%, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0.25) 25%, transparent 100%) no-repeat, linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 0%, transparent 50%, rgba(0, 0, 0, 0.1) 100%) no-repeat;
@@ -3243,22 +2100,6 @@ input[type=range]::-moz-range-track {
 \******************************************************************************/
 /******************************************************************************\
 |                                                                              |
-|                           _chalk-scrollbars.scss                             |
-|                                                                              |
-|******************************************************************************|
-|                                                                              |
-|        This defines the dom and svg visual styles for this application.      |
-|                                                                              |
-|        Author(s): Abe Megahed                                                |
-|                                                                              |
-|        This file is subject to the terms and conditions defined in           |
-|        'LICENSE.txt', which is part of this source code distribution.        |
-|                                                                              |
-|******************************************************************************|
-|        Copyright (C) 2016 - 2025, Megahed Labs LLC, www.sharedigm.com        |
-\******************************************************************************/
-/******************************************************************************\
-|                                                                              |
 |                          _plastic-scrollbars.scss                            |
 |                                                                              |
 |******************************************************************************|
@@ -3367,22 +2208,6 @@ input[type=range]::-moz-range-track {
 \******************************************************************************/
 /******************************************************************************\
 |                                                                              |
-|                              _chalk-sliders.scss                             |
-|                                                                              |
-|******************************************************************************|
-|                                                                              |
-|        This defines the dom and svg visual styles for this application.      |
-|                                                                              |
-|        Author(s): Abe Megahed                                                |
-|                                                                              |
-|        This file is subject to the terms and conditions defined in           |
-|        'LICENSE.txt', which is part of this source code distribution.        |
-|                                                                              |
-|******************************************************************************|
-|        Copyright (C) 2016 - 2025, Megahed Labs LLC, www.sharedigm.com        |
-\******************************************************************************/
-/******************************************************************************\
-|                                                                              |
 |                             _plastic-sliders.scss                            |
 |                                                                              |
 |******************************************************************************|
@@ -3403,7 +2228,6 @@ input[type=range]::-moz-range-track {
     background-color: var(--secondary-color);
     border-color: color-mix(in srgb, var(--ambient-color) 10%, var(--secondary-color));
     transform: scale(-1) rotate(var(--light-direction));
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
   }
   body:not(.binary).colored.accented.plastic-sliders input[type=range]::-webkit-slider-thumb:not(:active):hover, body:not(.binary).colored.accented.plastic.auto-sliders input[type=range]::-webkit-slider-thumb:not(:active):hover {
     background: radial-gradient(ellipse 25% 12% at 50% 10%, color-mix(in srgb, white 100%, transparent) 25%, transparent 100%) no-repeat, radial-gradient(ellipse 50% 25% at 50% 10%, color-mix(in srgb, white 50%, transparent) 0%, color-mix(in srgb, white 50%, transparent) 50%, transparent 100%) no-repeat, linear-gradient(var(--light-direction), color-mix(in srgb, white 10%, transparent) 0%, transparent 50%, color-mix(in srgb, black 10%, transparent) 100%) no-repeat;
@@ -3415,7 +2239,6 @@ input[type=range]::-moz-range-track {
     background-color: var(--secondary-color);
     border-color: color-mix(in srgb, var(--ambient-color) 10%, var(--secondary-color));
     transform: scale(-1) rotate(var(--light-direction));
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
   }
   body:not(.binary).colored.accented.plastic-sliders input[type=range]::-moz-range-thumb:not(:active):hover, body:not(.binary).colored.accented.plastic.auto-sliders input[type=range]::-moz-range-thumb:not(:active):hover {
     background: radial-gradient(ellipse 25% 12% at 50% 10%, color-mix(in srgb, white 100%, transparent) 25%, transparent 100%) no-repeat, radial-gradient(ellipse 50% 25% at 50% 10%, color-mix(in srgb, white 50%, transparent) 0%, color-mix(in srgb, white 50%, transparent) 50%, transparent 100%) no-repeat, linear-gradient(var(--light-direction), color-mix(in srgb, white 10%, transparent) 0%, transparent 50%, color-mix(in srgb, black 10%, transparent) 100%) no-repeat;
@@ -3427,7 +2250,6 @@ input[type=range]::-moz-range-track {
     background-color: var(--secondary-color);
     border-color: color-mix(in srgb, var(--ambient-color) 10%, var(--secondary-color));
     transform: scale(-1) rotate(var(--light-direction));
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
   }
   body:not(.binary).colored.accented.plastic-sliders input[type=range]::-ms-thumb:not(:active):hover, body:not(.binary).colored.accented.plastic.auto-sliders input[type=range]::-ms-thumb:not(:active):hover {
     background: radial-gradient(ellipse 25% 12% at 50% 10%, color-mix(in srgb, white 100%, transparent) 25%, transparent 100%) no-repeat, radial-gradient(ellipse 50% 25% at 50% 10%, color-mix(in srgb, white 50%, transparent) 0%, color-mix(in srgb, white 50%, transparent) 50%, transparent 100%) no-repeat, linear-gradient(var(--light-direction), color-mix(in srgb, white 10%, transparent) 0%, transparent 50%, color-mix(in srgb, black 10%, transparent) 100%) no-repeat;
@@ -3441,7 +2263,6 @@ input[type=range]::-moz-range-track {
     background-color: hsl(200, 100%, 66%);
     border-color: #4ab1f2;
     transform: scale(-1) rotate(var(--light-direction));
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
   }
   body:not(.binary).colored.accented.plastic-sliders input[type=range]::-webkit-slider-thumb:not(:active):hover, body:not(.binary).colored.accented.plastic.auto-sliders input[type=range]::-webkit-slider-thumb:not(:active):hover {
     background: radial-gradient(ellipse 25% 12% at 50% 10%, white 25%, transparent 100%) no-repeat, radial-gradient(ellipse 50% 25% at 50% 10%, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.5) 50%, transparent 100%) no-repeat, linear-gradient(var(--light-direction), rgba(255, 255, 255, 0.1) 0%, transparent 50%, rgba(0, 0, 0, 0.1) 100%) no-repeat;
@@ -3453,7 +2274,6 @@ input[type=range]::-moz-range-track {
     background-color: hsl(200, 100%, 66%);
     border-color: #4ab1f2;
     transform: scale(-1) rotate(var(--light-direction));
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
   }
   body:not(.binary).colored.accented.plastic-sliders input[type=range]::-moz-range-thumb:not(:active):hover, body:not(.binary).colored.accented.plastic.auto-sliders input[type=range]::-moz-range-thumb:not(:active):hover {
     background: radial-gradient(ellipse 25% 12% at 50% 10%, white 25%, transparent 100%) no-repeat, radial-gradient(ellipse 50% 25% at 50% 10%, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.5) 50%, transparent 100%) no-repeat, linear-gradient(var(--light-direction), rgba(255, 255, 255, 0.1) 0%, transparent 50%, rgba(0, 0, 0, 0.1) 100%) no-repeat;
@@ -3465,7 +2285,6 @@ input[type=range]::-moz-range-track {
     background-color: hsl(200, 100%, 66%);
     border-color: #4ab1f2;
     transform: scale(-1) rotate(var(--light-direction));
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
   }
   body:not(.binary).colored.accented.plastic-sliders input[type=range]::-ms-thumb:not(:active):hover, body:not(.binary).colored.accented.plastic.auto-sliders input[type=range]::-ms-thumb:not(:active):hover {
     background: radial-gradient(ellipse 25% 12% at 50% 10%, white 25%, transparent 100%) no-repeat, radial-gradient(ellipse 50% 25% at 50% 10%, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.5) 50%, transparent 100%) no-repeat, linear-gradient(var(--light-direction), rgba(255, 255, 255, 0.1) 0%, transparent 50%, rgba(0, 0, 0, 0.1) 100%) no-repeat;
@@ -3845,22 +2664,6 @@ input[type=range]::-moz-range-track {
 \******************************************************************************/
 /******************************************************************************\
 |                                                                              |
-|                           _chalk-scrollbars.scss                             |
-|                                                                              |
-|******************************************************************************|
-|                                                                              |
-|        This defines the dom and svg visual styles for this application.      |
-|                                                                              |
-|        Author(s): Abe Megahed                                                |
-|                                                                              |
-|        This file is subject to the terms and conditions defined in           |
-|        'LICENSE.txt', which is part of this source code distribution.        |
-|                                                                              |
-|******************************************************************************|
-|        Copyright (C) 2016 - 2025, Megahed Labs LLC, www.sharedigm.com        |
-\******************************************************************************/
-/******************************************************************************\
-|                                                                              |
 |                           _glass-scrollbars.scss                             |
 |                                                                              |
 |******************************************************************************|
@@ -3969,22 +2772,6 @@ input[type=range]::-moz-range-track {
 \******************************************************************************/
 /******************************************************************************\
 |                                                                              |
-|                              _chalk-sliders.scss                             |
-|                                                                              |
-|******************************************************************************|
-|                                                                              |
-|        This defines the dom and svg visual styles for this application.      |
-|                                                                              |
-|        Author(s): Abe Megahed                                                |
-|                                                                              |
-|        This file is subject to the terms and conditions defined in           |
-|        'LICENSE.txt', which is part of this source code distribution.        |
-|                                                                              |
-|******************************************************************************|
-|        Copyright (C) 2016 - 2025, Megahed Labs LLC, www.sharedigm.com        |
-\******************************************************************************/
-/******************************************************************************\
-|                                                                              |
 |                              _glass-sliders.scss                             |
 |                                                                              |
 |******************************************************************************|
@@ -4005,7 +2792,6 @@ input[type=range]::-moz-range-track {
     background-color: color-mix(in srgb, var(--ambient-color) 30%, var(--secondary-color));
     border-color: color-mix(in srgb, var(--ambient-color) 30%, var(--secondary-color));
     transform: scale(-1) rotate(var(--light-direction));
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
   }
   body:not(.binary).colored.accented.glass-sliders input[type=range]::-webkit-slider-thumb:not(:active):hover, body:not(.binary).colored.accented.glass.auto-sliders input[type=range]::-webkit-slider-thumb:not(:active):hover {
     background: radial-gradient(ellipse 25% 12% at 50% 10%, color-mix(in srgb, white 100%, transparent) 25%, transparent 100%) no-repeat, radial-gradient(ellipse 50% 25% at 50% 10%, color-mix(in srgb, white 50%, transparent) 50%, transparent 100%) no-repeat, radial-gradient(ellipse 50% 50% at 50% 85%, color-mix(in srgb, color-mix(in srgb, var(--light-color) 80%, color-mix(in srgb, rgb(0, 0, 127) 10%, var(--secondary-color))) 100%, transparent) 0%, color-mix(in srgb, color-mix(in srgb, var(--light-color) 10%, color-mix(in srgb, rgb(0, 0, 127) 10%, var(--secondary-color))) 100%, transparent) 50%, transparent 100%) no-repeat, linear-gradient(var(--light-direction), transparent 33%, color-mix(in srgb, color-mix(in srgb, rgb(0, 0, 127) 10%, var(--secondary-color)) 50%, transparent) 100%) no-repeat;
@@ -4017,7 +2803,6 @@ input[type=range]::-moz-range-track {
     background-color: color-mix(in srgb, var(--ambient-color) 30%, var(--secondary-color));
     border-color: color-mix(in srgb, var(--ambient-color) 30%, var(--secondary-color));
     transform: scale(-1) rotate(var(--light-direction));
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
   }
   body:not(.binary).colored.accented.glass-sliders input[type=range]::-moz-range-thumb:not(:active):hover, body:not(.binary).colored.accented.glass.auto-sliders input[type=range]::-moz-range-thumb:not(:active):hover {
     background: radial-gradient(ellipse 25% 12% at 50% 10%, color-mix(in srgb, white 100%, transparent) 25%, transparent 100%) no-repeat, radial-gradient(ellipse 50% 25% at 50% 10%, color-mix(in srgb, white 50%, transparent) 50%, transparent 100%) no-repeat, radial-gradient(ellipse 50% 50% at 50% 85%, color-mix(in srgb, color-mix(in srgb, var(--light-color) 80%, color-mix(in srgb, rgb(0, 0, 127) 10%, var(--secondary-color))) 100%, transparent) 0%, color-mix(in srgb, color-mix(in srgb, var(--light-color) 10%, color-mix(in srgb, rgb(0, 0, 127) 10%, var(--secondary-color))) 100%, transparent) 50%, transparent 100%) no-repeat, linear-gradient(var(--light-direction), transparent 33%, color-mix(in srgb, color-mix(in srgb, rgb(0, 0, 127) 10%, var(--secondary-color)) 50%, transparent) 100%) no-repeat;
@@ -4029,7 +2814,6 @@ input[type=range]::-moz-range-track {
     background-color: color-mix(in srgb, var(--ambient-color) 30%, var(--secondary-color));
     border-color: color-mix(in srgb, var(--ambient-color) 30%, var(--secondary-color));
     transform: scale(-1) rotate(var(--light-direction));
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
   }
   body:not(.binary).colored.accented.glass-sliders input[type=range]::-ms-thumb:not(:active):hover, body:not(.binary).colored.accented.glass.auto-sliders input[type=range]::-ms-thumb:not(:active):hover {
     background: radial-gradient(ellipse 25% 12% at 50% 10%, color-mix(in srgb, white 100%, transparent) 25%, transparent 100%) no-repeat, radial-gradient(ellipse 50% 25% at 50% 10%, color-mix(in srgb, white 50%, transparent) 50%, transparent 100%) no-repeat, radial-gradient(ellipse 50% 50% at 50% 85%, color-mix(in srgb, color-mix(in srgb, var(--light-color) 80%, color-mix(in srgb, rgb(0, 0, 127) 10%, var(--secondary-color))) 100%, transparent) 0%, color-mix(in srgb, color-mix(in srgb, var(--light-color) 10%, color-mix(in srgb, rgb(0, 0, 127) 10%, var(--secondary-color))) 100%, transparent) 50%, transparent 100%) no-repeat, linear-gradient(var(--light-direction), transparent 33%, color-mix(in srgb, color-mix(in srgb, rgb(0, 0, 127) 10%, var(--secondary-color)) 50%, transparent) 100%) no-repeat;
@@ -4043,7 +2827,6 @@ input[type=range]::-moz-range-track {
     background-color: #398ad9;
     border-color: #398ad9;
     transform: scale(-1) rotate(var(--light-direction));
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
   }
   body:not(.binary).colored.accented.glass-sliders input[type=range]::-webkit-slider-thumb:not(:active):hover, body:not(.binary).colored.accented.glass.auto-sliders input[type=range]::-webkit-slider-thumb:not(:active):hover {
     background: radial-gradient(ellipse 25% 12% at 50% 10%, white 25%, transparent 100%) no-repeat, radial-gradient(ellipse 50% 25% at 50% 10%, rgba(255, 255, 255, 0.5) 50%, transparent 100%) no-repeat, radial-gradient(ellipse 50% 50% at 50% 85%, #d2f0ff 0%, #35bcff 50%, transparent 100%) no-repeat, linear-gradient(var(--light-direction), transparent 33%, rgba(31, 180, 255, 0.5) 100%) no-repeat;
@@ -4055,7 +2838,6 @@ input[type=range]::-moz-range-track {
     background-color: #398ad9;
     border-color: #398ad9;
     transform: scale(-1) rotate(var(--light-direction));
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
   }
   body:not(.binary).colored.accented.glass-sliders input[type=range]::-moz-range-thumb:not(:active):hover, body:not(.binary).colored.accented.glass.auto-sliders input[type=range]::-moz-range-thumb:not(:active):hover {
     background: radial-gradient(ellipse 25% 12% at 50% 10%, white 25%, transparent 100%) no-repeat, radial-gradient(ellipse 50% 25% at 50% 10%, rgba(255, 255, 255, 0.5) 50%, transparent 100%) no-repeat, radial-gradient(ellipse 50% 50% at 50% 85%, #d2f0ff 0%, #35bcff 50%, transparent 100%) no-repeat, linear-gradient(var(--light-direction), transparent 33%, rgba(31, 180, 255, 0.5) 100%) no-repeat;
@@ -4067,7 +2849,6 @@ input[type=range]::-moz-range-track {
     background-color: #398ad9;
     border-color: #398ad9;
     transform: scale(-1) rotate(var(--light-direction));
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
   }
   body:not(.binary).colored.accented.glass-sliders input[type=range]::-ms-thumb:not(:active):hover, body:not(.binary).colored.accented.glass.auto-sliders input[type=range]::-ms-thumb:not(:active):hover {
     background: radial-gradient(ellipse 25% 12% at 50% 10%, white 25%, transparent 100%) no-repeat, radial-gradient(ellipse 50% 25% at 50% 10%, rgba(255, 255, 255, 0.5) 50%, transparent 100%) no-repeat, radial-gradient(ellipse 50% 50% at 50% 85%, #d2f0ff 0%, #35bcff 50%, transparent 100%) no-repeat, linear-gradient(var(--light-direction), transparent 33%, rgba(31, 180, 255, 0.5) 100%) no-repeat;
@@ -4447,22 +3228,6 @@ input[type=range]::-moz-range-track {
 \******************************************************************************/
 /******************************************************************************\
 |                                                                              |
-|                           _chalk-scrollbars.scss                             |
-|                                                                              |
-|******************************************************************************|
-|                                                                              |
-|        This defines the dom and svg visual styles for this application.      |
-|                                                                              |
-|        Author(s): Abe Megahed                                                |
-|                                                                              |
-|        This file is subject to the terms and conditions defined in           |
-|        'LICENSE.txt', which is part of this source code distribution.        |
-|                                                                              |
-|******************************************************************************|
-|        Copyright (C) 2016 - 2025, Megahed Labs LLC, www.sharedigm.com        |
-\******************************************************************************/
-/******************************************************************************\
-|                                                                              |
 |                           _metal-scrollbars.scss                             |
 |                                                                              |
 |******************************************************************************|
@@ -4571,22 +3336,6 @@ input[type=range]::-moz-range-track {
 \******************************************************************************/
 /******************************************************************************\
 |                                                                              |
-|                              _chalk-sliders.scss                             |
-|                                                                              |
-|******************************************************************************|
-|                                                                              |
-|        This defines the dom and svg visual styles for this application.      |
-|                                                                              |
-|        Author(s): Abe Megahed                                                |
-|                                                                              |
-|        This file is subject to the terms and conditions defined in           |
-|        'LICENSE.txt', which is part of this source code distribution.        |
-|                                                                              |
-|******************************************************************************|
-|        Copyright (C) 2016 - 2025, Megahed Labs LLC, www.sharedigm.com        |
-\******************************************************************************/
-/******************************************************************************\
-|                                                                              |
 |                              _metal-sliders.scss                             |
 |                                                                              |
 |******************************************************************************|
@@ -4607,7 +3356,6 @@ input[type=range]::-moz-range-track {
     background-color: color-mix(in srgb, var(--ambient-color) 50%, var(--secondary-color));
     border-color: color-mix(in srgb, var(--ambient-color) 30%, var(--secondary-color));
     transform: scale(-1) rotate(var(--light-direction));
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
   }
   body:not(.binary).colored.accented.metal-sliders input[type=range]::-webkit-slider-thumb:not(:active):hover, body:not(.binary).colored.accented.metal.auto-sliders input[type=range]::-webkit-slider-thumb:not(:active):hover {
     background: radial-gradient(ellipse 50% 25% at 50% 10%, color-mix(in srgb, white 75%, transparent) 0%, color-mix(in srgb, color-mix(in srgb, var(--light-color) 20%, color-mix(in srgb, rgb(0, 0, 127) 10%, var(--secondary-color))) 75%, transparent) 50%, transparent 100%) no-repeat, radial-gradient(ellipse 50% 25% at 50% 10%, color-mix(in srgb, color-mix(in srgb, rgb(0, 0, 127) 10%, var(--secondary-color)) 100%, transparent) 0%, transparent 100%) no-repeat, linear-gradient(var(--light-direction), transparent 25%, color-mix(in srgb, color-mix(in srgb, rgb(0, 0, 127) 10%, var(--secondary-color)) 50%, transparent) 66%, color-mix(in srgb, var(--light-color) 30%, color-mix(in srgb, rgb(0, 0, 127) 10%, var(--secondary-color))) 100%) no-repeat;
@@ -4619,7 +3367,6 @@ input[type=range]::-moz-range-track {
     background-color: color-mix(in srgb, var(--ambient-color) 50%, var(--secondary-color));
     border-color: color-mix(in srgb, var(--ambient-color) 30%, var(--secondary-color));
     transform: scale(-1) rotate(var(--light-direction));
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
   }
   body:not(.binary).colored.accented.metal-sliders input[type=range]::-moz-range-thumb:not(:active):hover, body:not(.binary).colored.accented.metal.auto-sliders input[type=range]::-moz-range-thumb:not(:active):hover {
     background: radial-gradient(ellipse 50% 25% at 50% 10%, color-mix(in srgb, white 75%, transparent) 0%, color-mix(in srgb, color-mix(in srgb, var(--light-color) 20%, color-mix(in srgb, rgb(0, 0, 127) 10%, var(--secondary-color))) 75%, transparent) 50%, transparent 100%) no-repeat, radial-gradient(ellipse 50% 25% at 50% 10%, color-mix(in srgb, color-mix(in srgb, rgb(0, 0, 127) 10%, var(--secondary-color)) 100%, transparent) 0%, transparent 100%) no-repeat, linear-gradient(var(--light-direction), transparent 25%, color-mix(in srgb, color-mix(in srgb, rgb(0, 0, 127) 10%, var(--secondary-color)) 50%, transparent) 66%, color-mix(in srgb, var(--light-color) 30%, color-mix(in srgb, rgb(0, 0, 127) 10%, var(--secondary-color))) 100%) no-repeat;
@@ -4631,7 +3378,6 @@ input[type=range]::-moz-range-track {
     background-color: color-mix(in srgb, var(--ambient-color) 50%, var(--secondary-color));
     border-color: color-mix(in srgb, var(--ambient-color) 30%, var(--secondary-color));
     transform: scale(-1) rotate(var(--light-direction));
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
   }
   body:not(.binary).colored.accented.metal-sliders input[type=range]::-ms-thumb:not(:active):hover, body:not(.binary).colored.accented.metal.auto-sliders input[type=range]::-ms-thumb:not(:active):hover {
     background: radial-gradient(ellipse 50% 25% at 50% 10%, color-mix(in srgb, white 75%, transparent) 0%, color-mix(in srgb, color-mix(in srgb, var(--light-color) 20%, color-mix(in srgb, rgb(0, 0, 127) 10%, var(--secondary-color))) 75%, transparent) 50%, transparent 100%) no-repeat, radial-gradient(ellipse 50% 25% at 50% 10%, color-mix(in srgb, color-mix(in srgb, rgb(0, 0, 127) 10%, var(--secondary-color)) 100%, transparent) 0%, transparent 100%) no-repeat, linear-gradient(var(--light-direction), transparent 25%, color-mix(in srgb, color-mix(in srgb, rgb(0, 0, 127) 10%, var(--secondary-color)) 50%, transparent) 66%, color-mix(in srgb, var(--light-color) 30%, color-mix(in srgb, rgb(0, 0, 127) 10%, var(--secondary-color))) 100%) no-repeat;
@@ -4645,7 +3391,6 @@ input[type=range]::-moz-range-track {
     background-color: #2963bf;
     border-color: #398ad9;
     transform: scale(-1) rotate(var(--light-direction));
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
   }
   body:not(.binary).colored.accented.metal-sliders input[type=range]::-webkit-slider-thumb:not(:active):hover, body:not(.binary).colored.accented.metal.auto-sliders input[type=range]::-webkit-slider-thumb:not(:active):hover {
     background: radial-gradient(ellipse 50% 25% at 50% 10%, rgba(255, 255, 255, 0.75) 0%, rgba(76, 195, 255, 0.75) 50%, rgba(0, 0, 0, 0) 100%) no-repeat, radial-gradient(ellipse 50% 25% at 50% 10%, #1fb4ff 0%, transparent 100%) no-repeat, linear-gradient(var(--light-direction), transparent 25%, rgba(31, 180, 255, 0.5) 66%, #62cbff 100%) no-repeat;
@@ -4657,7 +3402,6 @@ input[type=range]::-moz-range-track {
     background-color: #2963bf;
     border-color: #398ad9;
     transform: scale(-1) rotate(var(--light-direction));
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
   }
   body:not(.binary).colored.accented.metal-sliders input[type=range]::-moz-range-thumb:not(:active):hover, body:not(.binary).colored.accented.metal.auto-sliders input[type=range]::-moz-range-thumb:not(:active):hover {
     background: radial-gradient(ellipse 50% 25% at 50% 10%, rgba(255, 255, 255, 0.75) 0%, rgba(76, 195, 255, 0.75) 50%, rgba(0, 0, 0, 0) 100%) no-repeat, radial-gradient(ellipse 50% 25% at 50% 10%, #1fb4ff 0%, transparent 100%) no-repeat, linear-gradient(var(--light-direction), transparent 25%, rgba(31, 180, 255, 0.5) 66%, #62cbff 100%) no-repeat;
@@ -4669,7 +3413,6 @@ input[type=range]::-moz-range-track {
     background-color: #2963bf;
     border-color: #398ad9;
     transform: scale(-1) rotate(var(--light-direction));
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
   }
   body:not(.binary).colored.accented.metal-sliders input[type=range]::-ms-thumb:not(:active):hover, body:not(.binary).colored.accented.metal.auto-sliders input[type=range]::-ms-thumb:not(:active):hover {
     background: radial-gradient(ellipse 50% 25% at 50% 10%, rgba(255, 255, 255, 0.75) 0%, rgba(76, 195, 255, 0.75) 50%, rgba(0, 0, 0, 0) 100%) no-repeat, radial-gradient(ellipse 50% 25% at 50% 10%, #1fb4ff 0%, transparent 100%) no-repeat, linear-gradient(var(--light-direction), transparent 25%, rgba(31, 180, 255, 0.5) 66%, #62cbff 100%) no-repeat;

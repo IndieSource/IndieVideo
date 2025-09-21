@@ -136,12 +136,6 @@ $very-very-very-light-brown: lighten($medium-brown, 40%);
 $ultra-light-brown: lighten($medium-brown, 45%);
 
 //
-// lighting
-//
-
-$ambient-color: rgb(0, 0, 127);
-
-//
 // mixins
 //
 
@@ -149,7 +143,7 @@ $ambient-color: rgb(0, 0, 127);
 	@return color-mix(in srgb, white $amount, $color);
 }
 
-@function darken($color, $amount) {
+@function darken($color, $amount, $ambient-color: rgb(0, 0, 127)) {
 	@return color-mix(in srgb, $ambient-color $amount, $color);
 }
 

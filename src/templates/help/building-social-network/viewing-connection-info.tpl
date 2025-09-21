@@ -34,7 +34,7 @@
 					<p>This tab contains general information about your connection, such as their current online and activity status.</p>
 
 					<div class="figure">
-						<a href="images/help/building-social-network/viewing-connection-info/connection-info.png" target="_blank" class="lightbox" title="Connection Info"><img class="dialog" src="images/help/building-social-network/viewing-connection-info/connection-info.png" /></a>
+						<a href="images/help/building-social-network/viewing-connection-info/connection-info.png" target="_blank" class="lightbox" data-caption="Connection Info"><img class="dialog" src="images/help/building-social-network/viewing-connection-info/connection-info.png" /></a>
 						<div class="caption">Connection Info</div>
 					</div>
 				</li>
@@ -44,7 +44,7 @@
 					<p>This tab contains historical information about your connection, such as the date that you became connected.</p>
 
 					<div class="figure">
-						<a href="images/help/building-social-network/viewing-connection-info/connection-history.png" target="_blank" class="lightbox" title="Connection History Info"><img class="dialog" src="images/help/building-social-network/viewing-connection-info/connection-history.png" /></a>
+						<a href="images/help/building-social-network/viewing-connection-info/connection-history.png" target="_blank" class="lightbox" data-caption="Connection History Info"><img class="dialog" src="images/help/building-social-network/viewing-connection-info/connection-history.png" /></a>
 						<div class="caption">Connection History Info</div>
 					</div>
 				</li>
@@ -54,7 +54,7 @@
 					<p>This tab contains a list of the connections that you and another connection have in common.</p>
 
 					<div class="figure">
-						<a href="images/help/building-social-network/viewing-connection-info/mutual-connections.png" target="_blank" class="lightbox" title="Mutual Connections Info"><img class="dialog" src="images/help/building-social-network/viewing-connection-info/mutual-connections.png" /></a>
+						<a href="images/help/building-social-network/viewing-connection-info/mutual-connections.png" target="_blank" class="lightbox" data-caption="Mutual Connections Info"><img class="dialog" src="images/help/building-social-network/viewing-connection-info/mutual-connections.png" /></a>
 						<div class="caption">Mutual Connections Info</div>
 					</div>
 				</li>
@@ -64,7 +64,7 @@
 					<p>This tab contains a list of the items that your connection has shared with you.</p>
 
 					<div class="figure">
-						<a href="images/help/building-social-network/viewing-connection-info/shared-with-me.png" target="_blank" class="lightbox" title="Shared with Me Info"><img class="dialog" src="images/help/building-social-network/viewing-connection-info/shared-with-me.png" /></a>
+						<a href="images/help/building-social-network/viewing-connection-info/shared-with-me.png" target="_blank" class="lightbox" data-caption="Shared with Me Info"><img class="dialog" src="images/help/building-social-network/viewing-connection-info/shared-with-me.png" /></a>
 						<div class="caption">Shared with Me Info</div>
 					</div>
 				</li>
@@ -74,7 +74,7 @@
 					<p>This tab contains a list of the items that you have shared with your connection.</p>
 
 					<div class="figure">
-						<a href="images/help/building-social-network/viewing-connection-info/shared-by-me.png" target="_blank" class="lightbox" title="Shared by Me Info"><img class="dialog" src="images/help/building-social-network/viewing-connection-info/shared-by-me.png" /></a>
+						<a href="images/help/building-social-network/viewing-connection-info/shared-by-me.png" target="_blank" class="lightbox" data-caption="Shared by Me Info"><img class="dialog" src="images/help/building-social-network/viewing-connection-info/shared-by-me.png" /></a>
 						<div class="caption">Shared by Me Info</div>
 					</div>
 				</li>

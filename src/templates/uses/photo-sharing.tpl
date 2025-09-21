@@ -39,31 +39,31 @@
 
 	<h2><i class="fa fa-desktop"></i>Screen Shots</h2>
 	<div class="figure desktop-only">
-		<a href="images/info/desktop/desktop-photos.png" target="_blank" class="lightbox" title="Viewing and Managing Photos"><img class="dialog" src="images/info/desktop/desktop-photos.png" /></a>
+		<a href="images/info/desktop/desktop-photos.png" target="_blank" class="lightbox" data-caption="Viewing and Managing Photos"><img class="dialog" src="images/info/desktop/desktop-photos.png" /></a>
 		<div class="caption">Viewing and Managing Photos</div>
 	</div>
 
 	<div class="figure row desktop-only">
 		<div class="figure col-sm-6">
-			<a href="images/info/apps/image-viewer/image-viewer.png" target="_blank" class="lightbox" title="<%= config.apps['image_viewer'].name %>"><img class="dialog" src="images/info/apps/image-viewer/image-viewer.png" /></a>
+			<a href="images/info/apps/image-viewer/image-viewer.png" target="_blank" class="lightbox" data-caption="<%= config.apps['image_viewer'].name %>"><img class="dialog" src="images/info/apps/image-viewer/image-viewer.png" /></a>
 			<div class="caption"><%= config.apps['image_viewer'].name %></div>
 		</div>
 		<div class="figure col-sm-6">
-			<a href="images/info/sharing/share-gallery-by-link.png" target="_blank" class="lightbox" title="Sharing Photos By Link"><img class="dialog" src="images/info/sharing/share-gallery-by-link.png" /></a>
+			<a href="images/info/sharing/share-gallery-by-link.png" target="_blank" class="lightbox" data-caption="Sharing Photos By Link"><img class="dialog" src="images/info/sharing/share-gallery-by-link.png" /></a>
 			<div class="caption">Sharing Photos By Link</div>
 		</div>
 	</div>
 	<div class="figure row mobile-only">
 		<div class="figure col-sm-6">
-			<a href="images/info/apps/image-viewer/mobile/mobile-image-viewer.png" target="_blank" class="lightbox" title="<%= config.apps['image_viewer'].name %>"><img class="dialog" src="images/info/apps/image-viewer/mobile/mobile-image-viewer.png" /></a>
+			<a href="images/info/apps/image-viewer/mobile/mobile-image-viewer.png" target="_blank" class="lightbox" data-caption="<%= config.apps['image_viewer'].name %>"><img class="dialog" src="images/info/apps/image-viewer/mobile/mobile-image-viewer.png" /></a>
 			<div class="caption"><%= config.apps['image_viewer'].name %></div>
 		</div>
 		<div class="figure col-sm-6">
-			<a href="images/info/sharing/mobile/mobile-share-photos-by-link.png" target="_blank" class="lightbox" title="Receive Photos Shared by Link"><img class="dialog" src="images/info/sharing/mobile/mobile-share-photos-by-link.png" /></a>
+			<a href="images/info/sharing/mobile/mobile-share-photos-by-link.png" target="_blank" class="lightbox" data-caption="Receive Photos Shared by Link"><img class="dialog" src="images/info/sharing/mobile/mobile-share-photos-by-link.png" /></a>
 			<div class="caption">Receive Photos Shared by Link</div>
 		</div>
 		<div class="figure col-sm-6">
-			<a href="images/info/apps/image-viewer/mobile/image/mobile-photo-gallery.png" target="_blank" class="lightbox" title="Mobile Photo Gallery"><img class="dialog" src="images/info/apps/image-viewer/mobile/image/mobile-photo-gallery.png" /></a>
+			<a href="images/info/apps/image-viewer/mobile/image/mobile-photo-gallery.png" target="_blank" class="lightbox" data-caption="Mobile Photo Gallery"><img class="dialog" src="images/info/apps/image-viewer/mobile/image/mobile-photo-gallery.png" /></a>
 			<div class="caption">Mobile Photo Gallery</div>
 		</div>
 	</div>

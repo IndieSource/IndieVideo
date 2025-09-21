@@ -15,7 +15,11 @@
 |        Copyright (C) 2016 - 2025, Megahed Labs LLC, www.sharedigm.com        |
 \******************************************************************************/
 
-@use "../../../../layout/images";
+//
+// variables
+//
+
+$thumbnail-shadow: drop-shadow(3px 3px 5px rgba(black, 25%));
 
 //
 // styles
@@ -31,8 +35,8 @@ body.binary {
 		
 		// shadows
 		//
-		-webkit-filter: images.$thumbnail-shadow;
-		filter: images.$thumbnail-shadow;
+		-webkit-filter: $thumbnail-shadow;
+		filter: $thumbnail-shadow;
 		overflow: visible;
 	}
 

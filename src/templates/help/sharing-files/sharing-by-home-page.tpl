@@ -31,7 +31,7 @@
 			<p>When you move or copy files into your Public folder, they will become visible on the "Files" tab of your <a href="#help/creating-profile/viewing-home-page">public home page</a> for anyone to see.</p>
 
 			<div class="figure">
-				<a href="images/help/sharing-files/sharing-by-home-page/public-files.png" target="_blank" class="lightbox" title="Public Files Tab"><img src="images/help/sharing-files/sharing-by-home-page/public-files.png" /></a>
+				<a href="images/help/sharing-files/sharing-by-home-page/public-files.png" target="_blank" class="lightbox" data-caption="Public Files Tab"><img src="images/help/sharing-files/sharing-by-home-page/public-files.png" /></a>
 				<div class="caption">Public Files Tab</div>
 			</div>
 		</li>
@@ -41,7 +41,7 @@
 			<p>When you move or copy images into your Public folder, they will become visible on the "Photos" tab of your <a href="#help/creating-profile/viewing-home-page">public home page</a> for anyone to see.</p>
 
 			<div class="figure">
-				<a href="images/help/sharing-files/sharing-by-home-page/public-photos.png" target="_blank" class="lightbox" title="Public Photos Tab"><img src="images/help/sharing-files/sharing-by-home-page/public-photos.png" /></a>
+				<a href="images/help/sharing-files/sharing-by-home-page/public-photos.png" target="_blank" class="lightbox" data-caption="Public Photos Tab"><img src="images/help/sharing-files/sharing-by-home-page/public-photos.png" /></a>
 				<div class="caption">Public Photos Tab</div>
 			</div>
 		</li>

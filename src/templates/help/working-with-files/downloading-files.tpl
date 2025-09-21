@@ -15,7 +15,7 @@
 			<p>The quickest and easiest way to download files to your <%= application.name %> account is through drag and drop.  Simply drag files or folders from your <%= application.name %> <a href="#help/getting-started/using-desktop">Desktop</a> or a <a href="#apps/file-browser">File Browser</a> window and drop them onto your operating system's Desktop.  Your web browser will then download the file to your local file system, placing it in the folder that it uses for downloads.</p>
 
 			<div class="figure">
-				<a href="images/help/working-with-files/downloading-files/downloading-file.png" target="_blank" class="lightbox" title="Downloading File"><img src="images/help/working-with-files/downloading-files/downloading-file.png" /></a>
+				<a href="images/help/working-with-files/downloading-files/downloading-file.png" target="_blank" class="lightbox" data-caption="Downloading File"><img src="images/help/working-with-files/downloading-files/downloading-file.png" /></a>
 				<div class="caption">Downloading File (Note download indicator at screen bottom)</div>
 			</div>
 		</li>

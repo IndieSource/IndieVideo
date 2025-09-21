@@ -15,7 +15,7 @@
 			<p>To enter your user profile info, open up your <a href="#help/creating-profile/viewing-profile">User Profile</a> and then click the "Edit" button as shown below.</p>
 
 			<div class="figure">
-				<a href="images/help/creating-profile/entering-profile-info/edit-profile-button.png" target="_blank" class="lightbox" title="Edit Profile Button"><img class="dialog" src="images/help/creating-profile/entering-profile-info/edit-profile-button.png" /></a>
+				<a href="images/help/creating-profile/entering-profile-info/edit-profile-button.png" target="_blank" class="lightbox" data-caption="Edit Profile Button"><img class="dialog" src="images/help/creating-profile/entering-profile-info/edit-profile-button.png" /></a>
 				<div class="caption">Edit Profile Button</div>
 			</div>
 
@@ -33,7 +33,7 @@
 					</ul>
 
 					<div class="figure">
-						<a href="images/help/creating-profile/entering-profile-info/edit-profile-dialog.png" target="_blank" class="lightbox" title="Edit Profile Dialog"><img class="dialog" src="images/help/creating-profile/entering-profile-info/edit-profile-dialog.png" /></a>
+						<a href="images/help/creating-profile/entering-profile-info/edit-profile-dialog.png" target="_blank" class="lightbox" data-caption="Edit Profile Dialog"><img class="dialog" src="images/help/creating-profile/entering-profile-info/edit-profile-dialog.png" /></a>
 						<div class="caption">Edit Profile Dialog</div>
 					</div>
 				</li>
@@ -49,7 +49,7 @@
 					</ul>
 
 					<div class="figure">
-						<a href="images/help/creating-profile/entering-profile-info/edit-profile-preferences.png" target="_blank" class="lightbox" title="Edit Profile Preferences"><img class="dialog" src="images/help/creating-profile/entering-profile-info/edit-profile-preferences.png" /></a>
+						<a href="images/help/creating-profile/entering-profile-info/edit-profile-preferences.png" target="_blank" class="lightbox" data-caption="Edit Profile Preferences"><img class="dialog" src="images/help/creating-profile/entering-profile-info/edit-profile-preferences.png" /></a>
 						<div class="caption">Edit Profile Preferences</div>
 					</div>
 				</li>
@@ -65,7 +65,7 @@
 					</ul>
 
 					<div class="figure">
-						<a href="images/help/creating-profile/entering-profile-info/edit-profile-talents.png" target="_blank" class="lightbox" title="Edit Profile Talents"><img class="dialog" src="images/help/creating-profile/entering-profile-info/edit-profile-talents.png" /></a>
+						<a href="images/help/creating-profile/entering-profile-info/edit-profile-talents.png" target="_blank" class="lightbox" data-caption="Edit Profile Talents"><img class="dialog" src="images/help/creating-profile/entering-profile-info/edit-profile-talents.png" /></a>
 						<div class="caption">Edit Profile Talents</div>
 					</div>
 				</li>

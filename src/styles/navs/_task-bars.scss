@@ -17,6 +17,7 @@
 
 @use "../bootstrap/variables";
 @use "../layout/performance";
+@use "../navs/buttons";
 
 //
 // variables
@@ -34,9 +35,21 @@ $shadow: 3px 3px 10px rgba(black, 33%);
 		flex-grow: 1;
 	}
 
+	.run-menu {
+		.dropdown-toggle {
+			box-shadow: buttons.$shadow;
+		}			
+	}
+
 	.task-bar {
 		display: flex;
 		border: none;
+
+		.pinned-items {
+			.btn {
+				box-shadow: buttons.$shadow;
+			}
+		}
 
 		.pinned-items:not(:empty) {
 			display: flex;

@@ -55,7 +55,7 @@
 					<p>Another way to share files with your connections is to use the <a href="#apps/topic-viewer">News Browser</a> app to <a href="#help/sharing-files/sharing-by-post">share files and folders as attachments</a> to posts. </p>
 
 					<div class="figure">
-						<a href="images/help/sharing-files/sharing-by-post/share-by-post.png" target="_blank" class="lightbox" title="Share Files by News Post"><img src="images/help/sharing-files/sharing-by-post/share-by-post.png" /></a>
+						<a href="images/help/sharing-files/sharing-by-post/share-by-post.png" target="_blank" class="lightbox" data-caption="Share Files by News Post"><img src="images/help/sharing-files/sharing-by-post/share-by-post.png" /></a>
 						<div class="caption">Share Files by News Post</div>
 					</div>
 				</li>
@@ -72,7 +72,7 @@
 					<p>We can <a href="#help/sharing-files/sharing-by-link">share files and folders by creating a link</a> which can be emailed to another person or posted where another person can click on it to access the file or folder. </p>
 
 					<div class="figure">
-						<a href="images/help/sharing-files/sharing-by-link/copy-link-dialog.png" target="_blank" class="lightbox" title="Share File by Link"><img class="dialog" src="images/help/sharing-files/sharing-by-link/copy-link-dialog.png" /></a>
+						<a href="images/help/sharing-files/sharing-by-link/copy-link-dialog.png" target="_blank" class="lightbox" data-caption="Share File by Link"><img class="dialog" src="images/help/sharing-files/sharing-by-link/copy-link-dialog.png" /></a>
 						<div class="caption">Share File by Link</div>
 					</div>
 				</li>
@@ -82,7 +82,7 @@
 					<p>If you would like to send a file or folder to a specific person and you know that person's email address, then you can <a href="#help/sharing-files/sharing-by-email">send the file or folder by email</a>. </p>
 
 					<div class="figure">
-						<a href="images/help/sharing-files/sharing-by-email/share-by-email-dialog.png" target="_blank" class="lightbox" title="Share Folder by Email"><img class="dialog" src="images/help/sharing-files/sharing-by-email/share-by-email-dialog.png" /></a>
+						<a href="images/help/sharing-files/sharing-by-email/share-by-email-dialog.png" target="_blank" class="lightbox" data-caption="Share Folder by Email"><img class="dialog" src="images/help/sharing-files/sharing-by-email/share-by-email-dialog.png" /></a>
 						<div class="caption">Share Folder by Email</div>
 					</div>
 				</li>
@@ -99,7 +99,7 @@
 					<p>If you would like to share a file or folder with everyone, rather than a specific person, then you can use the <a href="#apps/topic-viewer">News Browser</a> app to <a href="#help/sharing-files/sharing-by-post">post it to the News section</a> of <a href="#help/creating-profile/viewing-home-page">your public home page.</a>. </p>
 
 					<div class="figure">
-						<a href="images/help/sharing-files/sharing-by-post/share-by-public-post.png" target="_blank" class="lightbox" title="Share Files by Public Post"><img src="images/help/sharing-files/sharing-by-post/share-by-public-post.png" /></a>
+						<a href="images/help/sharing-files/sharing-by-post/share-by-public-post.png" target="_blank" class="lightbox" data-caption="Share Files by Public Post"><img src="images/help/sharing-files/sharing-by-post/share-by-public-post.png" /></a>
 						<div class="caption">Share Files by Public Post</div>
 					</div>
 				</li>
@@ -111,7 +111,7 @@
 					<p>When you registered for an account, you have also implicitly created a public home page that can be used for sharing files, folders, and photos. By putting files in your Public directory, you are automatically making them available to the public via <a href="#help/sharing-files/sharing-by-home-page">the Files and Photos tabs of your public home page.</a></p>
 
 					<div class="figure">
-						<a href="images/help/sharing-files/sharing-by-home-page/public-photos.png" target="_blank" class="lightbox" title="Share Photos by Public Home Page"><img src="images/help/sharing-files/sharing-by-home-page/public-photos.png" /></a>
+						<a href="images/help/sharing-files/sharing-by-home-page/public-photos.png" target="_blank" class="lightbox" data-caption="Share Photos by Public Home Page"><img src="images/help/sharing-files/sharing-by-home-page/public-photos.png" /></a>
 						<div class="caption">Share Photos by Public Home Page</div>
 					</div>
 				</li>

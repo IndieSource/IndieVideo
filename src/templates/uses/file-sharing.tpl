@@ -36,30 +36,30 @@
 
 	<h2><i class="fa fa-desktop"></i>Screen Shots</h2>
 	<div class="figure desktop-only">
-		<a href="images/info/sharing/shared-items.png" target="_blank" class="lightbox" title="Shared Files and Folders"><img class="dialog" src="images/info/sharing/shared-items.png" /></a>
+		<a href="images/info/sharing/shared-items.png" target="_blank" class="lightbox" data-caption="Shared Files and Folders"><img class="dialog" src="images/info/sharing/shared-items.png" /></a>
 		<div class="caption">Shared Files and Folders</div>
 	</div>
 	<div class="figure row desktop-only">
 		<div class="figure col-sm-6">
-			<a href="images/info/sharing/share-file-by-link.png" target="_blank" class="lightbox" title="Receive File Shared by Link"><img class="dialog" src="images/info/sharing/share-file-by-link.png" /></a>
+			<a href="images/info/sharing/share-file-by-link.png" target="_blank" class="lightbox" data-caption="Receive File Shared by Link"><img class="dialog" src="images/info/sharing/share-file-by-link.png" /></a>
 			<div class="caption">Receive File Shared by Link</div>
 		</div>
 		<div class="figure col-sm-6">
-			<a href="images/info/sharing/share-by-link-options.png" target="_blank" class="lightbox" title="Share by Link Options"><img class="dialog" src="images/info/sharing/share-by-link-options.png" /></a>
+			<a href="images/info/sharing/share-by-link-options.png" target="_blank" class="lightbox" data-caption="Share by Link Options"><img class="dialog" src="images/info/sharing/share-by-link-options.png" /></a>
 			<div class="caption">Share by Link Options</div>
 		</div>
 	</div>
 	<div class="figure row mobile-only">
 		<div class="figure col-sm-6">
-			<a href="images/info/sharing/mobile/mobile-shared-items.png" target="_blank" class="lightbox" title="Shared Files and Folders"><img class="dialog" src="images/info/sharing/mobile/mobile-shared-items.png" /></a>
+			<a href="images/info/sharing/mobile/mobile-shared-items.png" target="_blank" class="lightbox" data-caption="Shared Files and Folders"><img class="dialog" src="images/info/sharing/mobile/mobile-shared-items.png" /></a>
 			<div class="caption">Shared Files and Folders</div>
 		</div>
 		<div class="figure col-sm-6">
-			<a href="images/info/sharing/mobile/mobile-share-photos-by-link.png" target="_blank" class="lightbox" title="Receive Phones Shared by Link"><img class="dialog" src="images/info/sharing/mobile/mobile-share-photos-by-link.png" /></a>
+			<a href="images/info/sharing/mobile/mobile-share-photos-by-link.png" target="_blank" class="lightbox" data-caption="Receive Phones Shared by Link"><img class="dialog" src="images/info/sharing/mobile/mobile-share-photos-by-link.png" /></a>
 			<div class="caption">Receive Photos Shared by Link</div>
 		</div>
 		<div class="figure col-sm-6">
-			<a href="images/info/sharing/mobile/mobile-share-by-link-options.png" target="_blank" class="lightbox" title="Share by Link Options"><img class="dialog" src="images/info/sharing/mobile/mobile-share-by-link-options.png" /></a>
+			<a href="images/info/sharing/mobile/mobile-share-by-link-options.png" target="_blank" class="lightbox" data-caption="Share by Link Options"><img class="dialog" src="images/info/sharing/mobile/mobile-share-by-link-options.png" /></a>
 			<div class="caption">Share by Link Options</div>
 		</div>
 	</div>

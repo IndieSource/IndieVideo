@@ -17,7 +17,6 @@
 
 @use "../../../materials/chalk/round-chalk";
 @use "../../../materials/flat/flat";
-@use "../../../forms/sliders";
 
 //
 // mixins
@@ -33,7 +32,6 @@
 		&:not(:active) {
 			@include round-chalk.shade($color);
 			transform: scale(-1) rotate(var(--light-direction));
-			box-shadow: sliders.$thumb-shadow;
 
 			&:hover {
 				@include round-chalk.shade($hover-color);
@@ -49,7 +47,6 @@
 		&:not(:active) {
 			@include round-chalk.shade($color);
 			transform: scale(-1) rotate(var(--light-direction));
-			box-shadow: sliders.$thumb-shadow;
 
 			&:hover {
 				@include round-chalk.shade($hover-color);
@@ -65,7 +62,6 @@
 		&:not(:active) {
 			@include round-chalk.shade($color);
 			transform: scale(-1) rotate(var(--light-direction));
-			box-shadow: sliders.$thumb-shadow;
 
 			&:hover {
 				@include round-chalk.shade($hover-color);
@@ -144,7 +140,6 @@
 		&:not(:active) {
 			@include round-chalk.shaded($color);
 			transform: scale(-1) rotate(var(--light-direction));
-			box-shadow: sliders.$thumb-shadow;
 
 			&:hover {
 				@include round-chalk.shaded($hover-color);
@@ -160,7 +155,6 @@
 		&:not(:active) {
 			@include round-chalk.shaded($color);
 			transform: scale(-1) rotate(var(--light-direction));
-			box-shadow: sliders.$thumb-shadow;
 
 			&:hover {
 				@include round-chalk.shaded($hover-color);
@@ -176,7 +170,6 @@
 		&:not(:active) {
 			@include round-chalk.shaded($color);
 			transform: scale(-1) rotate(var(--light-direction));
-			box-shadow: sliders.$thumb-shadow;
 
 			&:hover {
 				@include round-chalk.shaded($hover-color);

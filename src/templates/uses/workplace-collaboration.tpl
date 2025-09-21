@@ -36,16 +36,16 @@
 
 	<h2><i class="fa fa-desktop"></i>Screen Shots</h2>
 	<div class="figure desktop-only">
-		<a href="images/info/apps/communicator/communicator.png" target="_blank" class="lightbox" title="<%= config.apps['communicator'].name %>"><img class="dialog" src="images/info/apps/communicator/communicator.png" /></a>
+		<a href="images/info/apps/communicator/communicator.png" target="_blank" class="lightbox" data-caption="<%= config.apps['communicator'].name %>"><img class="dialog" src="images/info/apps/communicator/communicator.png" /></a>
 		<div class="caption"><%= config.apps['communicator'].name %></div>
 	</div>
 	<div class="figure desktop-only">
-		<a href="images/info/apps/chat-viewer/chat-viewer.png" target="_blank" class="lightbox" title="<%= config.apps['chat_viewer'].name %>"><img class="dialog" src="images/info/apps/chat-viewer/chat-viewer.png" /></a>
+		<a href="images/info/apps/chat-viewer/chat-viewer.png" target="_blank" class="lightbox" data-caption="<%= config.apps['chat_viewer'].name %>"><img class="dialog" src="images/info/apps/chat-viewer/chat-viewer.png" /></a>
 		<div class="caption"><%= config.apps['chat_viewer'].name %></div>
 	</div>
 	<div class="figure row mobile-only">
 		<div class="figure col-sm-6">
-			<a href="images/info/apps/communicator/mobile/mobile-communicator.png" target="_blank" class="lightbox" title="<%= config.apps['communicator'].name %>"><img class="dialog" src="images/info/apps/communicator/mobile/mobile-communicator.png" /></a>
+			<a href="images/info/apps/communicator/mobile/mobile-communicator.png" target="_blank" class="lightbox" data-caption="<%= config.apps['communicator'].name %>"><img class="dialog" src="images/info/apps/communicator/mobile/mobile-communicator.png" /></a>
 			<div class="caption"><%= config.apps['communicator'].name %></div>
 		</div>
 	</div>

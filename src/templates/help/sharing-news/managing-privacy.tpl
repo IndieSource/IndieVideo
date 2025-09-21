@@ -15,7 +15,7 @@
 			<p>When you create a new post, to the lower right side of the new post panel, you will see a set of radio buttons which are your privacy controls. </p>
 
 			<div class="figure">
-				<a href="images/help/sharing-news/managing-privacy/new-private-post.png" target="_blank" class="lightbox" title="Privacy Controls"><img src="images/help/sharing-news/managing-privacy/new-private-post.png" /></a>
+				<a href="images/help/sharing-news/managing-privacy/new-private-post.png" target="_blank" class="lightbox" data-caption="Privacy Controls"><img src="images/help/sharing-news/managing-privacy/new-private-post.png" /></a>
 				<div class="caption">Privacy Controls</div>
 			</div>
 
@@ -31,7 +31,7 @@
 			<p>To view your Public News Page, go to your <a href="#help/creating-profile/viewing-home-page">Public Home Page</a> and then click on the "News" tab. If you have not marked any of your posts as publicly visible, then you will see "No posts."</p>
 
 			<div class="figure">
-				<a href="images/help/sharing-news/managing-privacy/public-news-page.png" target="_blank" class="lightbox" title="A Public News Page"><img src="images/help/sharing-news/managing-privacy/public-news-page.png" /></a>
+				<a href="images/help/sharing-news/managing-privacy/public-news-page.png" target="_blank" class="lightbox" data-caption="A Public News Page"><img src="images/help/sharing-news/managing-privacy/public-news-page.png" /></a>
 				<div class="caption">A Public News Page</div>
 			</div>
 		</li>
@@ -48,7 +48,7 @@
 			<p>This will bring up the preferences dialog where you can set your preferred Default Privacy. </p>
 
 			<div class="figure">
-				<a href="images/help/sharing-news/managing-privacy/preferences-dialog.png" target="_blank" class="lightbox" title="Preferences Dialog"><img class="dialog" src="images/help/sharing-news/managing-privacy/preferences-dialog.png" /></a>
+				<a href="images/help/sharing-news/managing-privacy/preferences-dialog.png" target="_blank" class="lightbox" data-caption="Preferences Dialog"><img class="dialog" src="images/help/sharing-news/managing-privacy/preferences-dialog.png" /></a>
 				<div class="caption">Preferences Dialog</div>
 			</div>
 	</ol>

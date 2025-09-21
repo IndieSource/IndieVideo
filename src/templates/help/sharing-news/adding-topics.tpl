@@ -15,14 +15,14 @@
 			<p>To add a new topic, simply click on the "Add Topic" button on the left sidebar. </p>
 
 			<div class="figure">
-				<a href="images/help/sharing-news/adding-topics/add-topic-button-cropped.png" target="_blank" class="lightbox" title="Add Topic Button"><img src="images/help/sharing-news/adding-topics/add-topic-button-cropped.png" /></a>
+				<a href="images/help/sharing-news/adding-topics/add-topic-button-cropped.png" target="_blank" class="lightbox" data-caption="Add Topic Button"><img src="images/help/sharing-news/adding-topics/add-topic-button-cropped.png" /></a>
 				<div class="caption">Add Topic Button</div>
 			</div>
 
 			<p>This will bring up the "Add Topic" dialog box.</p>
 
 			<div class="figure">
-				<a href="images/help/sharing-news/adding-topics/add-topic-dialog.png" target="_blank" class="lightbox" title="Add Topic Dialog"><img class="dialog" src="images/help/sharing-news/adding-topics/add-topic-dialog.png" /></a>
+				<a href="images/help/sharing-news/adding-topics/add-topic-dialog.png" target="_blank" class="lightbox" data-caption="Add Topic Dialog"><img class="dialog" src="images/help/sharing-news/adding-topics/add-topic-dialog.png" /></a>
 				<div class="caption">Add Topic Dialog</div>
 			</div>
 
@@ -34,7 +34,7 @@
 			<p>If the topic that you would like to post about does not yet exist, then you can create a new one. To do so, click the "New Topic" button on the "Add Topic" dialog box. </p>
 
 			<div class="figure">
-				<a href="images/help/sharing-news/adding-topics/new-topic-dialog.png" target="_blank" class="lightbox" title="New Topic Dialog"><img class="dialog" src="images/help/sharing-news/adding-topics/new-topic-dialog.png" /></a>
+				<a href="images/help/sharing-news/adding-topics/new-topic-dialog.png" target="_blank" class="lightbox" data-caption="New Topic Dialog"><img class="dialog" src="images/help/sharing-news/adding-topics/new-topic-dialog.png" /></a>
 				<div class="caption">New Topic Dialog</div>
 			</div>
 		</li>

@@ -329,6 +329,7 @@ $rounded-message-border-radius: 10px;
 
 		> div:not(.task-bar):not(.run-menu) {
 			font-size: 90%;
+			border-bottom: none;
 		}
 
 		.address-bar, .info-bar, .nav-bar, .toolbar {

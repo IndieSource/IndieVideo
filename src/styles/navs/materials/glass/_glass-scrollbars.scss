@@ -16,7 +16,12 @@
 \******************************************************************************/
 
 @use "../../../materials/glass/long-round-glass";
-@use "../../../navs/scrollbars";
+
+//
+// variables
+//
+
+$border-radius: 5px;
 
 //
 // mixins
@@ -28,19 +33,19 @@
 		// horizontal scrollbars
 		//
 		&:horizontal {
-			@include long-round-glass.shade($color, scrollbars.$border-radius, none);
+			@include long-round-glass.shade($color, $border-radius, none);
 		}
 		&:horizontal:hover {
-			@include long-round-glass.shade($hover-color, scrollbars.$border-radius, none);
+			@include long-round-glass.shade($hover-color, $border-radius, none);
 		}
 
 		// vertical scrollbars
 		//
 		&:vertical {
-			@include long-round-glass.vertical-shade($color, scrollbars.$border-radius, none);
+			@include long-round-glass.vertical-shade($color, $border-radius, none);
 		}
 		&:vertical:hover {
-			@include long-round-glass.vertical-shade($hover-color, scrollbars.$border-radius, none);
+			@include long-round-glass.vertical-shade($hover-color, $border-radius, none);
 		}
 	}
 }
@@ -51,13 +56,13 @@
 		// horizontal scrollbars
 		//
 		&:horizontal {
-			@include long-round-glass.shade($active-color, scrollbars.$border-radius, none);
+			@include long-round-glass.shade($active-color, $border-radius, none);
 		}
 
 		// vertical scrollbars
 		//
 		&:vertical {
-			@include long-round-glass.vertical-shade($active-color, scrollbars.$border-radius, none);
+			@include long-round-glass.vertical-shade($active-color, $border-radius, none);
 		}
 	}
 }
@@ -77,19 +82,19 @@
 		// horizontal scrollbars
 		//
 		&:horizontal {
-			@include long-round-glass.shaded($color, scrollbars.$border-radius, none);
+			@include long-round-glass.shaded($color, $border-radius, none);
 		}
 		&:horizontal:hover {
-			@include long-round-glass.shaded($hover-color, scrollbars.$border-radius, none);
+			@include long-round-glass.shaded($hover-color, $border-radius, none);
 		}
 
 		// vertical scrollbars
 		//
 		&:vertical {
-			@include long-round-glass.vertical-shaded($color, scrollbars.$border-radius, none);
+			@include long-round-glass.vertical-shaded($color, $border-radius, none);
 		}
 		&:vertical:hover {
-			@include long-round-glass.vertical-shaded($hover-color, scrollbars.$border-radius, none);
+			@include long-round-glass.vertical-shaded($hover-color, $border-radius, none);
 		}
 	}
 }
@@ -100,13 +105,13 @@
 		// horizontal scrollbars
 		//
 		&:horizontal {
-			@include long-round-glass.shaded($active-color, scrollbars.$border-radius, none);
+			@include long-round-glass.shaded($active-color, $border-radius, none);
 		}
 
 		// vertical scrollbars
 		//
 		&:vertical {
-			@include long-round-glass.vertical-shaded($active-color, scrollbars.$border-radius, none);
+			@include long-round-glass.vertical-shaded($active-color, $border-radius, none);
 		}
 	}
 }

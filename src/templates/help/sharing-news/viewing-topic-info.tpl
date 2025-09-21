@@ -34,7 +34,7 @@
 					<p>This tab contains general information about a topic. </p>
 
 					<div class="figure">
-						<a href="images/help/sharing-news/viewing-topic-info/topic-info.png" target="_blank" class="lightbox" title="Topic General Info"><img class="dialog" src="images/help/sharing-news/viewing-topic-info/topic-info.png" /></a>
+						<a href="images/help/sharing-news/viewing-topic-info/topic-info.png" target="_blank" class="lightbox" data-caption="Topic General Info"><img class="dialog" src="images/help/sharing-news/viewing-topic-info/topic-info.png" /></a>
 						<div class="caption">Topic General Info</div>
 					</div>
 				</li>
@@ -44,7 +44,7 @@
 					<p>This tab contains the current topic members.</p>
 
 					<div class="figure">
-						<a href="images/help/sharing-news/viewing-topic-info/topic-members-info.png" target="_blank" class="lightbox" title="Topic Members Info"><img class="dialog" src="images/help/sharing-news/viewing-topic-info/topic-members-info.png" /></a>
+						<a href="images/help/sharing-news/viewing-topic-info/topic-members-info.png" target="_blank" class="lightbox" data-caption="Topic Members Info"><img class="dialog" src="images/help/sharing-news/viewing-topic-info/topic-members-info.png" /></a>
 						<div class="caption">Topic Members Info</div>
 					</div>
 				</li>

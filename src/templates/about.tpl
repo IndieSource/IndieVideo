@@ -48,14 +48,15 @@
 	</div>
 
 	<h2><i class="fa fa-desktop"></i>Screen Shots</h2>
+
 	<div class="figure">
-		<a href="images/info/desktop/desktop.png" target="_blank" class="smooth lightbox" title="<%= application.name %> Desktop"><img src="images/info/desktop/desktop.png" /></a>
+		<a href="images/info/desktop/desktop.png" target="_blank" class="lightbox" data-fancybox="gallery" data-caption="<%= application.name %> Desktop"><img src="images/info/desktop/desktop.png" /></a>
 		<div class="caption"><%= application.name %> Desktop</div>
 	</div>
 
 	<div class="figure row">
 		<div class="figure col-sm-6">
-			<a href="images/info/mobile/iphone.png" target="_blank" class="smooth lightbox" title="<%= application.name %> Mobile"><img src="images/info/mobile/iphone.png" style="width:300px" /></a>
+			<a href="images/info/mobile/iphone.png" target="_blank" class="lightbox" data-fancybox="gallery" data-caption="<%= application.name %> Mobile"><img src="images/info/mobile/iphone.png" style="width:300px" /></a>
 			<div class="caption"><%= application.name %> Mobile</div>
 		</div>
 	</div>

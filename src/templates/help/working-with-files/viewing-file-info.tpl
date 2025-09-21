@@ -34,7 +34,7 @@
 					<p>This tab contains general information such as the file path and size. </p>
 
 					<div class="figure">
-						<a href="images/help/working-with-files/viewing-file-info/file-info.png" target="_blank" class="lightbox" title="File Info"><img class="dialog" src="images/help/working-with-files/viewing-file-info/file-info.png" /></a>
+						<a href="images/help/working-with-files/viewing-file-info/file-info.png" target="_blank" class="lightbox" data-caption="File Info"><img class="dialog" src="images/help/working-with-files/viewing-file-info/file-info.png" /></a>
 						<div class="caption">File Info</div>
 					</div>
 				</li>
@@ -44,7 +44,7 @@
 					<p>This tab contains file and folder history.</p>
 
 					<div class="figure">
-						<a href="images/help/working-with-files/viewing-file-info/file-history.png" target="_blank" class="lightbox" title="File History"><img class="dialog" src="images/help/working-with-files/viewing-file-info/file-history.png" /></a>
+						<a href="images/help/working-with-files/viewing-file-info/file-history.png" target="_blank" class="lightbox" data-caption="File History"><img class="dialog" src="images/help/working-with-files/viewing-file-info/file-history.png" /></a>
 						<div class="caption">File History</div>
 					</div>
 				</li>
@@ -54,7 +54,7 @@
 					<p>This tab contains file and folder permissions.</p>
 
 					<div class="figure">
-						<a href="images/help/working-with-files/viewing-file-info/file-permissions.png" target="_blank" class="lightbox" title="File Permissions"><img class="dialog" src="images/help/working-with-files/viewing-file-info/file-permissions.png" /></a>
+						<a href="images/help/working-with-files/viewing-file-info/file-permissions.png" target="_blank" class="lightbox" data-caption="File Permissions"><img class="dialog" src="images/help/working-with-files/viewing-file-info/file-permissions.png" /></a>
 						<div class="caption">File Permissions</div>
 					</div>
 				</li>
@@ -64,7 +64,7 @@
 					<p>This tab contains file and folder sharing information.</p>
 
 					<div class="figure">
-						<a href="images/help/working-with-files/viewing-file-info/file-sharing.png" target="_blank" class="lightbox" title="File Sharing"><img class="dialog" src="images/help/working-with-files/viewing-file-info/file-sharing.png" /></a>
+						<a href="images/help/working-with-files/viewing-file-info/file-sharing.png" target="_blank" class="lightbox" data-caption="File Sharing"><img class="dialog" src="images/help/working-with-files/viewing-file-info/file-sharing.png" /></a>
 						<div class="caption">File Sharing</div>
 					</div>
 				</li>
@@ -74,7 +74,7 @@
 					<p>This tab contains file and folder linking information.</p>
 
 					<div class="figure">
-						<a href="images/help/working-with-files/viewing-file-info/file-links.png" target="_blank" class="lightbox" title="File Linking"><img class="dialog" src="images/help/working-with-files/viewing-file-info/file-links.png" /></a>
+						<a href="images/help/working-with-files/viewing-file-info/file-links.png" target="_blank" class="lightbox" data-caption="File Linking"><img class="dialog" src="images/help/working-with-files/viewing-file-info/file-links.png" /></a>
 						<div class="caption">File Linking</div>
 					</div>
 				</li>

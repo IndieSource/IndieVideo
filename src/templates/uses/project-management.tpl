@@ -38,30 +38,30 @@
 
 	<h2><i class="fa fa-desktop"></i>Screen Shots</h2>
 	<div class="figure desktop-only">
-		<a href="images/info/apps/project-viewer/project-viewer.png" target="_blank" class="lightbox" title="<%= config.apps['project_viewer'].name %>"><img class="dialog" src="images/info/apps/project-viewer/project-viewer.png" /></a>
+		<a href="images/info/apps/project-viewer/project-viewer.png" target="_blank" class="lightbox" data-caption="<%= config.apps['project_viewer'].name %>"><img class="dialog" src="images/info/apps/project-viewer/project-viewer.png" /></a>
 		<div class="caption"><%= config.apps['project_viewer'].name %></div>
 	</div>
 	<div class="figure row desktop-only">
 		<div class="figure col-sm-6">
-			<a href="images/info/apps/project-browser/project-browser.png" target="_blank" class="lightbox" title="<%= config.apps['project_browser'].name %>"><img class="dialog" src="images/info/apps/project-browser/project-browser.png" /></a>
+			<a href="images/info/apps/project-browser/project-browser.png" target="_blank" class="lightbox" data-caption="<%= config.apps['project_browser'].name %>"><img class="dialog" src="images/info/apps/project-browser/project-browser.png" /></a>
 			<div class="caption"><%= config.apps['project_browser'].name %></div>
 		</div>
 		<div class="figure col-sm-6">
-			<a href="images/info/apps/calendar/calendar.png" target="_blank" class="lightbox" title="<%= config.apps['calendar'].name %>"><img class="dialog" src="images/info/apps/calendar/calendar.png" /></a>
+			<a href="images/info/apps/calendar/calendar.png" target="_blank" class="lightbox" data-caption="<%= config.apps['calendar'].name %>"><img class="dialog" src="images/info/apps/calendar/calendar.png" /></a>
 			<div class="caption"><%= config.apps['calendar'].name %></div>
 		</div>
 	</div>
 	<div class="figure row mobile-only">
 		<div class="figure col-sm-6">
-			<a href="images/info/apps/project-viewer/mobile/mobile-project-viewer.png" target="_blank" class="lightbox" title="<%= config.apps['project_viewer'].name %>"><img class="dialog" src="images/info/apps/project-viewer/mobile/mobile-project-viewer.png" /></a>
+			<a href="images/info/apps/project-viewer/mobile/mobile-project-viewer.png" target="_blank" class="lightbox" data-caption="<%= config.apps['project_viewer'].name %>"><img class="dialog" src="images/info/apps/project-viewer/mobile/mobile-project-viewer.png" /></a>
 			<div class="caption"><%= config.apps['project_viewer'].name %></div>
 		</div>
 		<div class="figure col-sm-6">
-			<a href="images/info/apps/project-browser/mobile/mobile-project-browser.png" target="_blank" class="lightbox" title="<%= config.apps['project_browser'].name %>"><img class="dialog" src="images/info/apps/project-browser/mobile/mobile-project-browser.png" /></a>
+			<a href="images/info/apps/project-browser/mobile/mobile-project-browser.png" target="_blank" class="lightbox" data-caption="<%= config.apps['project_browser'].name %>"><img class="dialog" src="images/info/apps/project-browser/mobile/mobile-project-browser.png" /></a>
 			<div class="caption"><%= config.apps['project_browser'].name %></div>
 		</div>
 		<div class="figure col-sm-6">
-			<a href="images/info/apps/calendar/mobile/mobile-calendar.png" target="_blank" class="lightbox" title="<%= config.apps['calendar'].name %>"><img class="dialog" src="images/info/apps/calendar/mobile/mobile-calendar.png" /></a>
+			<a href="images/info/apps/calendar/mobile/mobile-calendar.png" target="_blank" class="lightbox" data-caption="<%= config.apps['calendar'].name %>"><img class="dialog" src="images/info/apps/calendar/mobile/mobile-calendar.png" /></a>
 			<div class="caption"><%= config.apps['calendar'].name %></div>
 		</div>
 	</div>

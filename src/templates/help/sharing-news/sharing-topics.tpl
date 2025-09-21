@@ -22,7 +22,7 @@
 			<p>This will open the "Share by Invitation" dialog box where you will select the friends that you want to send the invitation to. When sending a topic invitation, you can also send along a message to the invitee explaining why you think they might want to join the topic. </p>
 
 			<div class="figure">
-				<a href="images/help/sharing-news/sharing-topics/share-by-invitation-dialog-filled.png" target="_blank" class="lightbox" title="Share by Invitation Dialog Box"><img class="dialog" src="images/help/sharing-news/sharing-topics/share-by-invitation-dialog-filled.png" /></a>
+				<a href="images/help/sharing-news/sharing-topics/share-by-invitation-dialog-filled.png" target="_blank" class="lightbox" data-caption="Share by Invitation Dialog Box"><img class="dialog" src="images/help/sharing-news/sharing-topics/share-by-invitation-dialog-filled.png" /></a>
 				<div class="caption">Share by Invitation Dialog Box</div>
 			</div>
 		</li>
@@ -32,7 +32,7 @@
 			<p>If you have been sent an invitation to join a topic, then you will receive a notification that will appear in your notifications list at the topic right side of the screen. By clicking on the down arrow icon, you can expand the notification to read the message that is sent along with the invitation. </p>
 
 			<div class="figure">
-				<a href="images/help/sharing-news/sharing-topics/topic-invitation-notification-expanded.png" target="_blank" class="lightbox" title="Share Topic Invitation Notification"><img src="images/help/sharing-news/sharing-topics/topic-invitation-notification-expanded.png" /></a>
+				<a href="images/help/sharing-news/sharing-topics/topic-invitation-notification-expanded.png" target="_blank" class="lightbox" data-caption="Share Topic Invitation Notification"><img src="images/help/sharing-news/sharing-topics/topic-invitation-notification-expanded.png" /></a>
 				<div class="caption">Share Topic Invitation Notification</div>
 			</div>
 
@@ -47,7 +47,7 @@
 			<p>If you click the Accept Button, then the topic will be added to your topics list and you will see it appear in the sidebar.  If you click the Decline button, then the inivitation will be dismissed and the topic will not be added to your list. </p>
 
 			<div class="figure">
-				<a href="images/help/sharing-news/sharing-topics/new-topic-added.png" target="_blank" class="lightbox" title="New Topic Added"><img src="images/help/sharing-news/sharing-topics/new-topic-added.png" /></a>
+				<a href="images/help/sharing-news/sharing-topics/new-topic-added.png" target="_blank" class="lightbox" data-caption="New Topic Added"><img src="images/help/sharing-news/sharing-topics/new-topic-added.png" /></a>
 				<div class="caption">New Topic Added</div>
 			</div>
 		</li>

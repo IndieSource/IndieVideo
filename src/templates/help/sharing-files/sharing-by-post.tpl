@@ -22,14 +22,14 @@
 			<p>This will launch the <a href="#apps/topic-viewer">News Browser</a> app where you can add a message to your news post and specify whether you would like this post to be visible to friends only or public. </p>
 
 			<div class="figure">
-				<a href="images/help/sharing-files/sharing-by-post/share-by-post.png" target="_blank" class="lightbox" title="Share by News Post"><img src="images/help/sharing-files/sharing-by-post/share-by-post.png" /></a>
+				<a href="images/help/sharing-files/sharing-by-post/share-by-post.png" target="_blank" class="lightbox" data-caption="Share by News Post"><img src="images/help/sharing-files/sharing-by-post/share-by-post.png" /></a>
 				<div class="caption">Share by News Post</div>
 			</div>
 
 			<p>After typing your message and hitting the "Post" button, your files or images will be posted to your news feed for your friends to see. </p>
 
 			<div class="figure">
-				<a href="images/help/sharing-files/sharing-by-post/post-with-gallery.png" target="_blank" class="lightbox" title="Post with Image Gallery"><img src="images/help/sharing-files/sharing-by-post/post-with-gallery.png" /></a>
+				<a href="images/help/sharing-files/sharing-by-post/post-with-gallery.png" target="_blank" class="lightbox" data-caption="Post with Image Gallery"><img src="images/help/sharing-files/sharing-by-post/post-with-gallery.png" /></a>
 				<div class="caption">Post with Image Gallery</div>
 			</div>
 		</li>

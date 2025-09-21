@@ -16,7 +16,6 @@
 \******************************************************************************/
 
 @use "../../../../colors/colors";
-@use "../../../../layout/images";
 @use "../colors/medium-branding";
 
 //
@@ -77,10 +76,6 @@ body:not(.binary) {
 					display: none;
 				}
 			}
-		}
-
-		.icon.colored {
-			box-shadow: images.$thumbnail-box-shadow;
 		}
 	}
 

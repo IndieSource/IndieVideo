@@ -35,12 +35,12 @@
 
 	<h2><i class="fa fa-desktop"></i>Screen Shots</h2>
 	<div class="figure desktop-only">
-		<a href="images/info/apps/code-editor/code-editor.png" target="_blank" class="lightbox" title="<%= config.apps['code_editor'].name %>"><img class="dialog" src="images/info/apps/code-editor/code-editor.png" /></a>
+		<a href="images/info/apps/code-editor/code-editor.png" target="_blank" class="lightbox" data-caption="<%= config.apps['code_editor'].name %>"><img class="dialog" src="images/info/apps/code-editor/code-editor.png" /></a>
 		<div class="caption"><%= config.apps['code_editor'].name %></div>
 	</div>
 	<div class="figure row mobile-only">
 		<div class="figure col-sm-6">
-			<a href="images/info/apps/code-editor/mobile/mobile-code-editor.png" target="_blank" class="lightbox" title="<%= config.apps['code_editor'].name %>"><img class="dialog" src="images/info/apps/code-editor/mobile/mobile-code-editor.png" /></a>
+			<a href="images/info/apps/code-editor/mobile/mobile-code-editor.png" target="_blank" class="lightbox" data-caption="<%= config.apps['code_editor'].name %>"><img class="dialog" src="images/info/apps/code-editor/mobile/mobile-code-editor.png" /></a>
 			<div class="caption"><%= config.apps['code_editor'].name %></div>
 		</div>
 	</div>

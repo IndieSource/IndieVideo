@@ -22,7 +22,7 @@
 			<p>This will show the following dialog box. Fill out the recipient's name, email address, and a message and click "Send". <p>
 
 			<div class="figure">
-				<a href="images/help/building-social-network/inviting-new-users/invite-new-user-dialog-filled.png" target="_blank" class="lightbox" title="Invite New User Dialog"><img class="dialog" src="images/help/building-social-network/inviting-new-users/invite-new-user-dialog-filled.png" /></a>
+				<a href="images/help/building-social-network/inviting-new-users/invite-new-user-dialog-filled.png" target="_blank" class="lightbox" data-caption="Invite New User Dialog"><img class="dialog" src="images/help/building-social-network/inviting-new-users/invite-new-user-dialog-filled.png" /></a>
 				<div class="caption">Invite New User Dialog</div>
 			</div>
 
@@ -34,7 +34,7 @@
 			<p>The recipient of a new user invitation will receive an email with the invitation message and also containing a link to click.  The recipient will need to click this link and then fill out a new user registration form to create a new account. </p>
 
 			<div class="figure">
-				<a href="images/help/building-social-network/inviting-new-users/register-by-invitation.png" target="_blank" class="lightbox" title="Register by Invitation"><img src="images/help/building-social-network/inviting-new-users/register-by-invitation.png" /></a>
+				<a href="images/help/building-social-network/inviting-new-users/register-by-invitation.png" target="_blank" class="lightbox" data-caption="Register by Invitation"><img src="images/help/building-social-network/inviting-new-users/register-by-invitation.png" /></a>
 				<div class="caption">Register by Invitation</div>
 			</div>
 		</li>

@@ -22,21 +22,21 @@
 			<p>This will bring up the "Share with Connections" dialog where you can select the friends that you would like to share the selected files with. </p>
 
 			<div class="figure">
-				<a href="images/help/sharing-files/sharing-by-invitation/share-with-friends-dialog.png" target="_blank" class="lightbox" title="Share with Connections Dialog"><img class="dialog" src="images/help/sharing-files/sharing-by-invitation/share-with-friends-dialog.png" /></a>
+				<a href="images/help/sharing-files/sharing-by-invitation/share-with-friends-dialog.png" target="_blank" class="lightbox" data-caption="Share with Connections Dialog"><img class="dialog" src="images/help/sharing-files/sharing-by-invitation/share-with-friends-dialog.png" /></a>
 				<div class="caption">Share with Connections Dialog</div>
 			</div>
 
 			<p>Click the "Select Connections" button, which will bring up a selector dialog where you can select one or more connections. </p>
 
 			<div class="figure">
-				<a href="images/help/sharing-files/sharing-by-invitation/select-friends-dialog.png" target="_blank" class="lightbox" title="Select Connections Dialog"><img class="dialog" src="images/help/sharing-files/sharing-by-invitation/select-friends-dialog.png" /></a>
+				<a href="images/help/sharing-files/sharing-by-invitation/select-friends-dialog.png" target="_blank" class="lightbox" data-caption="Select Connections Dialog"><img class="dialog" src="images/help/sharing-files/sharing-by-invitation/select-friends-dialog.png" /></a>
 				<div class="caption">Select Connections Dialog</div>
 			</div>
 
 			<p>Next, type in a message to show in your invitation explaining your reason for sending the invitation to the recipients. </p>
 
 			<div class="figure">
-				<a href="images/help/sharing-files/sharing-by-invitation/share-with-friends-dialog-filled.png" target="_blank" class="lightbox" title="Add a Message to the Invitation"><img class="dialog" src="images/help/sharing-files/sharing-by-invitation/share-with-friends-dialog-filled.png" /></a>
+				<a href="images/help/sharing-files/sharing-by-invitation/share-with-friends-dialog-filled.png" target="_blank" class="lightbox" data-caption="Add a Message to the Invitation"><img class="dialog" src="images/help/sharing-files/sharing-by-invitation/share-with-friends-dialog-filled.png" /></a>
 				<div class="caption">Add a Message to the Invitation</div>
 			</div>
 
@@ -53,21 +53,21 @@
 			<p>If you have been sent an invitation to share a file or folder, then a file sharing notification will appear in your notifications list. </p>
 
 			<div class="figure">
-				<a href="images/help/sharing-files/sharing-by-invitation/file-sharing-notification.png" target="_blank" class="lightbox" title="A File Sharing Notification"><img src="images/help/sharing-files/sharing-by-invitation/file-sharing-notification.png" /></a>
+				<a href="images/help/sharing-files/sharing-by-invitation/file-sharing-notification.png" target="_blank" class="lightbox" data-caption="A File Sharing Notification"><img src="images/help/sharing-files/sharing-by-invitation/file-sharing-notification.png" /></a>
 				<div class="caption">A File Sharing Notification</div>
 			</div>
 
 			<p>You can choose to either accept (+) or decline (-) the shared file or folder.  If you accept the invitation, then you will be prompted to specific a file name and location to save the shared file or folder. </p>
 
 			<div class="figure">
-				<a href="images/help/sharing-files/sharing-by-invitation/save-file-dialog.png" target="_blank" class="lightbox" title="Save File Dialog"><img class="dialog" src="images/help/sharing-files/sharing-by-invitation/save-file-dialog.png" /></a>
+				<a href="images/help/sharing-files/sharing-by-invitation/save-file-dialog.png" target="_blank" class="lightbox" data-caption="Save File Dialog"><img class="dialog" src="images/help/sharing-files/sharing-by-invitation/save-file-dialog.png" /></a>
 				<div class="caption">Save File Dialog</div>
 			</div>
 
 			<p>If the file is shared with you as a clone rather than a copy, then the file or folder will display an icon or thumbnail of the file or folder's owner. If you mouse over the icon, you will see a tooltip showing the name of the item's owner. </p>
 
 			<div class="figure">
-				<a href="images/help/sharing-files/sharing-by-invitation/shared-files-and-folders.png" target="_blank" class="lightbox" title="Shared Files and Folders"><img class="dialog" src="images/help/sharing-files/sharing-by-invitation/shared-files-and-folders.png" /></a>
+				<a href="images/help/sharing-files/sharing-by-invitation/shared-files-and-folders.png" target="_blank" class="lightbox" data-caption="Shared Files and Folders"><img class="dialog" src="images/help/sharing-files/sharing-by-invitation/shared-files-and-folders.png" /></a>
 				<div class="caption">Shared Files and Folders</div>
 			</div>
 		</li>

@@ -20,7 +20,7 @@
 			</div>
 
 			<div class="figure">
-				<a href="images/help/working-with-images/viewing-exif-info/file-browser-photos-exif.png" target="_blank" class="lightbox" title="File Browser Exif Details"><img class="dialog" src="images/help/working-with-images/viewing-exif-info/file-browser-photos-exif.png" /></a>
+				<a href="images/help/working-with-images/viewing-exif-info/file-browser-photos-exif.png" target="_blank" class="lightbox" data-caption="File Browser Exif Details"><img class="dialog" src="images/help/working-with-images/viewing-exif-info/file-browser-photos-exif.png" /></a>
 				<div class="caption">File Browser Exif Details</div>
 			</div>
 		</li>
@@ -35,7 +35,7 @@
 			</div>
 
 			<div class="figure">
-				<a href="images/help/working-with-images/viewing-exif-info/show-photo-info-dialog.png" target="_blank" class="lightbox" title="Photo Tab on Show Info Dialog"><img class="dialog" src="images/help/working-with-images/viewing-exif-info/show-photo-info-dialog.png" /></a>
+				<a href="images/help/working-with-images/viewing-exif-info/show-photo-info-dialog.png" target="_blank" class="lightbox" data-caption="Photo Tab on Show Info Dialog"><img class="dialog" src="images/help/working-with-images/viewing-exif-info/show-photo-info-dialog.png" /></a>
 				<div class="caption">Photo Tab on Show Info Dialog</div>
 			</div>
 		</li>
@@ -50,7 +50,7 @@
 			</div>
 
 			<div class="figure">
-				<a href="images/help/working-with-images/viewing-exif-info/image-info-sidebar.png" target="_blank" class="lightbox" title="Image Info Panel in Sidebar"><img class="dialog" src="images/help/working-with-images/viewing-exif-info/image-info-sidebar.png" /></a>
+				<a href="images/help/working-with-images/viewing-exif-info/image-info-sidebar.png" target="_blank" class="lightbox" data-caption="Image Info Panel in Sidebar"><img class="dialog" src="images/help/working-with-images/viewing-exif-info/image-info-sidebar.png" /></a>
 				<div class="caption">Image Info Panel in Sidebar</div>
 			</div>
 		</li>

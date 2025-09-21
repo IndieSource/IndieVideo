@@ -101,8 +101,10 @@ export default FolderLinkView.extend({
 
 			// options
 			//
-			inline: true,
+			inline: false,
 			lightbox: true,
+			captions: true,
+			tooltips: true,
 			max_size: 512,
 			defaults: {
 				layout: {

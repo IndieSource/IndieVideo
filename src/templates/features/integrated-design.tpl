@@ -40,12 +40,12 @@
 
 	<h2><i class="fa fa-desktop"></i>Screen Shots</h2>
 	<div class="figure desktop-only">
-		<a href="images/info/desktop/desktop-windows.png" target="_blank" class="lightbox" title="<%= application.name %> Desktop"><img src="images/info/desktop/desktop-windows.png" /></a>
+		<a href="images/info/desktop/desktop-windows.png" target="_blank" class="lightbox" data-caption="<%= application.name %> Desktop"><img src="images/info/desktop/desktop-windows.png" /></a>
 		<div class="caption"><%= application.name %> Desktop</div>
 	</div>
 	<div class="figure row">
 		<div class="figure col-sm-6">
-			<a href="images/info/mobile/iphone.png" target="_blank" class="lightbox" title="<%= application.name %> Mobile"><img src="images/info/mobile/iphone.png" /></a>
+			<a href="images/info/mobile/iphone.png" target="_blank" class="lightbox" data-caption="<%= application.name %> Mobile"><img src="images/info/mobile/iphone.png" /></a>
 			<div class="caption"><%= application.name %> Mobile</div>
 		</div>
 	</div>

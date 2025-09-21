@@ -44,31 +44,31 @@
 	<h2><i class="fa fa-desktop"></i>Screen Shots</h2>
 	<div class="figure desktop-only">
 		<div class="figure">
-			<a href="images/info/apps/calculator/calculator.png" target="_blank" class="lightbox" title="<%= config.apps.calculator.name %>"><img class="dialog" src="images/info/apps/calculator/calculator.png" style="width:300px" /></a>
+			<a href="images/info/apps/calculator/calculator.png" target="_blank" class="lightbox" data-caption="<%= config.apps.calculator.name %>"><img class="dialog" src="images/info/apps/calculator/calculator.png" style="width:300px" /></a>
 			<div class="caption"><%= config.apps.calculator.name %></div>
 		</div>
 	</div>
 	<div class="figure row desktop-only">
 		<div class="figure col-sm-6">
-			<a href="images/info/apps/calculator/scientific-calculator.png" target="_blank" class="lightbox" title="Scientific <%= config.apps.calculator.name %>"><img class="dialog" src="images/info/apps/calculator/scientific-calculator.png" style="width:300px" /></a>
+			<a href="images/info/apps/calculator/scientific-calculator.png" target="_blank" class="lightbox" data-caption="Scientific <%= config.apps.calculator.name %>"><img class="dialog" src="images/info/apps/calculator/scientific-calculator.png" style="width:300px" /></a>
 			<div class="caption">Scientific <%= config.apps.calculator.name %></div>
 		</div>
 		<div class="figure col-sm-6">
-			<a href="images/info/apps/calculator/programmer-calculator.png" target="_blank" class="lightbox" title="Programmer <%= config.apps.calculator.name %>"><img class="dialog" src="images/info/apps/calculator/programmer-calculator.png" style="width:300px" /></a>
+			<a href="images/info/apps/calculator/programmer-calculator.png" target="_blank" class="lightbox" data-caption="Programmer <%= config.apps.calculator.name %>"><img class="dialog" src="images/info/apps/calculator/programmer-calculator.png" style="width:300px" /></a>
 			<div class="caption">Programmer <%= config.apps.calculator.name %></div>
 		</div>
 	</div>
 	<div class="figure row mobile-only">
 		<div class="figure col-sm-6">
-			<a href="images/info/apps/calculator/mobile/mobile-calculator.png" target="_blank" class="lightbox" title="<%= config.apps.calculator.name %>"><img class="dialog" src="images/info/apps/calculator/mobile/mobile-calculator.png" /></a>
+			<a href="images/info/apps/calculator/mobile/mobile-calculator.png" target="_blank" class="lightbox" data-caption="<%= config.apps.calculator.name %>"><img class="dialog" src="images/info/apps/calculator/mobile/mobile-calculator.png" /></a>
 			<div class="caption"><%= config.apps.calculator.name %></div>
 		</div>
 		<div class="figure col-sm-6">
-			<a href="images/info/apps/calculator/mobile/mobile-scientific-calculator.png" target="_blank" class="lightbox" title="Scientific <%= config.apps.calculator.name %>"><img class="dialog" src="images/info/apps/calculator/mobile/mobile-scientific-calculator.png" /></a>
+			<a href="images/info/apps/calculator/mobile/mobile-scientific-calculator.png" target="_blank" class="lightbox" data-caption="Scientific <%= config.apps.calculator.name %>"><img class="dialog" src="images/info/apps/calculator/mobile/mobile-scientific-calculator.png" /></a>
 			<div class="caption">Scientific <%= config.apps.calculator.name %></div>
 		</div>
 		<div class="figure col-sm-6">
-			<a href="images/info/apps/calculator/mobile/mobile-programmer-calculator.png" target="_blank" class="lightbox" title="Programmer <%= config.apps.calculator.name %>"><img class="dialog" src="images/info/apps/calculator/mobile/mobile-programmer-calculator.png" /></a>
+			<a href="images/info/apps/calculator/mobile/mobile-programmer-calculator.png" target="_blank" class="lightbox" data-caption="Programmer <%= config.apps.calculator.name %>"><img class="dialog" src="images/info/apps/calculator/mobile/mobile-programmer-calculator.png" /></a>
 			<div class="caption">Programmer <%= config.apps.calculator.name %></div>
 		</div>
 	</div>

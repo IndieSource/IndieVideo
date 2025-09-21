@@ -18,8 +18,6 @@
 @use "../../../../colors/colors";
 @use "../../../../materials/glass/plate-glass";
 @use "../../../../materials/glass/frosted-plate-glass";
-@use "../../../../navs/dock-bars";
-@use "../../../../layout/images";
 
 //
 // colors
@@ -76,23 +74,10 @@ body:not(.binary) {
 				}
 			}
 
-			.apps {
-				.item .icon {
-					box-shadow: dock-bars.$item-shadow;
-
-					> img {
-						filter: images.$thumbnail-shadow;
-					}
-				}
-			}
-
 			.tasks {
 				.item .icon {
-					filter: dock-bars.$item-shadow;
-
 					i {
 						color: white;
-						filter: dock-bars.$item-shadow;
 					}
 				}
 			}

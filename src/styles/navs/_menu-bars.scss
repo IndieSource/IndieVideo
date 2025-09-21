@@ -118,13 +118,15 @@ $shadow: 3px 3px 7px rgba(black, 33%);
 //
 
 .thin-menu-bars {
-	.menu-bar {
-		.nav-menus {
-			> li {
-				height: $thin-height;
+	.header-bar {
+		.menu-bar {
+			.nav-menus {
+				> li {
+					height: $thin-height;
 
-				> a {
-					padding: 1px 10px;
+					> a {
+						padding: 1px 10px;
+					}
 				}
 			}
 		}

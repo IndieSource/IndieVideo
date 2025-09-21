@@ -161,7 +161,7 @@ export default ModalView.extend({
 		}
 	},
 
-	setTextBlockStyles: function(element, attributes) {
+	setTextBlockStyles: function(element, attributes, exceptions) {
 		if (!attributes) {
 			return;
 		}
@@ -169,6 +169,12 @@ export default ModalView.extend({
 		// create copy of attributes
 		//
 		attributes = { ...attributes };
+		if (exceptions) {
+			for (let i = 0; i < exceptions.length; i++) {
+				let exception = exceptions[i];
+				attributes[exception] = null;
+			}
+		}
 
 		// don't set color unless setting background color
 		//
@@ -186,16 +192,12 @@ export default ModalView.extend({
 	//
 
 	setDialogStyles: function(attributes) {
-		if (attributes.tagline) {
-			attributes = { ...attributes.tagline };
-			attributes.font_size = undefined;
-			this.setTextBlockStyles(this.$el.find('.tagline'), attributes);
-		}
-		if (attributes.description) {
-			attributes = { ...attributes.description };
-			attributes.font_size = undefined;
-			this.setTextBlockStyles(this.$el.find('.description'), attributes);
-		}
+		this.setTextBlockStyles(this.$el.find('.tagline'), attributes.tagline, [
+			'font_size'
+		]);
+		this.setTextBlockStyles(this.$el.find('.description'), attributes.description, [
+			'font_size'
+		]);
 	},
 
 	setDialogLogoStyles: function(styles) {

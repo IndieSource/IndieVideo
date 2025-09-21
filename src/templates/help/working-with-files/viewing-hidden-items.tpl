@@ -20,7 +20,7 @@
 			</div>
 
 			<div class="figure">
-				<a href="images/help/working-with-files/viewing-hidden-items/hidden-files.png" target="_blank" class="lightbox" title="Show Hidden Files and Folders (.Clipboard and .thumbs)"><img class="dialog" src="images/help/working-with-files/viewing-hidden-items/hidden-files.png" /></a>
+				<a href="images/help/working-with-files/viewing-hidden-items/hidden-files.png" target="_blank" class="lightbox" data-caption="Show Hidden Files and Folders (.Clipboard and .thumbs)"><img class="dialog" src="images/help/working-with-files/viewing-hidden-items/hidden-files.png" /></a>
 				<div class="caption">Show Hidden Files and Folders (.Clipboard and .thumbs)</div>
 			</div>
 
@@ -39,7 +39,7 @@
 			</div>
 
 			<div class="figure">
-				<a href="images/help/working-with-files/viewing-hidden-items/no-thumbs.png" target="_blank" class="lightbox" title="Hide Thumbnails (for image files and .pdf files)"><img class="dialog" src="images/help/working-with-files/viewing-hidden-items/no-thumbs.png" /></a>
+				<a href="images/help/working-with-files/viewing-hidden-items/no-thumbs.png" target="_blank" class="lightbox" data-caption="Hide Thumbnails (for image files and .pdf files)"><img class="dialog" src="images/help/working-with-files/viewing-hidden-items/no-thumbs.png" /></a>
 				<div class="caption">Hide Thumbnails (for image files and .pdf files)</div>
 			</div>
 		</li>
@@ -54,7 +54,7 @@
 			</div>
 
 			<div class="figure">
-				<a href="images/help/working-with-files/viewing-hidden-items/file-extensions.png" target="_blank" class="lightbox" title="Show File Extensions"><img class="dialog" src="images/help/working-with-files/viewing-hidden-items/file-extensions.png" /></a>
+				<a href="images/help/working-with-files/viewing-hidden-items/file-extensions.png" target="_blank" class="lightbox" data-caption="Show File Extensions"><img class="dialog" src="images/help/working-with-files/viewing-hidden-items/file-extensions.png" /></a>
 				<div class="caption">Show File Extensions</div>
 			</div>
 		</li>

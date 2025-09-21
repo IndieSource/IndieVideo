@@ -15,7 +15,7 @@
 			<p>Click on the gear icon in the session toolbar at the top of the screen in order to launch the <a href="#apps/settings-manager">Settings Manager</a> app.</p>
 
 			<div class="figure">
-				<a href="images/help/managing-account/changing-account/launch-settings-manager.png" target="_blank" class="lightbox" title="Gear Icon on Session Toolbar"><img src="images/help/managing-account/changing-account/launch-settings-manager.png" /></a>
+				<a href="images/help/managing-account/changing-account/launch-settings-manager.png" target="_blank" class="lightbox" data-caption="Gear Icon on Session Toolbar"><img src="images/help/managing-account/changing-account/launch-settings-manager.png" /></a>
 				<div class="caption">Gear Icon on Session Toolbar</div>
 			</div>
 		</li>
@@ -25,7 +25,7 @@
 			<p>In the <a href="#apps/settings-manager">Settings Manager</a> app, note the list of tabs for various system settings. Click on the tab labelled "Account".</p>
 
 			<div class="figure">
-				<a href="images/help/managing-account/changing-account/settings-manager.png" target="_blank" class="lightbox" title="Settings Manager"><img class="dialog" src="images/help/managing-account/changing-account/settings-manager.png" /></a>
+				<a href="images/help/managing-account/changing-account/settings-manager.png" target="_blank" class="lightbox" data-caption="Settings Manager"><img class="dialog" src="images/help/managing-account/changing-account/settings-manager.png" /></a>
 				<div class="caption">Settings Manager</div>
 			</div>
 		</li>
@@ -35,7 +35,7 @@
 			<p>At the top of the account settings, you will see a series of buttons, click on "Edit Account".</p>
 
 			<div class="figure">
-				<a href="images/help/managing-account/changing-account/account-settings.png" target="_blank" class="lightbox" title="Account Settings"><img class="dialog" src="images/help/managing-account/changing-account/account-settings.png" /></a>
+				<a href="images/help/managing-account/changing-account/account-settings.png" target="_blank" class="lightbox" data-caption="Account Settings"><img class="dialog" src="images/help/managing-account/changing-account/account-settings.png" /></a>
 				<div class="caption">Account Settings</div>
 			</div>
 		</li>
@@ -45,7 +45,7 @@
 			<p>Enter your new email or username and click the "Save" button.</p>
 
 			<div class="figure">
-				<a href="images/help/managing-account/changing-account/edit-account-dialog.png" target="_blank" class="lightbox" title="Change Your Account Settings"><img class="dialog" src="images/help/managing-account/changing-account/edit-account-dialog.png" /></a>
+				<a href="images/help/managing-account/changing-account/edit-account-dialog.png" target="_blank" class="lightbox" data-caption="Change Your Account Settings"><img class="dialog" src="images/help/managing-account/changing-account/edit-account-dialog.png" /></a>
 				<div class="caption">Change Your Account Settings</div>
 			</div>
 		</li>

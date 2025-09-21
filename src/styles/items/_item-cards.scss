@@ -135,6 +135,14 @@ $rounded-icon-text-border-radius: item-icons.$rounded-icon-text-border-radius;
 					}
 
 					//
+					// icon shadows
+					//
+
+					> img {
+						filter: images.$thumbnail-shadow;
+					}
+
+					//
 					// owner profile photo
 					//
 
@@ -159,6 +167,14 @@ $rounded-icon-text-border-radius: item-icons.$rounded-icon-text-border-radius;
 						height: 50px;
 						margin-left: -25px;
 						margin-top: -25px;
+					}
+
+					//
+					// colored icons
+					//
+
+					&.colored {
+						box-shadow: images.$thumbnail-box-shadow;
 					}
 				}
 

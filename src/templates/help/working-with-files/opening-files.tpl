@@ -15,7 +15,7 @@
 			<p>Normally, the quickest easiest way to open files is simply to double-click them, just as you would with most other operating systems. If the operating system recognizes the file and knows an application that will read the file, then it will open the file using that application.  If it does not have an available application for that file type, then it will issue a notification stating that it can't open this file type. </p>
 
 			<div class="figure">
-				<a href="images/help/working-with-files/opening-files/open-file-error.png" target="_blank" class="lightbox" title="Open File Error"><img class="dialog" src="images/help/working-with-files/opening-files/open-file-error.png" /></a>
+				<a href="images/help/working-with-files/opening-files/open-file-error.png" target="_blank" class="lightbox" data-caption="Open File Error"><img class="dialog" src="images/help/working-with-files/opening-files/open-file-error.png" /></a>
 				<div class="caption">Unknown File Type Notification</div>
 			</div>
 		</li>
@@ -43,7 +43,7 @@
 			</div>
 
 			<div class="figure">
-				<a href="images/help/working-with-files/opening-files/file-associations.png" target="_blank" class="lightbox" title="File Associations"><img class="dialog" src="images/help/working-with-files/opening-files/file-associations.png" /></a>
+				<a href="images/help/working-with-files/opening-files/file-associations.png" target="_blank" class="lightbox" data-caption="File Associations"><img class="dialog" src="images/help/working-with-files/opening-files/file-associations.png" /></a>
 				<div class="caption">File Associations</div>
 			</div>
 

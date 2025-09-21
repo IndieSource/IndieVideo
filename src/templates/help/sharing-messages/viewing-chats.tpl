@@ -22,7 +22,7 @@
 			<p>This will launch the <a href="#apps/chat-browser">Chat Browser</a> app, which you can use exchange direct messages with your friends. </p>
 
 			<div class="figure">
-				<a href="images/help/sharing-messages/viewing-chats/chat-browser.png" target="_blank" class="lightbox" title="The Chat Browser App"><img class="dialog" src="images/help/sharing-messages/viewing-chats/chat-browser.png" /></a>
+				<a href="images/help/sharing-messages/viewing-chats/chat-browser.png" target="_blank" class="lightbox" data-caption="The Chat Browser App"><img class="dialog" src="images/help/sharing-messages/viewing-chats/chat-browser.png" /></a>
 				<div class="caption">The Chat Browser App</div>
 			</div>
 		</li>

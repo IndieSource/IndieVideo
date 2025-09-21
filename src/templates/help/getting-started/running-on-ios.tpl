@@ -24,7 +24,7 @@
 
 					<div class="figure row">
 						<div class="figure col-xs-12 col-sm-9" style="float:none">
-							<a href="images/help/getting-started/running-on-ios/app-on-home-screen.png" target="_blank" class="lightbox" title="<%= application.name %> on the Home Screen"><img src="images/help/getting-started/running-on-ios/app-on-home-screen.png" /></a>
+							<a href="images/help/getting-started/running-on-ios/app-on-home-screen.png" target="_blank" class="lightbox" data-caption="<%= application.name %> on the Home Screen"><img src="images/help/getting-started/running-on-ios/app-on-home-screen.png" /></a>
 							<div class="caption"><%= application.name %> on the Home Screen</div>
 						</div>
 					</div>
@@ -55,7 +55,7 @@
 
 					<div class="figure row">
 						<div class="figure col-xs-12 col-sm-9" style="float:none">
-							<a href="images/help/getting-started/running-on-ios/app-in-safari.png" target="_blank" class="lightbox" title="<%= application.name %> in Safari"><img src="images/help/getting-started/running-on-ios/app-in-safari.png" /></a>
+							<a href="images/help/getting-started/running-on-ios/app-in-safari.png" target="_blank" class="lightbox" data-caption="<%= application.name %> in Safari"><img src="images/help/getting-started/running-on-ios/app-in-safari.png" /></a>
 							<div class="caption"><%= application.name %> in Safari</div>
 						</div>
 					</div>
@@ -67,7 +67,7 @@
 
 					<div class="figure row">
 						<div class="figure col-xs-12 col-sm-9" style="float:none">
-							<a href="images/help/getting-started/running-on-ios/web-page-options.png" target="_blank" class="lightbox" title="Web Page Options"><img src="images/help/getting-started/running-on-ios/web-page-options.png" /></a>
+							<a href="images/help/getting-started/running-on-ios/web-page-options.png" target="_blank" class="lightbox" data-caption="Web Page Options"><img src="images/help/getting-started/running-on-ios/web-page-options.png" /></a>
 							<div class="caption">Web Page Options</div>
 						</div>
 					</div>
@@ -79,7 +79,7 @@
 
 					<div class="figure row">
 						<div class="figure col-xs-12 col-sm-9" style="float:none">
-							<a href="images/help/getting-started/running-on-ios/add-to-home-screen.png" target="_blank" class="lightbox" title="Add to Home Screen"><img src="images/help/getting-started/running-on-ios/add-to-home-screen.png" /></a>
+							<a href="images/help/getting-started/running-on-ios/add-to-home-screen.png" target="_blank" class="lightbox" data-caption="Add to Home Screen"><img src="images/help/getting-started/running-on-ios/add-to-home-screen.png" /></a>
 							<div class="caption">Add to Home Screen</div>
 						</div>
 					</div>

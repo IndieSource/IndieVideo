@@ -15,7 +15,7 @@
 			<p>To create an expiring link, select the file or folder that you would like to share and then click "By Link" on the Share menu. Then, on the "New Link" dialog box, click the "Expiration" tab. </p>
 
 			<div class="figure">
-				<a href="images/help/sharing-files/expiring-links/new-link-expiration-tab.png" target="_blank" class="lightbox" title="Expiration Tab on the New Link Dialog"><img class="dialog" src="images/help/sharing-files/expiring-links/new-link-expiration-tab.png" /></a>
+				<a href="images/help/sharing-files/expiring-links/new-link-expiration-tab.png" target="_blank" class="lightbox" data-caption="Expiration Tab on the New Link Dialog"><img class="dialog" src="images/help/sharing-files/expiring-links/new-link-expiration-tab.png" /></a>
 				<div class="caption">Expiration Tab on the New Link Dialog</div>
 			</div>
 		</li>
@@ -28,7 +28,7 @@
 			<p>Single use links can only be accessed a single time. </p>
 
 			<div class="figure">
-				<a href="images/help/sharing-files/expiring-links/single-use-links.png" target="_blank" class="lightbox" title="Single Use Links"><img class="dialog" src="images/help/sharing-files/expiring-links/single-use-links.png" /></a>
+				<a href="images/help/sharing-files/expiring-links/single-use-links.png" target="_blank" class="lightbox" data-caption="Single Use Links"><img class="dialog" src="images/help/sharing-files/expiring-links/single-use-links.png" /></a>
 				<div class="caption">Single Use Links</div>
 			</div>
 
@@ -36,14 +36,14 @@
 			<p>Multi use links can be accessed a specified number of times. </p>
 
 			<div class="figure">
-				<a href="images/help/sharing-files/expiring-links/multi-use-links.png" target="_blank" class="lightbox" title="Multi Use Links"><img class="dialog" src="images/help/sharing-files/expiring-links/multi-use-links.png" /></a>
+				<a href="images/help/sharing-files/expiring-links/multi-use-links.png" target="_blank" class="lightbox" data-caption="Multi Use Links"><img class="dialog" src="images/help/sharing-files/expiring-links/multi-use-links.png" /></a>
 				<div class="caption">Multi Use Links</div>
 			</div>
 
 			<p>If a person accesses a link more than the specified number of times, then they will see the following notice: </p>
 
 			<div class="figure">
-				<a href="images/help/sharing-files/expiring-links/link-limit-exceeded-notice.png" target="_blank" class="lightbox" title="Link Limit Exceeded Notice"><img src="images/help/sharing-files/expiring-links/link-limit-exceeded-notice.png" /></a>
+				<a href="images/help/sharing-files/expiring-links/link-limit-exceeded-notice.png" target="_blank" class="lightbox" data-caption="Link Limit Exceeded Notice"><img src="images/help/sharing-files/expiring-links/link-limit-exceeded-notice.png" /></a>
 				<div class="caption">Link Limit Exceeded Notice</div>
 			</div>
 
@@ -57,7 +57,7 @@
 			<p>Time limited links can be accessed for a specified amount of time from the creation date. The duration of the link can be specified in units of hours, days, weeks, months, or years. </p>
 
 			<div class="figure">
-				<a href="images/help/sharing-files/expiring-links/time-limited-links.png" target="_blank" class="lightbox" title="Time Limited Links"><img class="dialog" src="images/help/sharing-files/expiring-links/time-limited-links.png" /></a>
+				<a href="images/help/sharing-files/expiring-links/time-limited-links.png" target="_blank" class="lightbox" data-caption="Time Limited Links"><img class="dialog" src="images/help/sharing-files/expiring-links/time-limited-links.png" /></a>
 				<div class="caption">Time Limited Links</div>
 			</div>
 
@@ -65,14 +65,14 @@
 			<p>Time limited links can be accessed for until a specified date. </p>
 
 			<div class="figure">
-				<a href="images/help/sharing-files/expiring-links/date-limited-links.png" target="_blank" class="lightbox" title="Date Limited Links"><img class="dialog" src="images/help/sharing-files/expiring-links/date-limited-links.png" /></a>
+				<a href="images/help/sharing-files/expiring-links/date-limited-links.png" target="_blank" class="lightbox" data-caption="Date Limited Links"><img class="dialog" src="images/help/sharing-files/expiring-links/date-limited-links.png" /></a>
 				<div class="caption">Date Limited Links</div>
 			</div>
 
 			<p>If a person accesses a link past its expiration date, then they will see the following notice: </p>
 
 			<div class="figure">
-				<a href="images/help/sharing-files/expiring-links/link-expired-notice.png" target="_blank" class="lightbox" title="Link Expired Notice"><img src="images/help/sharing-files/expiring-links/link-expired-notice.png" /></a>
+				<a href="images/help/sharing-files/expiring-links/link-expired-notice.png" target="_blank" class="lightbox" data-caption="Link Expired Notice"><img src="images/help/sharing-files/expiring-links/link-expired-notice.png" /></a>
 				<div class="caption">Link Expired Notice</div>
 			</div>
 		</li>

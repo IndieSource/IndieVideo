@@ -16,7 +16,6 @@
 \******************************************************************************/
 
 @use "../../../../colors/colors";
-@use "../../../../navs/buttons";
 @use "../dialogs/medium-dialogs";
 
 //
@@ -44,23 +43,6 @@ body:not(.binary) {
 	//
 
 	#desktop {
-		.footer-bar {
-
-			.run-menu {
-				.dropdown-toggle {
-					box-shadow: buttons.$shadow;
-				}			
-			}
-			
-			.task-bar {
-				.pinned-items {
-					.btn {
-						box-shadow: buttons.$shadow;
-					}
-				}
-			}
-		}
-
 		&.task-bar-handles {
 			.footer-bar {
 				.handle {

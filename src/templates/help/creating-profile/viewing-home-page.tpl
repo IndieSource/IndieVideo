@@ -22,7 +22,7 @@
 			<p>This will open the "Copy Link" dialog box as shown below.</p>
 
 			<div class="figure">
-				<a href="images/help/creating-profile/viewing-home-page/copy-link-dialog.png" target="_blank" class="lightbox" title="Copy Link Dialog Box"><img class="dialog" src="images/help/creating-profile/viewing-home-page/copy-link-dialog.png" /></a>
+				<a href="images/help/creating-profile/viewing-home-page/copy-link-dialog.png" target="_blank" class="lightbox" data-caption="Copy Link Dialog Box"><img class="dialog" src="images/help/creating-profile/viewing-home-page/copy-link-dialog.png" /></a>
 				<div class="caption">Copy Link Dialog Box</div>
 			</div>
 
@@ -34,7 +34,7 @@
 			<p>To view your public home page, click on the "View Link" button on the "Copy Link" dialog box, which will open up your home page in the <a href="#apps/web-browser">Web Browser</a> app. </p>
 
 			<div class="figure">
-				<a href="images/help/creating-profile/viewing-home-page/public-home-page.png" target="_blank" class="lightbox" title="Your Public Home Page"><img src="images/help/creating-profile/viewing-home-page/public-home-page.png" /></a>
+				<a href="images/help/creating-profile/viewing-home-page/public-home-page.png" target="_blank" class="lightbox" data-caption="Your Public Home Page"><img src="images/help/creating-profile/viewing-home-page/public-home-page.png" /></a>
 				<div class="caption">Your Public Home Page</div>
 			</div>
 		</li>

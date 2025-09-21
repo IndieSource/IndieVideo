@@ -1,0 +1,52 @@
+{
+	"padding": 0,
+	"margin": 20,
+	"openEffect": "elastic",
+	"closeEffect": "elastic",
+	"type" : "image",
+	"loop": true,
+	"hash": false,
+
+	"spinnerTpl": "<div class=\"spinner spinning\"></div>",
+
+	"animationEffect": "zoom",
+	"animationDuration": 300,
+	"animationEffect (allowed values)": [
+		false,
+		"zoom",
+		"fade",
+		"zoom-in-out"
+	],
+
+	"transitionEffect": "slide",
+	"transitionDuration": 300,
+	"transitionEffect (allowed values)": [
+		false,
+		"fade",
+		"slide",
+		"circular",
+		"fade",
+		"zoom-in-out",
+		"rotate"
+	],
+
+	"buttons": [
+		"zoom",
+		"slideShow",
+		"fullScreen",
+		"download",
+		"thumbs",
+		"close"
+	],
+	"buttons (allowed values)": [
+		"zoom",
+		"share",
+		"slideShow",
+		"fullScreen",
+		"download",
+		"thumbs",
+		"close"	
+	],
+
+	"wheel": false
+}

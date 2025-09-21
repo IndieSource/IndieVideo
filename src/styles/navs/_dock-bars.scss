@@ -18,7 +18,7 @@
 @use "../bootstrap/variables";
 @use "../navs/selection";
 @use "../navs/icons";
-
+@use "../layout/images";
 //
 // variables
 //
@@ -192,6 +192,30 @@ $large-item-indicator-size: 6px;
 								}
 							}
 						}
+					}
+				}
+			}
+
+			//
+			// item shadows
+			//
+
+			.apps {
+				.item .icon {
+					box-shadow: $item-shadow;
+
+					> img {
+						filter: images.$thumbnail-shadow;
+					}
+				}
+			}
+
+			.tasks {
+				.item .icon {
+					filter: $item-shadow;
+
+					i {
+						filter: $item-shadow;
 					}
 				}
 			}

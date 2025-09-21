@@ -25,7 +25,7 @@
 			<p>Read the acceptable use policy, which describes your responsibility as a user.</p>
 
 			<div class="figure">
-				<a href="images/help/getting-started/creating-account/aup.png" target="_blank" class="lightbox" title="Acceptable Use Policy"><img src="images/help/getting-started/creating-account/aup.png" /></a>
+				<a href="images/help/getting-started/creating-account/aup.png" target="_blank" class="lightbox" data-caption="Acceptable Use Policy"><img src="images/help/getting-started/creating-account/aup.png" /></a>
 				<div class="caption">Acceptable Use Policy</div>
 			</div>
 		</li>
@@ -35,7 +35,7 @@
 			<p>Click the "I Accept" checkbox, indicating that you accept the terms of the Acceptable Use Policy.</p>
 
 			<div class="figure">
-				<a href="images/help/getting-started/creating-account/aup-accept.png" target="_blank" class="lightbox" title="Accept Policy"><img src="images/help/getting-started/creating-account/aup-accept.png" /></a>
+				<a href="images/help/getting-started/creating-account/aup-accept.png" target="_blank" class="lightbox" data-caption="Accept Policy"><img src="images/help/getting-started/creating-account/aup-accept.png" /></a>
 				<div class="caption">Accept Policy</div>
 			</div>
 		</li>
@@ -45,7 +45,7 @@
 			<p>Fill out the user registration form, which requires your (actual) name and your email address, which is used to verify that you are most likely not a spam bot.</p>
 
 			<div class="figure">
-				<a href="images/help/getting-started/creating-account/user-registration-form.png" target="_blank" class="lightbox" title="User Registration Form"><img src="images/help/getting-started/creating-account/user-registration-form.png" /></a>
+				<a href="images/help/getting-started/creating-account/user-registration-form.png" target="_blank" class="lightbox" data-caption="User Registration Form"><img src="images/help/getting-started/creating-account/user-registration-form.png" /></a>
 				<div class="caption">User Registration Form</div>
 			</div>
 		</li>
@@ -55,7 +55,7 @@
 			<p>Click the "Verify" button to continue to verify your email address.</p>
 
 			<div class="figure">
-				<a href="images/help/getting-started/creating-account/verify-email-address.png" target="_blank" class="lightbox" title="Verify Email Address"><img src="images/help/getting-started/creating-account/verify-email-address.png" /></a>
+				<a href="images/help/getting-started/creating-account/verify-email-address.png" target="_blank" class="lightbox" data-caption="Verify Email Address"><img src="images/help/getting-started/creating-account/verify-email-address.png" /></a>
 				<div class="caption">Verify Email Address</div>
 			</div>
 		</li>
@@ -65,7 +65,7 @@
 			<p>Check your email for an email from <%= application.name %> which will contain a link to verify your email address.  Click this link.  Your email has now been verified and you may proceed to use your new account!</p>
 
 			<div class="figure">
-				<a href="images/help/getting-started/creating-account/email-verified.png" target="_blank" class="lightbox" title="Email Verified"><img src="images/help/getting-started/creating-account/email-verified.png" /></a>
+				<a href="images/help/getting-started/creating-account/email-verified.png" target="_blank" class="lightbox" data-caption="Email Verified"><img src="images/help/getting-started/creating-account/email-verified.png" /></a>
 				<div class="caption">Email Verified</div>
 			</div>
 		</li>

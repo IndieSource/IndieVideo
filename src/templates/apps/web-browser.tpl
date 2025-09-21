@@ -37,11 +37,11 @@
 
 	<h2><i class="fa fa-desktop"></i>Screen Shots</h2>
 	<div class="figure desktop-only">
-		<a href="images/info/apps/web-browser/web-browser.png" target="_blank" class="lightbox" title="<%= config.apps.web_browser.name %>"><img class="dialog" src="images/info/apps/web-browser/web-browser.png" /></a>
+		<a href="images/info/apps/web-browser/web-browser.png" target="_blank" class="lightbox" data-caption="<%= config.apps.web_browser.name %>"><img class="dialog" src="images/info/apps/web-browser/web-browser.png" /></a>
 		<div class="caption"><%= config.apps.web_browser.name %></div>
 	</div>
 	<div class="figure mobile-only">
-		<a href="images/info/apps/web-browser/mobile/mobile-web-browser.png" target="_blank" class="lightbox" title="<%= config.apps.web_browser.name %>"><img src="images/info/apps/web-browser/mobile/mobile-web-browser.png" /></a>
+		<a href="images/info/apps/web-browser/mobile/mobile-web-browser.png" target="_blank" class="lightbox" data-caption="<%= config.apps.web_browser.name %>"><img src="images/info/apps/web-browser/mobile/mobile-web-browser.png" /></a>
 		<div class="caption"><%= config.apps.web_browser.name %></div>
 	</div>
 </div>

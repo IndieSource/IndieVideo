@@ -53,11 +53,11 @@
 
 	<h2><i class="fa fa-desktop"></i>Screen Shots</h2>
 	<div class="figure desktop-only">
-		<a href="images/info/apps/theme-manager/theme-manager.png" target="_blank" class="lightbox" title="<%= config.apps.theme_manager.name %>"><img class="dialog" src="images/info/apps/theme-manager/theme-manager.png" /></a>
+		<a href="images/info/apps/theme-manager/theme-manager.png" target="_blank" class="lightbox" data-caption="<%= config.apps.theme_manager.name %>"><img class="dialog" src="images/info/apps/theme-manager/theme-manager.png" /></a>
 		<div class="caption"><%= config.apps.theme_manager.name %></div>
 	</div>
 	<div class="figure mobile-only">
-		<a href="images/info/apps/theme-manager/mobile/mobile-theme-manager.png" target="_blank" class="lightbox" title="<%= config.apps.theme_manager.name %>"><img src="images/info/apps/theme-manager/mobile/mobile-theme-manager.png" /></a>
+		<a href="images/info/apps/theme-manager/mobile/mobile-theme-manager.png" target="_blank" class="lightbox" data-caption="<%= config.apps.theme_manager.name %>"><img src="images/info/apps/theme-manager/mobile/mobile-theme-manager.png" /></a>
 		<div class="caption"><%= config.apps.theme_manager.name %></div>
 	</div>
 </div>

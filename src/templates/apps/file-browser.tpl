@@ -44,11 +44,11 @@
 	
 	<h2><i class="fa fa-desktop"></i>Screen Shots</h2>
 	<div class="figure desktop-only">
-		<a href="images/info/apps/file-browser/file-browser.png" target="_blank" class="lightbox" title="<%= config.apps.file_browser.name %>"><img class="dialog" src="images/info/apps/file-browser/file-browser.png" /></a>
+		<a href="images/info/apps/file-browser/file-browser.png" target="_blank" class="lightbox" data-caption="<%= config.apps.file_browser.name %>"><img class="dialog" src="images/info/apps/file-browser/file-browser.png" /></a>
 		<div class="caption"><%= config.apps.file_browser.name %></div>
 	</div>
 	<div class="figure mobile-only">
-		<a href="images/info/apps/file-browser/mobile/mobile-file-browser.png" target="_blank" class="lightbox" title="<%= config.apps.file_browser.name %>"><img src="images/info/apps/file-browser/mobile/mobile-file-browser.png" /></a>
+		<a href="images/info/apps/file-browser/mobile/mobile-file-browser.png" target="_blank" class="lightbox" data-caption="<%= config.apps.file_browser.name %>"><img src="images/info/apps/file-browser/mobile/mobile-file-browser.png" /></a>
 		<div class="caption"><%= config.apps.file_browser.name %></div>
 	</div>
 </div>

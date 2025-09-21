@@ -15,7 +15,7 @@
 			<p>The appearance is controlled through the <a href="#apps/theme-manager">Theme Manager</a> app.  To view and change the appearance settings, click on the second tab, labelled "Appearance". </p>
 
 			<div class="figure">
-				<a href="images/help/customizing-environment/customizing-appearance/appearance-settings.png" target="_blank" class="lightbox" title='Appearance" Tab on the System Settings App'><img class="dialog" src="images/help/customizing-environment/customizing-appearance/appearance-settings.png" /></a>
+				<a href="images/help/customizing-environment/customizing-appearance/appearance-settings.png" target="_blank" class="lightbox" data-caption='Appearance" Tab on the System Settings App'><img class="dialog" src="images/help/customizing-environment/customizing-appearance/appearance-settings.png" /></a>
 				<div class="caption">"Appearance" Tab on the System Settings App</div>
 			</div>
 		</li>
@@ -31,16 +31,16 @@
 			</ul>
 
 			<div class="figure">
-				<a href="images/help/customizing-environment/customizing-appearance/theme/standard-theme.png" target="_blank" class="lightbox" title="The The Standard Theme"><img src="images/help/customizing-environment/customizing-appearance/theme/standard-theme.png" /></a>
+				<a href="images/help/customizing-environment/customizing-appearance/theme/standard-theme.png" target="_blank" class="lightbox" data-fancybox="gallery" data-caption="The Standard Theme"><img src="images/help/customizing-environment/customizing-appearance/theme/standard-theme.png" /></a>
 				<div class="caption">The Standard Theme</div>
 			</div>
 			<div class="figure row">
 				<div class="figure col-sm-6">
-					<a href="images/help/customizing-environment/customizing-appearance/theme/light-theme.png" target="_blank" class="lightbox" title="The Light Theme"><img src="images/help/customizing-environment/customizing-appearance/theme/light-theme.png" /></a>
+					<a href="images/help/customizing-environment/customizing-appearance/theme/light-theme.png" target="_blank" class="lightbox" data-fancybox="gallery" data-caption="The Light Theme"><img src="images/help/customizing-environment/customizing-appearance/theme/light-theme.png" /></a>
 					<div class="caption">The Light Theme</div>
 				</div>
 				<div class="figure col-sm-6">
-					<a href="images/help/customizing-environment/customizing-appearance/theme/dark-theme.png" target="_blank" class="lightbox" title="The Dark Theme"><img src="images/help/customizing-environment/customizing-appearance/theme/dark-theme.png" /></a>
+					<a href="images/help/customizing-environment/customizing-appearance/theme/dark-theme.png" target="_blank" class="lightbox" data-fancybox="gallery" data-caption="The Dark Theme"><img src="images/help/customizing-environment/customizing-appearance/theme/dark-theme.png" /></a>
 					<div class="caption">The Dark Theme</div>
 				</div>
 			</div>
@@ -56,11 +56,11 @@
 
 			<div class="figure row">
 				<div class="figure col-sm-6">
-					<a href="images/help/customizing-environment/customizing-appearance/style/opaque-style.png" target="_blank" class="lightbox" title="The Opaque Style"><img src="images/help/customizing-environment/customizing-appearance/style/opaque-style.png" /></a>
+					<a href="images/help/customizing-environment/customizing-appearance/style/opaque-style.png" target="_blank" class="lightbox" data-fancybox="gallery2" data-caption="The Opaque Style"><img src="images/help/customizing-environment/customizing-appearance/style/opaque-style.png" /></a>
 					<div class="caption">The Opaque Style</div>
 				</div>
 				<div class="figure col-sm-6">
-					<a href="images/help/customizing-environment/customizing-appearance/style/transparent-style.png" target="_blank" class="lightbox" title="The Transparent Style"><img src="images/help/customizing-environment/customizing-appearance/style/transparent-style.png" /></a>
+					<a href="images/help/customizing-environment/customizing-appearance/style/transparent-style.png" target="_blank" class="lightbox" data-fancybox="gallery2" data-caption="The Transparent Style"><img src="images/help/customizing-environment/customizing-appearance/style/transparent-style.png" /></a>
 					<div class="caption">The Transparent Style</div>
 				</div>
 			</div>

@@ -22,14 +22,14 @@
 			<p>This will bring up the "New Chat" dialog box where you can invite friends to join the chat.  You can type in a message to include in your chat invitation. </p>
 
 			<div class="figure">
-				<a href="images/help/sharing-messages/inviting-friends/invite-friends-dialog-filled.png" target="_blank" class="lightbox" title="Invite Connections Dialog"><img class="dialog" src="images/help/sharing-messages/inviting-friends/invite-friends-dialog-filled.png" /></a>
+				<a href="images/help/sharing-messages/inviting-friends/invite-friends-dialog-filled.png" target="_blank" class="lightbox" data-caption="Invite Connections Dialog"><img class="dialog" src="images/help/sharing-messages/inviting-friends/invite-friends-dialog-filled.png" /></a>
 				<div class="caption">Invite Connections Dialog</div>
 			</div>
 
 			<p>When you click the "Send" button, your chat invitations will be send to your friends. </p>
 
 			<div class="figure">
-				<a href="images/help/sharing-messages/inviting-friends/chat-invitations-sent-dialog.png" target="_blank" class="lightbox" title="Chat Invitations Sent Dialog"><img class="dialog" src="images/help/sharing-messages/inviting-friends/chat-invitations-sent-dialog.png" /></a>
+				<a href="images/help/sharing-messages/inviting-friends/chat-invitations-sent-dialog.png" target="_blank" class="lightbox" data-caption="Chat Invitations Sent Dialog"><img class="dialog" src="images/help/sharing-messages/inviting-friends/chat-invitations-sent-dialog.png" /></a>
 				<div class="caption">Chat Invitations Sent Dialog</div>
 			</div>
 

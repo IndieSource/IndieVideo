@@ -34,7 +34,7 @@
 					<p>This tab contains general information about a chat. </p>
 
 					<div class="figure">
-						<a href="images/help/sharing-messages/viewing-chat-info/chat-info.png" target="_blank" class="lightbox" title="Chat General Info"><img class="dialog" src="images/help/sharing-messages/viewing-chat-info/chat-info.png" /></a>
+						<a href="images/help/sharing-messages/viewing-chat-info/chat-info.png" target="_blank" class="lightbox" data-caption="Chat General Info"><img class="dialog" src="images/help/sharing-messages/viewing-chat-info/chat-info.png" /></a>
 						<div class="caption">Chat General Info</div>
 					</div>
 				</li>
@@ -44,7 +44,7 @@
 					<p>This tab contains the current chat members.</p>
 
 					<div class="figure">
-						<a href="images/help/sharing-messages/viewing-chat-info/chat-members-info.png" target="_blank" class="lightbox" title="Chat Members Info"><img class="dialog" src="images/help/sharing-messages/viewing-chat-info/chat-members-info.png" /></a>
+						<a href="images/help/sharing-messages/viewing-chat-info/chat-members-info.png" target="_blank" class="lightbox" data-caption="Chat Members Info"><img class="dialog" src="images/help/sharing-messages/viewing-chat-info/chat-members-info.png" /></a>
 						<div class="caption">Chat Members Info</div>
 					</div>
 				</li>
@@ -54,7 +54,7 @@
 					<p>This tab contains invitations about the chat invitations that have been sent.</p>
 
 					<div class="figure">
-						<a href="images/help/sharing-messages/viewing-chat-info/chat-invitations-info.png" target="_blank" class="lightbox" title="Chat Invitations Info"><img class="dialog" src="images/help/sharing-messages/viewing-chat-info/chat-invitations-info.png" /></a>
+						<a href="images/help/sharing-messages/viewing-chat-info/chat-invitations-info.png" target="_blank" class="lightbox" data-caption="Chat Invitations Info"><img class="dialog" src="images/help/sharing-messages/viewing-chat-info/chat-invitations-info.png" /></a>
 						<div class="caption">Chat Invitations Info</div>
 					</div>
 				</li>

@@ -15,12 +15,12 @@
 			<p>The quickest and easiest way to upload files to your <%= application.name %> account is through drag and drop.  Simply drag files or folders from your operating system's Desktop and drop them onto your <%= application.name %> <a href="#help/getting-started/using-desktop">Desktop</a> or to a <a href="#apps/file-browser">File Browser</a> window.</p>
 
 			<div class="figure">
-				<a href="images/help/working-with-files/uploading-files/drag-and-drop-to-desktop.png" target="_blank" class="lightbox" title="Drag and Drop to Desktop"><img src="images/help/working-with-files/uploading-files/drag-and-drop-to-desktop.png" /></a>
+				<a href="images/help/working-with-files/uploading-files/drag-and-drop-to-desktop.png" target="_blank" class="lightbox" data-caption="Drag and Drop to Desktop"><img src="images/help/working-with-files/uploading-files/drag-and-drop-to-desktop.png" /></a>
 				<div class="caption">Drag and Drop to Desktop</div>
 			</div>
 
 			<div class="figure">
-				<a href="images/help/working-with-files/uploading-files/drag-and-drop-to-folder.png" target="_blank" class="lightbox" title="Drag and Drop to Folder"><img class="dialog" src="images/help/working-with-files/uploading-files/drag-and-drop-to-folder.png" /></a>
+				<a href="images/help/working-with-files/uploading-files/drag-and-drop-to-folder.png" target="_blank" class="lightbox" data-caption="Drag and Drop to Folder"><img class="dialog" src="images/help/working-with-files/uploading-files/drag-and-drop-to-folder.png" /></a>
 				<div class="caption">Drag and Drop to Folder</div>
 			</div>
 		</li>
@@ -44,7 +44,7 @@
 			<p>If you need to upload a large collection of several hundred files or more, it is much more efficient to compress this collection of files into a single large file (.zip or .tar) and to upload that than it is to upload many small files individually. If you try to upload a folder containing more than 500 files, you will be presented with a confirm dialog asking if you want to compress them first. </p>
 
 			<div class="figure">
-				<a href="images/help/working-with-files/uploading-files/confirm-upload-dialog.png" target="_blank" class="lightbox" title="Confirm Upload Dialog"><img class="dialog" src="images/help/working-with-files/uploading-files/confirm-upload-dialog.png" /></a>
+				<a href="images/help/working-with-files/uploading-files/confirm-upload-dialog.png" target="_blank" class="lightbox" data-caption="Confirm Upload Dialog"><img class="dialog" src="images/help/working-with-files/uploading-files/confirm-upload-dialog.png" /></a>
 				<div class="caption">Confirm Upload Dialog</div>
 			</div>
 

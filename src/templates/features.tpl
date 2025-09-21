@@ -295,7 +295,7 @@
 			</div>
 			<div class="col-sm-6">
 				<div class="figure">
-					<a href="images/info/features/theme-manager.png" target="_blank" class="lightbox" title="Theme Manager"><img src="images/info/features/theme-manager-cropped.png" /></a>
+					<a href="images/info/features/theme-manager.png" target="_blank" class="lightbox" data-caption="Theme Manager"><img src="images/info/features/theme-manager-cropped.png" /></a>
 					<div class="caption">Theme Manager</div>
 				</div>
 			</div>
@@ -310,7 +310,7 @@
 			</div>
 			<div class="col-sm-6">
 				<div class="figure">
-					<a href="images/info/mobile/iphone.png" target="_blank" class="lightbox" title="<%= application.name %> Mobile"><img src="images/info/mobile/iphone.png" /></a>
+					<a href="images/info/mobile/iphone.png" target="_blank" class="lightbox" data-caption="<%= application.name %> Mobile"><img src="images/info/mobile/iphone.png" /></a>
 					<div class="caption"><%= application.name %> Mobile</div>
 				</div>
 			</div>

@@ -12,8 +12,13 @@
 
 @use "../../../../colors/colors";
 @use "../../../../colors/text-colors";
-@use "../../../../layout/tables";
 @use "../colors/medium-branding";
+
+//
+// variables
+//
+
+$head-border-width: 1px;
 
 //
 // colors
@@ -115,24 +120,24 @@ body:not(.binary) {
 			// middle
 			//
 			th {
-				box-shadow: 0 (-(tables.$head-border-width)) 0 $head-outline-color inset,
-					0 tables.$head-border-width 0 $head-outline-color inset;
+				box-shadow: 0 (-($head-border-width)) 0 $head-outline-color inset,
+					0 $head-border-width 0 $head-outline-color inset;
 			}
 
 			// left
 			//
 			th:first-child {
-				box-shadow: 0 (-(tables.$head-border-width)) 0 $head-outline-color inset,
-					0 tables.$head-border-width 0 $head-outline-color inset,
-					tables.$head-border-width 0 0 $head-outline-color inset;
+				box-shadow: 0 (-($head-border-width)) 0 $head-outline-color inset,
+					0 $head-border-width 0 $head-outline-color inset,
+					$head-border-width 0 0 $head-outline-color inset;
 			}
 
 			// right
 			//
 			th:last-child {
-				box-shadow: 0 (-(tables.$head-border-width)) 0 $head-outline-color inset,
-					0 tables.$head-border-width 0 $head-outline-color inset,
-					(-(tables.$head-border-width)) 0 0 $head-outline-color inset;
+				box-shadow: 0 (-($head-border-width)) 0 $head-outline-color inset,
+					0 $head-border-width 0 $head-outline-color inset,
+					(-($head-border-width)) 0 0 $head-outline-color inset;
 			}
 		}
 

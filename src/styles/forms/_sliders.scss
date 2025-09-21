@@ -103,6 +103,7 @@ input[type="range"] {
 		border-radius: 50%;
 		border-width: $thumb-border-width;
 		border-style: solid;
+		box-shadow: $thumb-shadow;
 	}
 
 	&::-moz-range-thumb {
@@ -113,6 +114,7 @@ input[type="range"] {
 		border-radius: 50%;
 		border-width: $thumb-border-width;
 		border-style: solid;
+		box-shadow: $thumb-shadow;
 	}
 
 	&::-ms-thumb {
@@ -123,6 +125,7 @@ input[type="range"] {
 		border-radius: 50%;
 		border-width: $thumb-border-width;
 		border-style: solid;
+		box-shadow: $thumb-shadow;
 	}
 
 	//

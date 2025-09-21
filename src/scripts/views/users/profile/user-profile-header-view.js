@@ -115,6 +115,7 @@ export default BaseView.extend({
 	// image attributes
 	//
 	thumbnailSize: 200,
+	defaultProfilePath: config.apps.profile_viewer.profile_directory,
 	defaultProfilePhotoPath: config.apps.profile_viewer.avatars_directory,
 	defaultCoverPhotoPath: config.apps.profile_viewer.cover_photos_directory,
 
@@ -364,7 +365,7 @@ export default BaseView.extend({
 			// show open dialog
 			//
 			application.show(new OpenImagesDialogView.default({
-				model: application.getDirectory('Profile'),
+				model: application.getDirectory(this.defaultProfilePath),
 
 				// options
 				//
@@ -392,9 +393,7 @@ export default BaseView.extend({
 			// show open dialog
 			//
 			application.show(new OpenItemsDialogView.default({
-				model: new Directory({
-					path: this.defaultCoverPhotoPath
-				}),
+				model: application.getDirectory(this.defaultCoverPhotoPath),
 
 				// options
 				//
@@ -422,7 +421,7 @@ export default BaseView.extend({
 			// show open dialog
 			//
 			application.show(new OpenItemsDialogView.default({
-				model: application.getDirectory('Profile'),
+				model: application.getDirectory(this.defaultProfilePath),
 
 				// options
 				//

@@ -34,12 +34,12 @@
 
 	<h2><i class="fa fa-desktop"></i>Screen Shots</h2>
 	<div class="figure desktop-only">
-		<a href="images/info/apps/settings-browser/settings-browser.png" target="_blank" class="lightbox" title="Settings Browser"><img class="dialog" src="images/info/apps/settings-browser/settings-browser.png" /></a>
+		<a href="images/info/apps/settings-browser/settings-browser.png" target="_blank" class="lightbox" data-caption="Settings Browser"><img class="dialog" src="images/info/apps/settings-browser/settings-browser.png" /></a>
 		<div class="caption">Settings Browser</div>
 	</div>
 	<div class="figure row mobile-only">
 		<div class="figure col-sm-6">
-			<a href="images/info/apps/settings-browser/mobile/mobile-settings-browser.png" target="_blank" class="lightbox" title="Mobile Settings Browser"><img class="dialog" src="images/info/apps/settings-browser/mobile/mobile-settings-browser.png" /></a>
+			<a href="images/info/apps/settings-browser/mobile/mobile-settings-browser.png" target="_blank" class="lightbox" data-caption="Mobile Settings Browser"><img class="dialog" src="images/info/apps/settings-browser/mobile/mobile-settings-browser.png" /></a>
 			<div class="caption">Mobile Settings Browser</div>
 		</div>
 	</div>

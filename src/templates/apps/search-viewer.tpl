@@ -39,11 +39,11 @@
 	
 	<h2><i class="fa fa-desktop"></i>Screen Shots</h2>
 	<div class="figure desktop-only">
-		<a href="images/info/apps/search-viewer/search-viewer.png" target="_blank" class="lightbox" title="<%= config.apps.search_viewer.name %>"><img class="dialog" src="images/info/apps/search-viewer/search-viewer.png" /></a>
+		<a href="images/info/apps/search-viewer/search-viewer.png" target="_blank" class="lightbox" data-caption="<%= config.apps.search_viewer.name %>"><img class="dialog" src="images/info/apps/search-viewer/search-viewer.png" /></a>
 		<div class="caption"><%= config.apps.search_viewer.name %></div>
 	</div>
 	<div class="figure mobile-only">
-		<a href="images/info/apps/search-viewer/mobile/mobile-search-viewer.png" target="_blank" class="lightbox" title="<%= config.apps.search_viewer.name %>"><img src="images/info/apps/search-viewer/mobile/mobile-search-viewer.png" /></a>
+		<a href="images/info/apps/search-viewer/mobile/mobile-search-viewer.png" target="_blank" class="lightbox" data-caption="<%= config.apps.search_viewer.name %>"><img src="images/info/apps/search-viewer/mobile/mobile-search-viewer.png" /></a>
 		<div class="caption"><%= config.apps.search_viewer.name %></div>
 	</div>
 </div>

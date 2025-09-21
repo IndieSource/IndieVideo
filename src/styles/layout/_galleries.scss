@@ -48,6 +48,14 @@ $max-image-height: 450px;
 		// single items
 		//
 
+		.item {
+			margin: 20px;
+
+			.caption {
+				margin: 10px;
+			}
+		}
+
 		> img, 
 		> video {
 			max-width: $max-image-width;;

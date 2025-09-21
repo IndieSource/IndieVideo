@@ -64,7 +64,7 @@
 			<p>When you uncompress an item, one or more new files or folders will be created using the original file names that they had before they were compressed. To prevent the possibility of inadvertantly creating a large number of new files and folders, you will be presented with a dialog box informing you of the number of new files and folders that will be created.</p>
 
 			<div class="figure">
-				<a href="images/help/working-with-files/compressing-files/uncompress-confirm-dialog.png" target="_blank" class="lightbox" title="Uncompress Confirmation Dialog Box"><img class="dialog" src="images/help/working-with-files/compressing-files/uncompress-confirm-dialog.png" /></a>
+				<a href="images/help/working-with-files/compressing-files/uncompress-confirm-dialog.png" target="_blank" class="lightbox" data-caption="Uncompress Confirmation Dialog Box"><img class="dialog" src="images/help/working-with-files/compressing-files/uncompress-confirm-dialog.png" /></a>
 				<div class="caption">Uncompress Confirmation Dialog Box</div>
 			</div>
 

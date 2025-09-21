@@ -15,21 +15,21 @@
 			<p>To send a connection request, first perform a <a href="#help/building-social-network/finding-connections">search</a> to identify the people that you would like to connect with, select one or more people from the search results, then on the sidebar under Actions, click "Invite as Connection". </p>
 
 			<div class="figure">
-				<a href="images/help/building-social-network/sending-connection-requests/connection-search-results-selected.png" target="_blank" class="lightbox" title="Select People to Connect With"><img class="dialog" src="images/help/building-social-network/sending-connection-requests/connection-search-results-selected.png" /></a>
+				<a href="images/help/building-social-network/sending-connection-requests/connection-search-results-selected.png" target="_blank" class="lightbox" data-caption="Select People to Connect With"><img class="dialog" src="images/help/building-social-network/sending-connection-requests/connection-search-results-selected.png" /></a>
 				<div class="caption">Select People to Connect With</div>
 			</div>
 
 			<p>A "Send Connection Request" dialog box will open.  Type in a message for the recipient to read in the connection request, then click "Send". </p>
 
 			<div class="figure">
-				<a href="images/help/building-social-network/sending-connection-requests/connection-request-dialog-message.png" target="_blank" class="lightbox" title="Connection Request Dialog"><img class="dialog" src="images/help/building-social-network/sending-connection-requests/connection-request-dialog-message.png" /></a>
+				<a href="images/help/building-social-network/sending-connection-requests/connection-request-dialog-message.png" target="_blank" class="lightbox" data-caption="Connection Request Dialog"><img class="dialog" src="images/help/building-social-network/sending-connection-requests/connection-request-dialog-message.png" /></a>
 				<div class="caption">Connection Request Dialog</div>
 			</div>
 
 			<p>After clicking "Send", requests will be sent to each of the recipients that you have selected. </p>
 
 			<div class="figure">
-				<a href="images/help/building-social-network/sending-connection-requests/connection-requests-sent-notification.png" target="_blank" class="lightbox" title="Connection Requests Sent Notification"><img class="dialog" src="images/help/building-social-network/sending-connection-requests/connection-requests-sent-notification.png" /></a>
+				<a href="images/help/building-social-network/sending-connection-requests/connection-requests-sent-notification.png" target="_blank" class="lightbox" data-caption="Connection Requests Sent Notification"><img class="dialog" src="images/help/building-social-network/sending-connection-requests/connection-requests-sent-notification.png" /></a>
 				<div class="caption">Connection Requests Sent Notification</div>
 			</div>
 		</li>
@@ -68,7 +68,7 @@
 			<p>When you accept a connection request, that person will added to your connections list and you will be added to their connections list. </p>
 
 			<div class="figure">
-				<a href="images/help/building-social-network/sending-connection-requests/connection-request-accept-notification.png" target="_blank" class="lightbox" title="Connection Request Accept Notification"><img class="dialog" src="images/help/building-social-network/sending-connection-requests/connection-request-accept-notification.png" /></a>
+				<a href="images/help/building-social-network/sending-connection-requests/connection-request-accept-notification.png" target="_blank" class="lightbox" data-caption="Connection Request Accept Notification"><img class="dialog" src="images/help/building-social-network/sending-connection-requests/connection-request-accept-notification.png" /></a>
 			</div>
 
 			<p>To view your current connections list, launch the <a href="#apps/connection-manager">Connection Manager</a> app from the Run menu. </p>

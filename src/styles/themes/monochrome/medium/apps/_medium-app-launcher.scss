@@ -16,7 +16,6 @@
 \******************************************************************************/
 
 @use "../../../../colors/colors";
-@use "../../../../layout/images";
 
 //
 // colors
@@ -36,11 +35,8 @@ body:not(.binary).monochrome {
 	.app-icons {
 		.item {
 			.icon {
-				box-shadow: images.$thumbnail-box-shadow;
 				
 				> img {
-					filter: images.$thumbnail-shadow;
-
 					& + i {
 						display: none;
 					}

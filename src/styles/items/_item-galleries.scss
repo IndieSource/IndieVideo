@@ -33,7 +33,8 @@ $rounded-border-radius: 5px;
 	// items
 	//
 
-	.jpictura.item {
+	.item {
+		margin-bottom: 20px !important;
 		overflow: visible;
 
 		img {
@@ -41,6 +42,20 @@ $rounded-border-radius: 5px;
 			height: auto;
 			margin: auto;
 		}
+
+		.caption {
+			white-space: nowrap;
+			overflow: hidden;
+			text-overflow: ellipsis;
+		}
+
+		&:last-child {
+			margin-bottom: 30px !important;
+		}
+	}
+
+	> .images > .item {
+		margin: 20px;
 	}
 
 	//

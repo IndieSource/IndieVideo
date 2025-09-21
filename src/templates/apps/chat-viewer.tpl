@@ -41,11 +41,11 @@
 	
 	<h2><i class="fa fa-desktop"></i>Screen Shots</h2>
 	<div class="figure desktop-only">
-		<a href="images/info/apps/chat-viewer/chat-viewer.png" target="_blank" class="lightbox" title="<%= config.apps.chat_viewer.name %>"><img class="dialog" src="images/info/apps/chat-viewer/chat-viewer.png" /></a>
+		<a href="images/info/apps/chat-viewer/chat-viewer.png" target="_blank" class="lightbox" data-caption="<%= config.apps.chat_viewer.name %>"><img class="dialog" src="images/info/apps/chat-viewer/chat-viewer.png" /></a>
 		<div class="caption"><%= config.apps.chat_viewer.name %></div>
 	</div>
 	<div class="figure mobile-only">
-		<a href="images/info/apps/chat-viewer/mobile/mobile-chat-viewer.png" target="_blank" class="lightbox" title="<%= config.apps.chat_viewer.name %>"><img src="images/info/apps/chat-viewer/mobile/mobile-chat-viewer.png" /></a>
+		<a href="images/info/apps/chat-viewer/mobile/mobile-chat-viewer.png" target="_blank" class="lightbox" data-caption="<%= config.apps.chat_viewer.name %>"><img src="images/info/apps/chat-viewer/mobile/mobile-chat-viewer.png" /></a>
 		<div class="caption"><%= config.apps.chat_viewer.name %></div>
 	</div>
 </div>

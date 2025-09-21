@@ -15,7 +15,7 @@
 			<p>To change your text settings, click the "Text" tab on the <a href="#apps/theme-manager">Theme Manager</a> app. </p>
 
 			<div class="figure">
-				<a href="images/help/customizing-environment/selecting-fonts/font-settings.png" target="_blank" class="lightbox" title='Text" Tab on the Theme Manager App'><img class="dialog" src="images/help/customizing-environment/selecting-fonts/font-settings.png" /></a>
+				<a href="images/help/customizing-environment/selecting-fonts/font-settings.png" target="_blank" class="lightbox" data-caption='Text" Tab on the Theme Manager App'><img class="dialog" src="images/help/customizing-environment/selecting-fonts/font-settings.png" /></a>
 				<div class="caption">"Text" Tab on the Theme Manager App</div>
 			</div>
 		</li>
@@ -26,21 +26,21 @@
 
 			<div class="figure row">
 				<div class="figure col-sm-6">
-					<a href="images/help/customizing-environment/selecting-fonts/system-font/system-font-arial.png" target="_blank" class="lightbox" title="The Arial Font" rel="group1"><img src="images/help/customizing-environment/selecting-fonts/system-font/system-font-arial.png" /></a>
+					<a href="images/help/customizing-environment/selecting-fonts/system-font/system-font-arial.png" target="_blank" class="lightbox" data-caption="The Arial Font" data-fancybox="gallery"><img src="images/help/customizing-environment/selecting-fonts/system-font/system-font-arial.png" /></a>
 					<div class="caption">The Arial Font</div>
 				</div>
 				<div class="figure col-sm-6">
-					<a href="images/help/customizing-environment/selecting-fonts/system-font/system-font-bank-gothic.png" target="_blank" class="lightbox" title="The Bank Gothic Font" rel="group1"><img src="images/help/customizing-environment/selecting-fonts/system-font/system-font-bank-gothic.png" /></a>
+					<a href="images/help/customizing-environment/selecting-fonts/system-font/system-font-bank-gothic.png" target="_blank" class="lightbox" data-caption="The Bank Gothic Font" data-fancybox="gallery"><img src="images/help/customizing-environment/selecting-fonts/system-font/system-font-bank-gothic.png" /></a>
 					<div class="caption">The Bank Gothic Font</div>
 				</div>
 			</div>
 			<div class="figure row">
 				<div class="figure col-sm-6">
-					<a href="images/help/customizing-environment/selecting-fonts/system-font/system-font-chicago.png" target="_blank" class="lightbox" title="The Chicago Font" rel="group1"><img src="images/help/customizing-environment/selecting-fonts/system-font/system-font-chicago.png" /></a>
+					<a href="images/help/customizing-environment/selecting-fonts/system-font/system-font-chicago.png" target="_blank" class="lightbox" data-caption="The Chicago Font" data-fancybox="gallery"><img src="images/help/customizing-environment/selecting-fonts/system-font/system-font-chicago.png" /></a>
 					<div class="caption">The Chicago Font</div>
 				</div>
 				<div class="figure col-sm-6">
-					<a href="images/help/customizing-environment/selecting-fonts/system-font/system-font-ff-meta.png" target="_blank" class="lightbox" title="The FF Meta Font" rel="group1"><img src="images/help/customizing-environment/selecting-fonts/system-font/system-font-ff-meta.png" /></a>
+					<a href="images/help/customizing-environment/selecting-fonts/system-font/system-font-ff-meta.png" target="_blank" class="lightbox" data-caption="The FF Meta Font" data-fancybox="gallery"><img src="images/help/customizing-environment/selecting-fonts/system-font/system-font-ff-meta.png" /></a>
 					<div class="caption">The FF Meta Font</div>
 				</div>
 			</div>
@@ -58,17 +58,17 @@
 
 			<div class="figure row">
 				<div class="figure col-sm-6" style="float:none">
-					<a href="images/help/customizing-environment/selecting-fonts/font-size/normal-font-size.png" target="_blank" class="lightbox" title="The Normal Font Size" rel="group2"><img src="images/help/customizing-environment/selecting-fonts/font-size/normal-font-size.png" /></a>
+					<a href="images/help/customizing-environment/selecting-fonts/font-size/normal-font-size.png" target="_blank" class="lightbox" data-caption="The Normal Font Size" data-fancybox="gallery2"><img src="images/help/customizing-environment/selecting-fonts/font-size/normal-font-size.png" /></a>
 					<div class="caption">The Normal Font Size</div>
 				</div>
 			</div>
 			<div class="figure row">
 				<div class="figure col-sm-6">
-					<a href="images/help/customizing-environment/selecting-fonts/font-size/larger-font-size.png" target="_blank" class="lightbox" title="The Larger Font Size" rel="group2"><img src="images/help/customizing-environment/selecting-fonts/font-size/larger-font-size.png" /></a>
+					<a href="images/help/customizing-environment/selecting-fonts/font-size/larger-font-size.png" target="_blank" class="lightbox" data-caption="The Larger Font Size" data-fancybox="gallery2"><img src="images/help/customizing-environment/selecting-fonts/font-size/larger-font-size.png" /></a>
 					<div class="caption">The Larger Font Size</div>
 				</div>
 				<div class="figure col-sm-6">
-					<a href="images/help/customizing-environment/selecting-fonts/font-size/largest-font-size.png" target="_blank" class="lightbox" title="The Largest Font Size" rel="group2"><img src="images/help/customizing-environment/selecting-fonts/font-size/largest-font-size.png" /></a>
+					<a href="images/help/customizing-environment/selecting-fonts/font-size/largest-font-size.png" target="_blank" class="lightbox" data-caption="The Largest Font Size" data-fancybox="gallery2"><img src="images/help/customizing-environment/selecting-fonts/font-size/largest-font-size.png" /></a>
 					<div class="caption">The Largest Font Size</div>
 				</div>
 			</div>

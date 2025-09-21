@@ -17,7 +17,6 @@
 
 @use "../../../../colors/colors";
 @use "../../../../colors/text-colors";
-@use "../../../../layout/images";
 @use "../items/medium-items";
 @use "../navs/medium-selection";
 
@@ -60,12 +59,6 @@ body:not(.binary) {
 				.card {
 					background-color: $background-color;
 					border-color: $border-color;
-
-					.icon {
-						> img {
-							filter: images.$thumbnail-shadow;
-						}
-					}
 
 					.info {
 

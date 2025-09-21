@@ -15,65 +15,110 @@
 |        Copyright (C) 2016 - 2025, Megahed Labs LLC, www.sharedigm.com        |
 \******************************************************************************/
 
+@use '../colors/colors';
+
 //
 // variables
 //
 
+$button-size: 30px;
+$nav-button-size: 50px;
 $round-border-radius: 15px;
-$rounded-border-radius: 7px;
+$rounded-border-radius: 5px;
+$background-color: colors.$very-very-dark-grey;
+$backdrop-color: colors.faded(colors.$very-very-dark-grey, 75%);
 
 //
 // styles
 //
 
-.fancybox-skin {
-	box-shadow: none !important;
-	-webkit-box-shadow: none !important;
-	background: none !important;
-	filter: drop-shadow(5px 5px 20px black);
+.fancybox-toolbar .fancybox-button,
+.fancybox-navigation .fancybox-button svg {
+	width: $button-size;
+	height: $button-size;
+	padding: 3px;
+	background-color: $backdrop-color;
 
-	.fancybox-outer {
-		background: none;
+	svg path {
+		fill: colors.$very-very-light-grey;
+	}
 
-		.fancybox-inner {
-			background: none;
+	&:hover {
+		svg path {
+			fill: white;
+		}
+	}
+}
 
-			.fancybox-image {
-				background: none;
+.fancybox-toolbar {
+	padding: 0 5px;
+
+	.fancybox-button {
+		margin: 5px;
+	}
+}
+
+
+//
+// nav buttons
+//
+
+.fancybox-navigation {
+	.fancybox-button {
+		background: none !important;
+		padding: 0;
+
+		div {
+			height: auto;
+
+			svg {
+				width: 50px;
+				height: 50px;
 			}
 		}
 	}
+}
 
-	.fancybox-title {
-		font-size: 16px;
-		font-style: italic;
+//
+// button borders
+//
+
+.round-buttons,
+.round.auto-corner-buttons {
+	.fancybox-toolbar a,
+	.fancybox-navigation svg {
+		border-radius: $round-border-radius;
 	}
 }
 
-.smooth img {
-	.fancybox-image {
-		img {
-			image-rendering: auto !important;
-		}
+.rounded-buttons,
+.rounded.auto-corner-buttons {
+	.fancybox-toolbar a,
+	.fancybox-navigation svg {
+		border-radius: $rounded-border-radius;
 	}
 }
 
 //
-// fancybox borders
+// captions
 //
 
-.round {
-	.fancybox-skin {
-		.fancybox-image {
-			border-radius: $round-border-radius;
-		}
-	}
+.fancybox-caption {
+	font-size: 1.25em;
+	font-style: italic;
+	padding: 9px;
+	background: $backdrop-color;
 }
 
-.rounded {
-	.fancybox-skin {
-		.fancybox-image {
-			border-radius: $rounded-border-radius;
-		}
-	}
+.fancybox-is-open .fancybox-bg {
+	opacity: 1;
+	background-color: $background-color;
+}
+
+.fancybox-thumbs__list a::before {
+	border: 3px solid var(--primary-color);
+}
+
+.fancybox-thumbs {
+	background-color: $background-color;
 }

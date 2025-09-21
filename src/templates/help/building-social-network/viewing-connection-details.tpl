@@ -40,22 +40,22 @@
 			<p>Connection details are displayed in grey rounded boxes underneath the connection's name.</p>
 
 			<div class="figure">
-				<a href="images/help/building-social-network/viewing-connection-details/view-connections-location.png" target="_blank" class="lightbox" title="View Location (Cards)"><img class="dialog" src="images/help/building-social-network/viewing-connection-details/view-connections-location.png" /></a>
+				<a href="images/help/building-social-network/viewing-connection-details/view-connections-location.png" target="_blank" class="lightbox" data-caption="View Location (Cards)"><img class="dialog" src="images/help/building-social-network/viewing-connection-details/view-connections-location.png" /></a>
 				<div class="caption">View Location (Cards)</div>
 			</div>
 
 			<div class="figure">
-				<a href="images/help/building-social-network/viewing-connection-details/view-connections-age.png" target="_blank" class="lightbox" title="View Age (Icons)"><img class="dialog" src="images/help/building-social-network/viewing-connection-details/view-connections-age.png" /></a>
+				<a href="images/help/building-social-network/viewing-connection-details/view-connections-age.png" target="_blank" class="lightbox" data-caption="View Age (Icons)"><img class="dialog" src="images/help/building-social-network/viewing-connection-details/view-connections-age.png" /></a>
 				<div class="caption">View Age (Icons)</div>
 			</div>
 
 			<div class="figure">
-				<a href="images/help/building-social-network/viewing-connection-details/view-connections-birth-date.png" target="_blank" class="lightbox" title="View Age (Lists)"><img class="dialog" src="images/help/building-social-network/viewing-connection-details/view-connections-birth-date.png" /></a>
+				<a href="images/help/building-social-network/viewing-connection-details/view-connections-birth-date.png" target="_blank" class="lightbox" data-caption="View Age (Lists)"><img class="dialog" src="images/help/building-social-network/viewing-connection-details/view-connections-birth-date.png" /></a>
 				<div class="caption">View Birth Date (Lists)</div>
 			</div>
 
 			<div class="figure">
-				<a href="images/help/building-social-network/viewing-connection-details/view-connections-occupation.png" target="_blank" class="lightbox" title="View Occupation (Tiles)"><img class="dialog" src="images/help/building-social-network/viewing-connection-details/view-connections-occupation.png" /></a>
+				<a href="images/help/building-social-network/viewing-connection-details/view-connections-occupation.png" target="_blank" class="lightbox" data-caption="View Occupation (Tiles)"><img class="dialog" src="images/help/building-social-network/viewing-connection-details/view-connections-occupation.png" /></a>
 				<div class="caption">View Occupation (Tiles)</div>
 			</div>
 

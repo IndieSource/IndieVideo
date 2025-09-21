@@ -22,14 +22,14 @@
 			<p>Alternatively, you can click the "Add Chat" button on the sidebar. </p>
 
 			<div class="figure">
-				<a href="images/help/sharing-messages/creating-chats/add-chat-button.png" target="_blank" class="lightbox" title="Add Chat Button"><img src="images/help/sharing-messages/creating-chats/add-chat-button.png" /></a>
+				<a href="images/help/sharing-messages/creating-chats/add-chat-button.png" target="_blank" class="lightbox" data-caption="Add Chat Button"><img src="images/help/sharing-messages/creating-chats/add-chat-button.png" /></a>
 				<div class="caption">Add Chat Button</div>
 			</div>
 
 			<p>This will bring up the "New Chat" dialog box where you can invite friends to join the chat.  You can type in a message to include in your chat invitation. </p>
 
 			<div class="figure">
-				<a href="images/help/sharing-messages/creating-chats/new-chat-dialog.png" target="_blank" class="lightbox" title="New Chat Dialog"><img class="dialog" src="images/help/sharing-messages/creating-chats/new-chat-dialog.png" /></a>
+				<a href="images/help/sharing-messages/creating-chats/new-chat-dialog.png" target="_blank" class="lightbox" data-caption="New Chat Dialog"><img class="dialog" src="images/help/sharing-messages/creating-chats/new-chat-dialog.png" /></a>
 				<div class="caption">New Chat Dialog</div>
 			</div>
 		</li>

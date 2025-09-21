@@ -17,6 +17,7 @@
 
 @use "../bootstrap/variables";
 @use "../navs/selection";
+@use "../layout/images";
 
 //
 // variables
@@ -123,6 +124,14 @@ $rounded-icon-text-border-radius: 3px;
 				}
 
 				//
+				// icon shadows
+				//
+
+				> img, > i, > .thumbnail i {
+					filter: images.$thumbnail-shadow;
+				}
+
+				//
 				// colored icons
 				//
 
@@ -130,6 +139,7 @@ $rounded-icon-text-border-radius: 3px;
 					width: 60px;
 					height: 60px;
 					border-width: 2px;
+					box-shadow: images.$thumbnail-box-shadow;
 				}
 			}
 

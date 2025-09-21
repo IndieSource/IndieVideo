@@ -15,7 +15,7 @@
 			<p>When you open up the <a href="#apps/connection-manager">Connection Manager</a> app, on the sidebar you should see a panel labelled "Groups". This is where you define and manage your connection groups. Note that a particular connection can belong to more than one group. </p>
 
 			<div class="figure">
-				<a href="images/help/building-social-network/managing-groups/connection-manager-sidebar.png" target="_blank" class="lightbox" title='The "Groups" Sidebar Panel'><img src="images/help/building-social-network/managing-groups/connection-manager-sidebar.png" /></a>
+				<a href="images/help/building-social-network/managing-groups/connection-manager-sidebar.png" target="_blank" class="lightbox" data-caption='The "Groups" Sidebar Panel'><img src="images/help/building-social-network/managing-groups/connection-manager-sidebar.png" /></a>
 				<div class="caption">The "Groups" Sidebar Panel</div>
 			</div>
 
@@ -29,7 +29,7 @@
 			<p>When you click on the name of a group in the sidebar, the members of that group will be shown in the main body panel. This makes it quick and easy to view your connections by group. </p>
 
 			<div class="figure">
-				<a href="images/help/building-social-network/managing-groups/group-members-acquaintences.png" target="_blank" class="lightbox" title='Members of the "Acquaintences" Group'><img class="dialog" src="images/help/building-social-network/managing-groups/group-members-acquaintences.png" /></a>
+				<a href="images/help/building-social-network/managing-groups/group-members-acquaintences.png" target="_blank" class="lightbox" data-caption='Members of the "Acquaintences" Group'><img class="dialog" src="images/help/building-social-network/managing-groups/group-members-acquaintences.png" /></a>
 				<div class="caption">Members of the "Acquantences" Group</div>
 			</div>
 
@@ -43,7 +43,7 @@
 			<p>To create a new group, simply click the Add Group (+) button on the top of the groups panel. This will create a new group called "untitled".  You can then type in a name for the group, similar to when creating a new folder. </p>
 
 			<div class="figure">
-				<a href="images/help/building-social-network/managing-groups/creating-new-group.png" target="_blank" class="lightbox" title="Creating a New Group"><img src="images/help/building-social-network/managing-groups/creating-new-group.png" /></a>
+				<a href="images/help/building-social-network/managing-groups/creating-new-group.png" target="_blank" class="lightbox" data-caption="Creating a New Group"><img src="images/help/building-social-network/managing-groups/creating-new-group.png" /></a>
 				<div class="caption">Creating a New Group</div>
 			</div>
 
@@ -57,12 +57,12 @@
 			<p>To add connections to a new group, select one or more connections from the main view and simply drag them to the desired group. </p>
 
 			<div class="figure">
-				<a href="images/help/building-social-network/managing-groups/adding-connection-to-group.png" target="_blank" class="lightbox" title="Adding a Connection to a Group"><img src="images/help/building-social-network/managing-groups/adding-connection-to-group.png" /></a>
+				<a href="images/help/building-social-network/managing-groups/adding-connection-to-group.png" target="_blank" class="lightbox" data-caption="Adding a Connection to a Group"><img src="images/help/building-social-network/managing-groups/adding-connection-to-group.png" /></a>
 				<div class="caption">Adding a Connection to a Group</div>
 			</div>
 
 			<div class="figure">
-				<a href="images/help/building-social-network/managing-groups/connection-added-to-group.png" target="_blank" class="lightbox" title="Connection Added to a Group"><img src="images/help/building-social-network/managing-groups/connection-added-to-group.png" /></a>
+				<a href="images/help/building-social-network/managing-groups/connection-added-to-group.png" target="_blank" class="lightbox" data-caption="Connection Added to a Group"><img src="images/help/building-social-network/managing-groups/connection-added-to-group.png" /></a>
 				<div class="caption">Connection Added to a Group</div>
 			</div>
 
@@ -76,7 +76,7 @@
 			<p>To remove one or more connections from a group, simply select the connections that you would like to remove, then click on "Delete Members" on the Edit menu. </p>
 
 			<div class="figure">
-				<a href="images/help/building-social-network/managing-groups/group-members-selected.png" target="_blank" class="lightbox" title="Group Members Selected"><img src="images/help/building-social-network/managing-groups/group-members-selected.png" /></a>
+				<a href="images/help/building-social-network/managing-groups/group-members-selected.png" target="_blank" class="lightbox" data-caption="Group Members Selected"><img src="images/help/building-social-network/managing-groups/group-members-selected.png" /></a>
 				<div class="caption">Group Members Selected</div>
 			</div>
 
@@ -102,7 +102,7 @@
 			<p>You will be presented with a confirmation dialog box before deleting one or more groups. </p>
 
 			<div class="figure">
-				<a href="images/help/building-social-network/managing-groups/delete-groups-confirm-dialog.png" target="_blank" class="lightbox" title="Delete Groups Confirm Dialog"><img class="dialog" src="images/help/building-social-network/managing-groups/delete-groups-confirm-dialog.png" /></a>
+				<a href="images/help/building-social-network/managing-groups/delete-groups-confirm-dialog.png" target="_blank" class="lightbox" data-caption="Delete Groups Confirm Dialog"><img class="dialog" src="images/help/building-social-network/managing-groups/delete-groups-confirm-dialog.png" /></a>
 				<div class="caption">Delete Groups Confirm Dialog</div>
 			</div>
 

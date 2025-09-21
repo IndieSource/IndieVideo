@@ -38,9 +38,10 @@ $rounded-border-radius: 10px;
 	.splash {
 		display: flex;
 		flex-direction: column;
-		width: 75%;
+		width: min-content;
+		min-width: 75%;
+		padding: 30px;
 		margin: 50px 70px;
-		padding: 20px;
 		justify-content: center;
 		border-radius: 15px;
 
@@ -179,11 +180,11 @@ body.round {
 			}
 
 			//
-			// medium descriptions
+			// override config settings
 			//
 
 			.description {
-				font-size: 150%;
+				font-size: 150% !important;
 			}
 		}
 	}
@@ -200,6 +201,14 @@ body.round {
 			margin: 0;
 			padding: 10px;
 			border-radius: 0;
+
+			//
+			// override config settings
+			//
+
+			.tagline {
+				font-size: $text-size !important;
+			}
 
 			//
 			// extra small search bars

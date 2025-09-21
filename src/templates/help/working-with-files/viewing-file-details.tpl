@@ -61,17 +61,17 @@
 			<p>File and folder details are displayed in grey rounded boxes underneath their names.</p>
 
 			<div class="figure">
-				<a href="images/help/working-with-files/viewing-file-details/view-icon-details.png" target="_blank" class="lightbox" title="View Size (Icons)"><img class="dialog" src="images/help/working-with-files/viewing-file-details/view-icon-details.png" /></a>
+				<a href="images/help/working-with-files/viewing-file-details/view-icon-details.png" target="_blank" class="lightbox" data-caption="View Size (Icons)"><img class="dialog" src="images/help/working-with-files/viewing-file-details/view-icon-details.png" /></a>
 				<div class="caption">View Size (Icons)</div>
 			</div>
 
 			<div class="figure">
-				<a href="images/help/working-with-files/viewing-file-details/view-image-resolution-details.png" target="_blank" class="lightbox" title="View Image Resolution (Tiles)"><img class="dialog" src="images/help/working-with-files/viewing-file-details/view-image-resolution-details.png" /></a>
+				<a href="images/help/working-with-files/viewing-file-details/view-image-resolution-details.png" target="_blank" class="lightbox" data-caption="View Image Resolution (Tiles)"><img class="dialog" src="images/help/working-with-files/viewing-file-details/view-image-resolution-details.png" /></a>
 				<div class="caption">View Image Resolution (Tiles)</div>
 			</div>
 
 			<div class="figure">
-				<a href="images/help/working-with-files/viewing-file-details/view-audio-composer-details.png" target="_blank" class="lightbox" title="View Audio Composer (Cards)"><img class="dialog" src="images/help/working-with-files/viewing-file-details/view-audio-composer-details.png" /></a>
+				<a href="images/help/working-with-files/viewing-file-details/view-audio-composer-details.png" target="_blank" class="lightbox" data-caption="View Audio Composer (Cards)"><img class="dialog" src="images/help/working-with-files/viewing-file-details/view-audio-composer-details.png" /></a>
 				<div class="caption">View Audio Composer (Cards)</div>
 			</div>
 		</li>

@@ -41,43 +41,43 @@
 	<h2><i class="fa fa-desktop"></i>Screen Shots</h2>
 	<div class="figure row desktop-only">
 		<div class="figure col-sm-6">
-			<a href="images/info/themes/default-theme.png" target="_blank" class="lightbox" rel="group1" title="Default Theme"><img src="images/info/themes/default-theme.png" /></a>
+			<a href="images/info/themes/default-theme.png" target="_blank" class="lightbox" data-fancybox="group1" title="Default Theme"><img src="images/info/themes/default-theme.png" /></a>
 			<div class="caption">Default Theme</div>
 		</div>
 		<div class="figure col-sm-6">
-			<a href="images/info/themes/ikea-theme.png" target="_blank" class="lightbox" rel="group1" title="Ikea Theme"><img src="images/info/themes/ikea-theme.png" /></a>
+			<a href="images/info/themes/ikea-theme.png" target="_blank" class="lightbox" data-fancybox="group1" title="Ikea Theme"><img src="images/info/themes/ikea-theme.png" /></a>
 			<div class="caption">Ikea Theme</div>
 		</div>
 		<div class="figure col-sm-6">
-			<a href="images/info/themes/matrix-theme.png" target="_blank" class="lightbox" rel="group1" title="Matrix Theme"><img src="images/info/themes/matrix-theme.png" /></a>
+			<a href="images/info/themes/matrix-theme.png" target="_blank" class="lightbox" data-fancybox="group1" title="Matrix Theme"><img src="images/info/themes/matrix-theme.png" /></a>
 			<div class="caption">Matrix Theme</div>
 		</div>
 		<div class="figure col-sm-6">
-			<a href="images/info/themes/metal-theme.png" target="_blank" class="lightbox" rel="group1" title="Metal Theme"><img src="images/info/themes/metal-theme.png" /></a>
+			<a href="images/info/themes/metal-theme.png" target="_blank" class="lightbox" data-fancybox="group1" title="Metal Theme"><img src="images/info/themes/metal-theme.png" /></a>
 			<div class="caption">Metal Theme</div>
 		</div>
 		<div class="figure col-sm-6">
-			<a href="images/info/themes/monterey-theme.png" target="_blank" class="lightbox" rel="group1" title="OSX Monterey Theme"><img src="images/info/themes/monterey-theme.png" /></a>
+			<a href="images/info/themes/monterey-theme.png" target="_blank" class="lightbox" data-fancybox="group1" title="OSX Monterey Theme"><img src="images/info/themes/monterey-theme.png" /></a>
 			<div class="caption">OSX Monterey Theme</div>
 		</div>
 		<div class="figure col-sm-6">
-			<a href="images/info/themes/system1-theme.png" target="_blank" class="lightbox" rel="group1" title="System1 Theme"><img src="images/info/themes/system1-theme.png" /></a>
+			<a href="images/info/themes/system1-theme.png" target="_blank" class="lightbox" data-fancybox="group1" title="System1 Theme"><img src="images/info/themes/system1-theme.png" /></a>
 			<div class="caption">System1 Theme</div>
 		</div>
 		<div class="figure col-sm-6">
-			<a href="images/info/themes/terminal-theme.png" target="_blank" class="lightbox" rel="group1" title="Terminal Theme"><img src="images/info/themes/terminal-theme.png" /></a>
+			<a href="images/info/themes/terminal-theme.png" target="_blank" class="lightbox" data-fancybox="group1" title="Terminal Theme"><img src="images/info/themes/terminal-theme.png" /></a>
 			<div class="caption">Terminal Theme</div>
 		</div>
 		<div class="figure col-sm-6">
-			<a href="images/info/themes/ubuntu-theme.png" target="_blank" class="lightbox" rel="group1" title="Ubuntu Theme"><img src="images/info/themes/ubuntu-theme.png" /></a>
+			<a href="images/info/themes/ubuntu-theme.png" target="_blank" class="lightbox" data-fancybox="group1" title="Ubuntu Theme"><img src="images/info/themes/ubuntu-theme.png" /></a>
 			<div class="caption">Ubuntu Theme</div>
 		</div>
 		<div class="figure col-sm-6">
-			<a href="images/info/themes/windows10-theme.png" target="_blank" class="lightbox" rel="group1" title="Windows 10 Theme"><img src="images/info/themes/windows10-theme.png" /></a>
+			<a href="images/info/themes/windows10-theme.png" target="_blank" class="lightbox" data-fancybox="group1" title="Windows 10 Theme"><img src="images/info/themes/windows10-theme.png" /></a>
 			<div class="caption">Windows 10 Theme</div>
 		</div>
 		<div class="figure col-sm-6">
-			<a href="images/info/themes/windows-xp-theme.png" target="_blank" class="lightbox" rel="group1" title="Windows XP Theme"><img src="images/info/themes/windows-xp-theme.png" /></a>
+			<a href="images/info/themes/windows-xp-theme.png" target="_blank" class="lightbox" data-fancybox="group1" title="Windows XP Theme"><img src="images/info/themes/windows-xp-theme.png" /></a>
 			<div class="caption">Windows XP Theme</div>
 		</div>
 	</div>

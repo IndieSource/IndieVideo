@@ -15,7 +15,7 @@
 			<p>The body of your Desktop contains a familiar grid of file and folder icons, just like the Desktop on your computer's operating system.  At the top, you will see a familar menu bar.  On the bottom, you will see a run menu and a task bar, which is where minimized windows are docked.</p>
 
 			<div class="figure">
-				<a href="images/help/getting-started/using-desktop/desktop-file-browser.png" target="_blank" class="lightbox" title="The <%= application.name %> Desktop"><img src="images/help/getting-started/using-desktop/desktop-file-browser.png" /></a>
+				<a href="images/help/getting-started/using-desktop/desktop-file-browser.png" target="_blank" class="lightbox" data-caption="The <%= application.name %> Desktop"><img src="images/help/getting-started/using-desktop/desktop-file-browser.png" /></a>
 				<div class="caption">The <%= application.name %> Desktop</div>
 			</div>
 		</li>

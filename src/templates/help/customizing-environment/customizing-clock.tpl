@@ -20,14 +20,14 @@
 			<p>The clock can be customized through the <a href="#apps/settings-manager">Settings Manager</a> app. To view and change the clock settings, click on the "Clock" tab. </p>
 
 			<div class="figure">
-				<a href="images/help/customizing-environment/customizing-clock/clock-settings.png" target="_blank" class="lightbox" title='"Clock" Tab on the System Settings App'><img class="dialog" src="images/help/customizing-environment/customizing-clock/clock-settings.png" /></a>
+				<a href="images/help/customizing-environment/customizing-clock/clock-settings.png" target="_blank" class="lightbox" data-caption='"Clock" Tab on the System Settings App'><img class="dialog" src="images/help/customizing-environment/customizing-clock/clock-settings.png" /></a>
 				<div class="caption">"Clock" Tab on the System Settings App</div>
 			</div>
 
 			<h2><i class="fa fa-paint-brush"></i>Clock Appearance</h2>
 			<p>The clock's appearance is controlled using the <a href="#apps/theme-manager">Theme Manager</a> app.</p>
 			<div class="figure">
-				<a href="images/help/customizing-environment/customizing-clock/clock-appearance.png" target="_blank" class="lightbox" title='"Clock" Tab on the Theme Manager App'><img class="dialog" src="images/help/customizing-environment/customizing-clock/clock-appearance.png" /></a>
+				<a href="images/help/customizing-environment/customizing-clock/clock-appearance.png" target="_blank" class="lightbox" data-caption='"Clock" Tab on the Theme Manager App'><img class="dialog" src="images/help/customizing-environment/customizing-clock/clock-appearance.png" /></a>
 				<div class="caption">"Clock" Tab on the Theme Manager App</div>
 			</div>
 		</li>

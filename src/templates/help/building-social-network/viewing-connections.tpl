@@ -29,7 +29,7 @@
 					<h3><span class="icon"><i class="fa fa-th icon"></i></span>Icons</h3>
 					<p>Icons are a clear and familiar way to view connections. </p>
 					<div class="figure">
-						<a href="images/help/building-social-network/viewing-connections/connection-manager-icons.png" target="_blank" class="lightbox" title="Icons"><img class="dialog" src="images/help/building-social-network/viewing-connections/connection-manager-icons.png" /></a>
+						<a href="images/help/building-social-network/viewing-connections/connection-manager-icons.png" target="_blank" class="lightbox" data-caption="Icons"><img class="dialog" src="images/help/building-social-network/viewing-connections/connection-manager-icons.png" /></a>
 						<div class="caption">Icons</div>
 					</div>
 				</li>
@@ -38,7 +38,7 @@
 					<h3><span class="icon"><i class="fa fa-align-left icon"></i></span>Names</h3>
 					<p>Names are the most compact way to view connections.</p>
 					<div class="figure">
-						<a href="images/help/building-social-network/viewing-connections/connection-manager-names.png" target="_blank" class="lightbox" title="Names"><img class="dialog" src="images/help/building-social-network/viewing-connections/connection-manager-names.png" /></a>
+						<a href="images/help/building-social-network/viewing-connections/connection-manager-names.png" target="_blank" class="lightbox" data-caption="Names"><img class="dialog" src="images/help/building-social-network/viewing-connections/connection-manager-names.png" /></a>
 						<div class="caption">Names</div>
 					</div>
 				</li>
@@ -47,7 +47,7 @@
 					<h3><span class="icon"><i class="fa fa-list icon"></i></span>Lists</h3>
 					<p>Lists are a clear and efficient way of viewing connections and is effective when sorting is used.</p>
 					<div class="figure">
-						<a href="images/help/building-social-network/viewing-connections/connection-manager-lists.png" target="_blank" class="lightbox" title="Lists"><img class="dialog" src="images/help/building-social-network/viewing-connections/connection-manager-lists.png" /></a>
+						<a href="images/help/building-social-network/viewing-connections/connection-manager-lists.png" target="_blank" class="lightbox" data-caption="Lists"><img class="dialog" src="images/help/building-social-network/viewing-connections/connection-manager-lists.png" /></a>
 						<div class="caption">Lists</div>
 					</div>
 				</li>
@@ -56,7 +56,7 @@
 					<h3><span class="icon"><i class="fa fa-image icon"></i></span>Tiles</h3>
 					<p>Tiles allow a means of viewing connections with larger and more prominant thumbnails. </p>
 					<div class="figure">
-						<a href="images/help/building-social-network/viewing-connections/connection-manager-tiles.png" target="_blank" class="lightbox" title="Tiles"><img class="dialog" src="images/help/building-social-network/viewing-connections/connection-manager-tiles.png" /></a>
+						<a href="images/help/building-social-network/viewing-connections/connection-manager-tiles.png" target="_blank" class="lightbox" data-caption="Tiles"><img class="dialog" src="images/help/building-social-network/viewing-connections/connection-manager-tiles.png" /></a>
 						<div class="caption">Tiles</div>
 					</div>
 				</li>
@@ -65,7 +65,7 @@
 					<h3><span class="icon"><i class="fa fa-id-card"></i></span>Cards</h3>
 					<p>Cards provide a clear way to view connections and is the default option on mobile devices.</p>
 					<div class="figure">
-						<a href="images/help/building-social-network/viewing-connections/connection-manager-cards.png" target="_blank" class="lightbox" title="Cards"><img class="dialog" src="images/help/building-social-network/viewing-connections/connection-manager-cards.png" /></a>
+						<a href="images/help/building-social-network/viewing-connections/connection-manager-cards.png" target="_blank" class="lightbox" data-caption="Cards"><img class="dialog" src="images/help/building-social-network/viewing-connections/connection-manager-cards.png" /></a>
 						<div class="caption">Cards</div>
 					</div>
 				</li>

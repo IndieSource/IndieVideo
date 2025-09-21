@@ -42,7 +42,7 @@
 			<p>To move files, simply select the items that you would like to move, then drag them to the folder where you would like to move them. When you drag the items over a folder, it will be highlighted.  When you release the move button, the files will be moved to the highlighted destination folder. </p>
 
 			<div class="figure">
-				<a href="images/help/working-with-files/manipulating-files/moving-files@2x.png" target="_blank" class="lightbox" title="Moving Files"><img src="images/help/working-with-files/manipulating-files/moving-files@2x.png" width="600px" /></a>
+				<a href="images/help/working-with-files/manipulating-files/moving-files@2x.png" target="_blank" class="lightbox" data-caption="Moving Files"><img src="images/help/working-with-files/manipulating-files/moving-files@2x.png" width="600px" /></a>
 				<div class="caption">Moving Files</div>
 			</div>
 		</li>

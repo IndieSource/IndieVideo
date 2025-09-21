@@ -40,21 +40,21 @@
 
 	<div class="figure row desktop-only">
 		<div class="figure light-theme-only">
-			<a href="images/info/apps/decibel-meter/decibel-meter.png" target="_blank" class="lightbox" title="<%= config.apps.decibel_meter.name %>"><img class="dialog" src="images/info/apps/decibel-meter/decibel-meter.png" style="width:300px" /></a>
+			<a href="images/info/apps/decibel-meter/decibel-meter.png" target="_blank" class="lightbox" data-caption="<%= config.apps.decibel_meter.name %>"><img class="dialog" src="images/info/apps/decibel-meter/decibel-meter.png" style="width:300px" /></a>
 			<div class="caption"><%= config.apps.decibel_meter.name %></div>
 		</div>
 		<div class="figure dark-theme-only">
-			<a href="images/info/apps/decibel-meter/decibel-meter-dark.png" target="_blank" class="lightbox" title="<%= config.apps.decibel_meter.name %>"><img class="dialog" src="images/info/apps/decibel-meter/decibel-meter-dark.png" style="width:300px" /></a>
+			<a href="images/info/apps/decibel-meter/decibel-meter-dark.png" target="_blank" class="lightbox" data-caption="<%= config.apps.decibel_meter.name %>"><img class="dialog" src="images/info/apps/decibel-meter/decibel-meter-dark.png" style="width:300px" /></a>
 			<div class="caption"><%= config.apps.decibel_meter.name %></div>
 		</div>
 	</div>
 	<div class="figure row mobile-only">	
 		<div class="figure col-sm-6 light-theme-only" style="float:none">
-			<a href="images/info/apps/decibel-meter/mobile/mobile-decibel-meter.png" target="_blank" class="lightbox" title="<%= config.apps.decibel_meter.name %>"><img class="dialog" src="images/info/apps/decibel-meter/mobile/mobile-decibel-meter.png" /></a>
+			<a href="images/info/apps/decibel-meter/mobile/mobile-decibel-meter.png" target="_blank" class="lightbox" data-caption="<%= config.apps.decibel_meter.name %>"><img class="dialog" src="images/info/apps/decibel-meter/mobile/mobile-decibel-meter.png" /></a>
 			<div class="caption"><%= config.apps.decibel_meter.name %></div>
 		</div>
 		<div class="figure col-sm-6 dark-theme-only" style="float:none">
-			<a href="images/info/apps/decibel-meter/mobile/mobile-decibel-meter-dark.png" target="_blank" class="lightbox" title="<%= config.apps.decibel_meter.name %>"><img class="dialog" src="images/info/apps/decibel-meter/mobile/mobile-decibel-meter-dark.png" /></a>
+			<a href="images/info/apps/decibel-meter/mobile/mobile-decibel-meter-dark.png" target="_blank" class="lightbox" data-caption="<%= config.apps.decibel_meter.name %>"><img class="dialog" src="images/info/apps/decibel-meter/mobile/mobile-decibel-meter-dark.png" /></a>
 			<div class="caption"><%= config.apps.decibel_meter.name %></div>
 		</div>
 	</div>

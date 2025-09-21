@@ -193,7 +193,11 @@ export default SelectableCollectionView.extend({
 	childViewOptions: function(model) {
 		return _.extend({}, this.options, {
 			model: model,
+
+			// options
+			//
 			lightbox: this.options.lightbox,
+			captions: this.options.captions,
 
 			// state
 			//
@@ -202,16 +206,6 @@ export default SelectableCollectionView.extend({
 	},
 
 	onAttach: function() {
-
-		if (this.options.lightbox) {
-
-			// add lightbox effect
-			//
-			if (this.options.lightbox) {
-				this.$el.find('.lightbox').attr('rel', 'group1');
-				this.getParentView('page').addLightBox();
-			}
-		}
 
 		// arrange images
 		//
@@ -225,6 +219,17 @@ export default SelectableCollectionView.extend({
 			// arrange items in a grid
 			//
 			this.$el.jpictura(this.defaults);
+		}
+
+		// add lightbox
+		//
+		if (this.options.lightbox) {
+
+			// add lightbox effect
+			//
+			if (this.options.lightbox) {
+				this.getParentView('page').addLightBox();
+			}
 		}
 	},
 

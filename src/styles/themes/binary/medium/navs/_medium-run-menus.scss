@@ -65,6 +65,22 @@ body.binary {
 		.icon-grid {
 			@include binary-colors.light-grey;
 			border-color: black;
+
+			.item {
+				> .row:first-child {
+					.icon {
+						box-shadow: none;
+
+						//
+						// icon shadows
+						//
+
+						> img, > i, > .thumbnail i {
+							filter: none;
+						}
+					}
+				}
+			}
 		}
 
 		.dropdown-menu {

@@ -225,29 +225,7 @@ export default BaseView.extend(_.extend({}, Wallpaperable, {
 		import(
 			'../../../vendor/jquery/fancybox/jquery.fancybox.js'
 		).then(() => {
-			this.$el.find('.lightbox').fancybox({
-
-				// options
-				//
-				padding: 0,
-				margin: 20,
-				openEffect: 'elastic',
-				closeEffect: 'elastic',
-				type : "image",
-
-				// callbacks
-				//
-				afterShow: function() {
-
-					// make image draggable
-					//
-					this.wrap.draggable();
-					this.wrap.closest('.fancybox-overlay').css({
-						'overflow-x': 'hidden',
-						'overflow-y': 'hidden'
-					});
-				}
-			});
+			this.$el.find('.lightbox').fancybox(config.settings.lightboxes);
 		});
 	},
 

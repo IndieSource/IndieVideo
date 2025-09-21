@@ -862,6 +862,7 @@ h1 .icon i {
 }
 .app .footer-bar > div:not(.task-bar):not(.run-menu) {
   font-size: 90%;
+  border-bottom: none;
 }
 .app .footer-bar .address-bar, .app .footer-bar .info-bar, .app .footer-bar .nav-bar, .app .footer-bar .toolbar {
   height: 30px;
@@ -9674,6 +9675,7 @@ input[type=range]::-webkit-slider-thumb {
   border-radius: 50%;
   border-width: 1px;
   border-style: solid;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
 }
 input[type=range]::-moz-range-thumb {
   -webkit-appearance: none;
@@ -9683,6 +9685,7 @@ input[type=range]::-moz-range-thumb {
   border-radius: 50%;
   border-width: 1px;
   border-style: solid;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
 }
 input[type=range]::-ms-thumb {
   -webkit-appearance: none;
@@ -9692,6 +9695,7 @@ input[type=range]::-ms-thumb {
   border-radius: 50%;
   border-width: 1px;
   border-style: solid;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
 }
 input[type=range]::-webkit-slider-runnable-track {
   height: 7px;
@@ -10052,6 +10056,22 @@ form > .items {
 \******************************************************************************/
 /******************************************************************************\
 |                                                                              |
+|                                _app-cards.scss                               |
+|                                                                              |
+|******************************************************************************|
+|                                                                              |
+|        This defines various CSS styles used in this application.             |
+|                                                                              |
+|        Author(s): Abe Megahed                                                |
+|                                                                              |
+|        This file is subject to the terms and conditions defined in           |
+|        'LICENSE.txt', which is part of this source code distribution.        |
+|                                                                              |
+|******************************************************************************|
+|        Copyright (C) 2016 - 2025, Megahed Labs LLC, www.sharedigm.com        |
+\******************************************************************************/
+/******************************************************************************\
+|                                                                              |
 |                              _item-icons.scss                                |
 |                                                                              |
 |******************************************************************************|
@@ -10114,10 +10134,14 @@ form > .items {
   background-position: center;
   pointer-events: auto;
 }
+.icon-grid .item > .row:first-child .icon > img, .icon-grid .item > .row:first-child .icon > i, .icon-grid .item > .row:first-child .icon > .thumbnail i {
+  filter: drop-shadow(3px 3px 5px rgba(0, 0, 0, 0.25));
+}
 .icon-grid .item > .row:first-child .icon.colored {
   width: 60px;
   height: 60px;
   border-width: 2px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.25);
 }
 .icon-grid .item > .row:first-child .owner {
   position: absolute;
@@ -11274,6 +11298,9 @@ body[device=phone] .tile-grid, body[device=tablet] .tile-grid {
 .card-grid .cards .item .card .icon > img i, .card-grid .cards .item .card .icon > svg i, .card-grid .cards .item .card .icon > .thumbnail i {
   font-size: 50px;
 }
+.card-grid .cards .item .card .icon > img {
+  filter: drop-shadow(3px 3px 5px rgba(0, 0, 0, 0.25));
+}
 .card-grid .cards .item .card .icon .owner {
   position: absolute;
 }
@@ -11286,6 +11313,9 @@ body[device=phone] .tile-grid, body[device=tablet] .tile-grid {
   height: 50px;
   margin-left: -25px;
   margin-top: -25px;
+}
+.card-grid .cards .item .card .icon.colored {
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.25);
 }
 .card-grid .cards .item .card .info {
   min-height: 50px;
@@ -11748,13 +11778,25 @@ body[device=phone] .items .pager .pages .nav-bar, body[device=tablet] .items .pa
 |******************************************************************************|
 |        Copyright (C) 2016 - 2025, Megahed Labs LLC, www.sharedigm.com        |
 \******************************************************************************/
-.jpictura.gallery .jpictura.item {
+.jpictura.gallery .item {
+  margin-bottom: 20px !important;
   overflow: visible;
 }
-.jpictura.gallery .jpictura.item img {
+.jpictura.gallery .item img {
   width: 100%;
   height: auto;
   margin: auto;
+}
+.jpictura.gallery .item .caption {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.jpictura.gallery .item:last-child {
+  margin-bottom: 30px !important;
+}
+.jpictura.gallery > .images > .item {
+  margin: 20px;
 }
 .jpictura.gallery .item.selected, .jpictura.gallery .item.highlighted {
   position: relative;
@@ -12766,6 +12808,12 @@ div:not(.buttons) > .expander > button.collapse i, div:not(.buttons) > .expander
   text-align: center;
   overflow: hidden;
 }
+.gallery:not(:empty) .images .item {
+  margin: 20px;
+}
+.gallery:not(:empty) .images .item .caption {
+  margin: 10px;
+}
 .gallery:not(:empty) .images > img,
 .gallery:not(:empty) .images > video {
   max-width: 600px;
@@ -13210,7 +13258,7 @@ hr {
   pointer-events: auto;
 }
 .user-profile-header .alternate.buttons {
-  display: inline-block;
+  display: none;
   position: absolute;
   top: 10px;
   left: 10px;
@@ -13330,6 +13378,22 @@ hr {
 
 /******************************************************************************\
 |                                                                              |
+|                               _splitters.scss                                |
+|                                                                              |
+|******************************************************************************|
+|                                                                              |
+|        This defines various CSS styles used in this application.             |
+|                                                                              |
+|        Author(s): Abe Megahed                                                |
+|                                                                              |
+|        This file is subject to the terms and conditions defined in           |
+|        'LICENSE.txt', which is part of this source code distribution.        |
+|                                                                              |
+|******************************************************************************|
+|        Copyright (C) 2016 - 2025, Megahed Labs LLC, www.sharedigm.com        |
+\******************************************************************************/
+/******************************************************************************\
+|                                                                              |
 |                               _lightboxes.scss                               |
 |                                                                              |
 |******************************************************************************|
@@ -13344,36 +13408,73 @@ hr {
 |******************************************************************************|
 |        Copyright (C) 2016 - 2025, Megahed Labs LLC, www.sharedigm.com        |
 \******************************************************************************/
-.fancybox-skin {
-  box-shadow: none !important;
-  -webkit-box-shadow: none !important;
+.fancybox-toolbar .fancybox-button,
+.fancybox-navigation .fancybox-button svg {
+  width: 30px;
+  height: 30px;
+  padding: 3px;
+  background-color: rgba(39, 39, 64, 0.75);
+}
+.fancybox-toolbar .fancybox-button svg path,
+.fancybox-navigation .fancybox-button svg svg path {
+  fill: #c0c0d9;
+}
+.fancybox-toolbar .fancybox-button:hover svg path,
+.fancybox-navigation .fancybox-button svg:hover svg path {
+  fill: white;
+}
+
+.fancybox-toolbar {
+  padding: 0 5px;
+}
+.fancybox-toolbar .fancybox-button {
+  margin: 5px;
+}
+
+.fancybox-navigation .fancybox-button {
   background: none !important;
-  filter: drop-shadow(5px 5px 20px black);
+  padding: 0;
 }
-.fancybox-skin .fancybox-outer {
-  background: none;
+.fancybox-navigation .fancybox-button div {
+  height: auto;
 }
-.fancybox-skin .fancybox-outer .fancybox-inner {
-  background: none;
-}
-.fancybox-skin .fancybox-outer .fancybox-inner .fancybox-image {
-  background: none;
-}
-.fancybox-skin .fancybox-title {
-  font-size: 16px;
-  font-style: italic;
+.fancybox-navigation .fancybox-button div svg {
+  width: 50px;
+  height: 50px;
 }
 
-.smooth img .fancybox-image img {
-  image-rendering: auto !important;
-}
-
-.round .fancybox-skin .fancybox-image {
+.round-buttons .fancybox-toolbar a,
+.round-buttons .fancybox-navigation svg,
+.round.auto-corner-buttons .fancybox-toolbar a,
+.round.auto-corner-buttons .fancybox-navigation svg {
   border-radius: 15px;
 }
 
-.rounded .fancybox-skin .fancybox-image {
-  border-radius: 7px;
+.rounded-buttons .fancybox-toolbar a,
+.rounded-buttons .fancybox-navigation svg,
+.rounded.auto-corner-buttons .fancybox-toolbar a,
+.rounded.auto-corner-buttons .fancybox-navigation svg {
+  border-radius: 5px;
+}
+
+.fancybox-caption {
+  font-size: 1.25em;
+  font-style: italic;
+  padding: 9px;
+  background: rgba(39, 39, 64, 0.75);
+}
+
+.fancybox-is-open .fancybox-bg {
+  opacity: 1;
+  background-color: #272740;
+}
+
+.fancybox-thumbs__list a::before {
+  border: 3px solid var(--primary-color);
+}
+
+.fancybox-thumbs {
+  background-color: #272740;
 }
 
 /******************************************************************************\
@@ -18687,6 +18788,22 @@ body[device=phone] .buttons .btn-sm + .btn-sm, body[device=tablet] .buttons .btn
 \******************************************************************************/
 /******************************************************************************\
 |                                                                              |
+|                                _app-cards.scss                               |
+|                                                                              |
+|******************************************************************************|
+|                                                                              |
+|        This defines various CSS styles used in this application.             |
+|                                                                              |
+|        Author(s): Abe Megahed                                                |
+|                                                                              |
+|        This file is subject to the terms and conditions defined in           |
+|        'LICENSE.txt', which is part of this source code distribution.        |
+|                                                                              |
+|******************************************************************************|
+|        Copyright (C) 2016 - 2025, Megahed Labs LLC, www.sharedigm.com        |
+\******************************************************************************/
+/******************************************************************************\
+|                                                                              |
 |                                _dock-bars.scss                               |
 |                                                                              |
 |******************************************************************************|
@@ -18806,6 +18923,18 @@ body[device=phone] .buttons .btn-sm + .btn-sm, body[device=tablet] .buttons .btn
   vertical-align: text-top;
   margin: -1px;
   background: none;
+}
+#dock-bar .dock .items .apps .item .icon {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+}
+#dock-bar .dock .items .apps .item .icon > img {
+  filter: drop-shadow(3px 3px 5px rgba(0, 0, 0, 0.25));
+}
+#dock-bar .dock .items .tasks .item .icon {
+  filter: 2px 2px 5px rgba(0, 0, 0, 0.25);
+}
+#dock-bar .dock .items .tasks .item .icon i {
+  filter: 2px 2px 5px rgba(0, 0, 0, 0.25);
 }
 #dock-bar.attached .shelf {
   border-bottom-width: 0;
@@ -19695,10 +19824,10 @@ body[device=phone] .context-menu, body[device=tablet] .context-menu {
   display: none;
 }
 
-.thin-menu-bars .menu-bar .nav-menus > li {
+.thin-menu-bars .header-bar .menu-bar .nav-menus > li {
   height: 25px;
 }
-.thin-menu-bars .menu-bar .nav-menus > li > a {
+.thin-menu-bars .header-bar .menu-bar .nav-menus > li > a {
   padding: 1px 10px;
 }
 
@@ -20299,6 +20428,22 @@ body.round .progress .bar {
 \******************************************************************************/
 /******************************************************************************\
 |                                                                              |
+|                             _dialog-buttons.scss                             |
+|                                                                              |
+|******************************************************************************|
+|                                                                              |
+|        This defines the dom and svg visual styles for this application.      |
+|                                                                              |
+|        Author(s): Abe Megahed                                                |
+|                                                                              |
+|        This file is subject to the terms and conditions defined in           |
+|        'LICENSE.txt', which is part of this source code distribution.        |
+|                                                                              |
+|******************************************************************************|
+|        Copyright (C) 2016 - 2025, Megahed Labs LLC, www.sharedigm.com        |
+\******************************************************************************/
+/******************************************************************************\
+|                                                                              |
 |                                _task-bars.scss                               |
 |                                                                              |
 |******************************************************************************|
@@ -20316,9 +20461,15 @@ body.round .progress .bar {
 .footer-bar .handle-bar {
   flex-grow: 1;
 }
+.footer-bar .run-menu .dropdown-toggle {
+  box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.25);
+}
 .footer-bar .task-bar {
   display: flex;
   border: none;
+}
+.footer-bar .task-bar .pinned-items .btn {
+  box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.25);
 }
 .footer-bar .task-bar .pinned-items:not(:empty) {
   display: flex;
@@ -22126,7 +22277,7 @@ svg .selection {
 }
 @media (max-width: 1200px) {
   .welcome.page .splash.two-column .logotype {
-    font-size: 3.5em;
+    font-size: 3em;
   }
   .welcome.page .splash.two-column .logotype.short {
     font-size: 3em;
@@ -22137,7 +22288,7 @@ svg .selection {
 }
 @media (max-width: 1024px) {
   .welcome.page .splash.two-column .logotype {
-    font-size: 3em;
+    font-size: 2.5em;
   }
   .welcome.page .splash.two-column .logotype.short {
     font-size: 2em;
@@ -22406,9 +22557,10 @@ body.paused {
 .welcome.page .splash {
   display: flex;
   flex-direction: column;
-  width: 75%;
+  width: min-content;
+  min-width: 75%;
+  padding: 30px;
   margin: 50px 70px;
-  padding: 20px;
   justify-content: center;
   border-radius: 15px;
   transform: translateZ(0);
@@ -22490,7 +22642,7 @@ body.round .welcome.page .splash .tagline, body.round .welcome.page .splash .des
     margin: 10px auto;
   }
   .welcome.page .splash .description {
-    font-size: 150%;
+    font-size: 150% !important;
   }
 }
 @media (max-width: 480px) {
@@ -22499,6 +22651,9 @@ body.round .welcome.page .splash .tagline, body.round .welcome.page .splash .des
     margin: 0;
     padding: 10px;
     border-radius: 0;
+  }
+  .welcome.page .splash .tagline {
+    font-size: 1.25em !important;
   }
   .welcome.page .splash .search {
     padding: 0 15px;
@@ -22542,8 +22697,8 @@ body.round .welcome.page .splash .tagline, body.round .welcome.page .splash .des
 .welcome.page .splash.two-column {
   display: flex;
   flex-direction: column;
-  margin: 0 auto;
-  min-width: 100%;
+  width: calc(100% - 130px);
+  padding: 50px 20px;
 }
 .welcome.page .splash.two-column .col-md-6 {
   display: flex;
@@ -22555,6 +22710,9 @@ body.round .welcome.page .splash .tagline, body.round .welcome.page .splash .des
   justify-content: center;
   padding: 0;
   margin: auto;
+}
+.welcome.page .splash.two-column .col-md-6 .contents .description {
+  width: 75%;
 }
 
 @media (min-width: 768px) {

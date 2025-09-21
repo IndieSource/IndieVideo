@@ -22,7 +22,7 @@
 			<p>This will launch the <a href="#apps/topic-viewer">News Browser</a> app, which you can use to view and post news. </p>
 
 			<div class="figure">
-				<a href="images/help/sharing-news/reading-news/news-browser.png" target="_blank" class="lightbox" title="The News Browser"><img class="dialog" src="images/help/sharing-news/reading-news/news-browser.png" /></a>
+				<a href="images/help/sharing-news/reading-news/news-browser.png" target="_blank" class="lightbox" data-caption="The News Browser"><img class="dialog" src="images/help/sharing-news/reading-news/news-browser.png" /></a>
 				<div class="caption">The News Browser</div>
 			</div>
 		</li>
@@ -32,7 +32,7 @@
 			<p>The area underneath the new post form in the main view is known as your "News Feed".  This contains a list of news posts ordered chronologically from newest to oldest.  If you have not yet connected with friends, then you will see an empty list of posts.  Once you have connected with friends, your news feed will be populated by news posts that you or your friends have made.  If you have set your privacy to "Public", then this list will contain public posts from all users posting to this topic. </p>
 
 			<div class="figure">
-				<a href="images/help/sharing-news/reading-news/news-browser-sample.png" target="_blank" class="lightbox" title="A Sample News Feed"><img class="dialog" src="images/help/sharing-news/reading-news/news-browser-sample.png" /></a>
+				<a href="images/help/sharing-news/reading-news/news-browser-sample.png" target="_blank" class="lightbox" data-caption="A Sample News Feed"><img class="dialog" src="images/help/sharing-news/reading-news/news-browser-sample.png" /></a>
 				<div class="caption">A Sample News Feed</div>
 			</div>
 
@@ -54,7 +54,7 @@
 			</ul>
 
 			<div class="figure">
-				<a href="images/help/sharing-news/reading-news/sample-post.png" target="_blank" class="lightbox" title="A Sample Post"><img src="images/help/sharing-news/reading-news/sample-post.png" /></a>
+				<a href="images/help/sharing-news/reading-news/sample-post.png" target="_blank" class="lightbox" data-caption="A Sample Post"><img src="images/help/sharing-news/reading-news/sample-post.png" /></a>
 				<div class="caption">A Sample Post</div>
 			</div>
 
@@ -62,7 +62,7 @@
 			<p>On the left sidebar, you'll see a list of topics. To view posts from that topic, just click on the topic that you're interested in. </p> 
 
 			<div class="figure">
-				<a href="images/help/sharing-news/reading-news/topics-sidebar.png" target="_blank" class="lightbox" title="Topics"><img src="images/help/sharing-news/reading-news/topics-sidebar.png" /></a>
+				<a href="images/help/sharing-news/reading-news/topics-sidebar.png" target="_blank" class="lightbox" data-caption="Topics"><img src="images/help/sharing-news/reading-news/topics-sidebar.png" /></a>
 				<div class="caption">Topics</div>
 			</div>
 

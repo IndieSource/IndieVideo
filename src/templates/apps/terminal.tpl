@@ -35,11 +35,11 @@
 
 	<h2><i class="fa fa-desktop"></i>Screen Shots</h2>
 	<div class="figure desktop-only">
-		<a href="images/info/apps/terminal/terminal.png" target="_blank" class="lightbox" title="<%= config.apps.terminal.name %>"><img class="dialog" src="images/info/apps/terminal/terminal.png" /></a>
+		<a href="images/info/apps/terminal/terminal.png" target="_blank" class="lightbox" data-caption="<%= config.apps.terminal.name %>"><img class="dialog" src="images/info/apps/terminal/terminal.png" /></a>
 		<div class="caption"><%= config.apps.terminal.name %></div>
 	</div>
 	<div class="figure mobile-only">
-		<a href="images/info/apps/terminal/mobile/mobile-terminal.png" target="_blank" class="lightbox" title="<%= config.apps.terminal.name %>"><img src="images/info/apps/terminal/mobile/mobile-terminal.png" /></a>
+		<a href="images/info/apps/terminal/mobile/mobile-terminal.png" target="_blank" class="lightbox" data-caption="<%= config.apps.terminal.name %>"><img src="images/info/apps/terminal/mobile/mobile-terminal.png" /></a>
 		<div class="caption"><%= config.apps.terminal.name %></div>
 	</div>
 </div>

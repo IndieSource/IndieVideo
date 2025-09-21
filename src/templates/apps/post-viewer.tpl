@@ -42,11 +42,11 @@
 	
 	<h2><i class="fa fa-desktop"></i>Screen Shots</h2>
 	<div class="figure desktop-only">
-		<a href="images/info/apps/post-viewer/post-viewer.png" target="_blank" class="lightbox" title="<%= config.apps.post_viewer.name %>"><img class="dialog" src="images/info/apps/post-viewer/post-viewer.png" /></a>
+		<a href="images/info/apps/post-viewer/post-viewer.png" target="_blank" class="lightbox" data-caption="<%= config.apps.post_viewer.name %>"><img class="dialog" src="images/info/apps/post-viewer/post-viewer.png" /></a>
 		<div class="caption"><%= config.apps.post_viewer.name %></div>
 	</div>
 	<div class="figure mobile-only">
-		<a href="images/info/apps/post-viewer/mobile/mobile-post-viewer.png" target="_blank" class="lightbox" title="<%= config.apps.post_viewer.name %>"><img src="images/info/apps/post-viewer/mobile/mobile-post-viewer.png" /></a>
+		<a href="images/info/apps/post-viewer/mobile/mobile-post-viewer.png" target="_blank" class="lightbox" data-caption="<%= config.apps.post_viewer.name %>"><img src="images/info/apps/post-viewer/mobile/mobile-post-viewer.png" /></a>
 		<div class="caption"><%= config.apps.post_viewer.name %></div>
 	</div>
 </div>

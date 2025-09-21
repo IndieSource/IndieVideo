@@ -15,12 +15,12 @@
 			<p>When viewing your image files in the <a href="#apps/file-browser">File Browser</a> app as icons, tiles, or cards, you can view thumbnail previews of each image file. </p>
 
 			<div class="figure">
-				<a href="images/help/working-with-images/previewing-images/image-icon-thumbnails.png" target="_blank" class="lightbox" title="Icon Thumbnails"><img class="dialog" src="images/help/working-with-images/previewing-images/image-icon-thumbnails.png" /></a>
+				<a href="images/help/working-with-images/previewing-images/image-icon-thumbnails.png" target="_blank" class="lightbox" data-caption="Icon Thumbnails"><img class="dialog" src="images/help/working-with-images/previewing-images/image-icon-thumbnails.png" /></a>
 				<div class="caption">Icon Thumbnails</div>
 			</div>
 
 			<div class="figure">
-				<a href="images/help/working-with-images/previewing-images/image-tile-thumbnails.png" target="_blank" class="lightbox" title="Tile Thumbnails"><img class="dialog" src="images/help/working-with-images/previewing-images/image-tile-thumbnails.png" /></a>
+				<a href="images/help/working-with-images/previewing-images/image-tile-thumbnails.png" target="_blank" class="lightbox" data-caption="Tile Thumbnails"><img class="dialog" src="images/help/working-with-images/previewing-images/image-tile-thumbnails.png" /></a>
 				<div class="caption">Tile Thumbnails</div>
 			</div>
 
@@ -32,7 +32,7 @@
 			<p>When viewing your image tiles, you can choose a small, medium, or large tile size using the slider control at the bottom right of the <a href="#apps/file-browser">File Browser</a> window.  The large tile size is sometimes useful when you need to be able to see more image details than you can in the standard size. </p>
 
 			<div class="figure">
-				<a href="images/help/working-with-images/previewing-images/large-image-tile-thumbnails.png" target="_blank" class="lightbox" title="Large Tile Thumbnails"><img class="dialog" src="images/help/working-with-images/previewing-images/large-image-tile-thumbnails.png" /></a>
+				<a href="images/help/working-with-images/previewing-images/large-image-tile-thumbnails.png" target="_blank" class="lightbox" data-caption="Large Tile Thumbnails"><img class="dialog" src="images/help/working-with-images/previewing-images/large-image-tile-thumbnails.png" /></a>
 				<div class="caption">Large Tile Thumbnails</div>
 			</div>
 		</li>
@@ -42,14 +42,14 @@
 			<p>To view images in detail, you can view image previews using the magnify button on the bottom right of the <a href="#apps/file-browser">File Browser</a> window.  This will show a magnified view of each file or folder which fills the display area with a preview of a single item.  You can navigate the directory contents using the navigation bar at the bottom or by swiping to go to the next or previous item. </p>
 
 			<div class="figure">
-				<a href="images/help/working-with-images/previewing-images/magnified-icons.png" target="_blank" class="lightbox" title="Magnified Icons"><img class="dialog" src="images/help/working-with-images/previewing-images/magnified-icons.png" /></a>
+				<a href="images/help/working-with-images/previewing-images/magnified-icons.png" target="_blank" class="lightbox" data-caption="Magnified Icons"><img class="dialog" src="images/help/working-with-images/previewing-images/magnified-icons.png" /></a>
 				<div class="caption">Magnified Icons</div>
 			</div>
 
 			<p>To view the image at maximum size, click the full screen button in the upper right corner of the magnified icon. </p>
 
 			<div class="figure">
-				<a href="images/help/working-with-images/previewing-images/full-screen-magnified-icons.png" target="_blank" class="lightbox" title="Full Screen Magnified Icons"><img src="images/help/working-with-images/previewing-images/full-screen-magnified-icons.png" /></a>
+				<a href="images/help/working-with-images/previewing-images/full-screen-magnified-icons.png" target="_blank" class="lightbox" data-caption="Full Screen Magnified Icons"><img src="images/help/working-with-images/previewing-images/full-screen-magnified-icons.png" /></a>
 				<div class="caption">Full Screen Magnified Icons</div>
 			</div>
 		</li>

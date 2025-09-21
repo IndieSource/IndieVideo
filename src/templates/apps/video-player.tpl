@@ -48,11 +48,11 @@
 
 	<h2><i class="fa fa-desktop"></i>Screen Shots</h2>
 	<div class="figure desktop-only">
-		<a href="images/info/apps/video-player/video-player.png" target="_blank" class="lightbox" title="<%= config.apps.video_player.name %>"><img class="dialog" src="images/info/apps/video-player/video-player.png" /></a>
+		<a href="images/info/apps/video-player/video-player.png" target="_blank" class="lightbox" data-caption="<%= config.apps.video_player.name %>"><img class="dialog" src="images/info/apps/video-player/video-player.png" /></a>
 		<div class="caption"><%= config.apps.video_player.name %></div>
 	</div>
 	<div class="figure mobile-only">
-		<a href="images/info/apps/video-player/mobile/mobile-video-player.png" target="_blank" class="lightbox" title="<%= config.apps.video_player.name %>"><img src="images/info/apps/video-player/mobile/mobile-video-player.png" /></a>
+		<a href="images/info/apps/video-player/mobile/mobile-video-player.png" target="_blank" class="lightbox" data-caption="<%= config.apps.video_player.name %>"><img src="images/info/apps/video-player/mobile/mobile-video-player.png" /></a>
 		<div class="caption"><%= config.apps.video_player.name %></div>
 	</div>
 </div>

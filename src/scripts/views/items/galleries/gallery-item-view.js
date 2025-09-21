@@ -25,11 +25,13 @@ export default ItemView.extend({
 	// attributes
 	//
 	
-	tagName: 'a',
-	className: 'jpictura item',
+	className: 'item',
 
 	template: template(`
-		<img src="<%= url %>"<% if (title) { %> data-toggle="tooltip" data-placement="bottom" title="<%= title %>"<% } %> />
+		<a href="<%= url %>" target="_blank">
+			<img src="<%= url %>"<% if (title && !caption) { %> data-toggle="tooltip" data-placement="bottom" title="<%= title %>"<% } %> />
+		</a>
+		<% if (caption) { %><div class="caption"><%= caption %></div><% } %>
 	`),
 	double_clickable: true,
 
@@ -96,7 +98,8 @@ export default ItemView.extend({
 		return {
 			resolution: this.getResolution(),
 			url: this.getUrl(),
-			title: this.getName()
+			title: this.options.tooltips? this.getName() : null,
+			caption: this.options.captions? this.getName() : null
 		};
 	},
 
@@ -104,7 +107,7 @@ export default ItemView.extend({
 
 		// call superclass method
 		//
-		// ItemView.prototype.onRender.call(this);
+		ItemView.prototype.onRender.call(this);
 
 		// set element attributes
 		//
@@ -118,13 +121,20 @@ export default ItemView.extend({
 			}
 		}
 
+		// set lightbox attributes
+		//
 		if (this.options.lightbox) {
-			this.$el.addClass('lightbox');
-			this.$el.attr('ref', 'group1');
-			this.$el.attr('href', this.model.getUrl());
-			this.$el.attr('target', '_blank');
-			this.$el.attr('title', this.model.getName());
+			this.addLightBox();
 		}
+	},
+
+	addLightBox: function() {
+		this.$el.find('a').addClass('lightbox').attr({
+			'href': this.model.getUrl(),
+			'target': '_blank',
+			'data-fancybox': 'gallery',
+			'data-caption': this.getName()
+		});
 	},
 
 	//

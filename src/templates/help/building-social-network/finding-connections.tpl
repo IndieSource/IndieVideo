@@ -22,14 +22,14 @@
 			<p>This will launch the <a href="#apps/connection-manager">Connection Manager</a> app in search mode. In the main view, you'll see your existing connections. </p>
 
 			<div class="figure">
-				<a href="images/help/building-social-network/finding-connections/find-new-connections.png" target="_blank" class="lightbox" title="Find New Connections"><img class="dialog" src="images/help/building-social-network/finding-connections/find-new-connections.png" /></a>
+				<a href="images/help/building-social-network/finding-connections/find-new-connections.png" target="_blank" class="lightbox" data-caption="Find New Connections"><img class="dialog" src="images/help/building-social-network/finding-connections/find-new-connections.png" /></a>
 				<div class="caption">Find New Connections</div>
 			</div>
 
 			<p>Next, type in the name of the person that you want to connect with into the search box and click the search icon.  Resulting matches will be shown in the main view of the <a href="#apps/connection-manager">Connection Manager</a> app. </p>
 
 			<div class="figure">
-				<a href="images/help/building-social-network/finding-connections/connection-search-results.png" target="_blank" class="lightbox" title="Connection Search Results"><img class="dialog" src="images/help/building-social-network/finding-connections/connection-search-results.png" /></a>
+				<a href="images/help/building-social-network/finding-connections/connection-search-results.png" target="_blank" class="lightbox" data-caption="Connection Search Results"><img class="dialog" src="images/help/building-social-network/finding-connections/connection-search-results.png" /></a>
 				<div class="caption">Connection Search Results</div>
 			</div>
 		</li>
@@ -39,7 +39,7 @@
 			<p>If you would like to see more information about a potential connection, double-click their icon to open up the <a href="#apps/profile-viewer">Profile Viewer</a> to review their public profile information. </p>
 
 			<div class="figure">
-				<a href="images/help/building-social-network/finding-connections/connection-profile.png" target="_blank" class="lightbox" title="Connection Profile"><img class="dialog" src="images/help/building-social-network/finding-connections/connection-profile.png" /></a>
+				<a href="images/help/building-social-network/finding-connections/connection-profile.png" target="_blank" class="lightbox" data-caption="Connection Profile"><img class="dialog" src="images/help/building-social-network/finding-connections/connection-profile.png" /></a>
 				<div class="caption">Connection Profile</div>
 			</div>
 

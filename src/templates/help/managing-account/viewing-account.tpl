@@ -15,7 +15,7 @@
 			<p>Click on the gear icon in the session toolbar at the top of the screen in order to launch the <a href="#apps/settings-manager">Settings Manager</a> app.</p>
 
 			<div class="figure">
-				<a href="images/help/managing-account/viewing-account/launch-settings-manager.png" target="_blank" class="lightbox" title="Gear Icon on Session Toolbar"><img src="images/help/managing-account/viewing-account/launch-settings-manager.png" /></a>
+				<a href="images/help/managing-account/viewing-account/launch-settings-manager.png" target="_blank" class="lightbox" data-caption="Gear Icon on Session Toolbar"><img src="images/help/managing-account/viewing-account/launch-settings-manager.png" /></a>
 				<div class="caption">Gear Icon on Session Toolbar</div>
 			</div>
 		</li>
@@ -25,7 +25,7 @@
 			<p>In the <a href="#apps/settings-manager">Settings Manager</a> app, note the list of tabs for various system settings. Click on the tab labelled "Account".</p>
 
 			<div class="figure">
-				<a href="images/help/managing-account/viewing-account/settings-manager.png" target="_blank" class="lightbox" title="Settings Manager"><img class="dialog" src="images/help/managing-account/viewing-account/settings-manager.png" /></a>
+				<a href="images/help/managing-account/viewing-account/settings-manager.png" target="_blank" class="lightbox" data-caption="Settings Manager"><img class="dialog" src="images/help/managing-account/viewing-account/settings-manager.png" /></a>
 				<div class="caption">Settings Manager</div>
 			</div>
 		</li>
@@ -35,7 +35,7 @@
 			<p>You can now review your account details, including the amount of disk space that you have used and how how long you have been logged in. </p>
 
 			<div class="figure">
-				<a href="images/help/managing-account/viewing-account/account-settings.png" target="_blank" class="lightbox" title="Review Account Details"><img class="dialog" src="images/help/managing-account/viewing-account/account-settings.png" /></a>
+				<a href="images/help/managing-account/viewing-account/account-settings.png" target="_blank" class="lightbox" data-caption="Review Account Details"><img class="dialog" src="images/help/managing-account/viewing-account/account-settings.png" /></a>
 				<div class="caption">Review Account Details</div>
 			</div>
 		</li>
